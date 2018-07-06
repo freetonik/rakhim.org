@@ -1,22 +1,26 @@
 <header>
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
-  <p>
-    <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <span class="dot">•</span>
-    <a href="{{ "/about" | prepend: site.baseurl }}">About</a>
-    <span class="dot">•</span>
-    <a href="{{ "/bookshelf" | prepend: site.baseurl }}">Bookshelf</a>
-    {% if site.twitter_username %}
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <p>
+      I'm <a href="{{ "/about" | prepend: site.baseurl }}">Rakhim</a>: a programmer, teacher, writer and podcaster.
+    </p>
+    <p>
+      <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
       <span class="dot">•</span>
-      <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-    {% endif %}
-    {% if site.github_username %}
+      <a href="{{ "/about" | prepend: site.baseurl }}">About</a>
       <span class="dot">•</span>
-      <a href="https://github.com/{{ site.github_username }}">Github</a>
-    {% endif %}
+      <a href="{{ "/bookshelf" | prepend: site.baseurl }}">Bookshelf</a>
+      {% if site.twitter_username %}
+        <span class="dot">•</span>
+        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+      {% endif %}
+      {% if site.github_username %}
+        <span class="dot">•</span>
+        <a href="https://github.com/{{ site.github_username }}">Github</a>
+      {% endif %}
 
-    <span class="dot">•</span>
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-  </p>
+      <span class="dot">•</span>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </p>
+  </div>
 </header>

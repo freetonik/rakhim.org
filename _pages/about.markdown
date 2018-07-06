@@ -3,4 +3,10 @@ layout: content
 title: About
 permalink: /about/
 ---
-This is your about page where you write about yourself in third person and share some links for people to follow you. Take advantage of it.
+
+I'm Rakhim Davletkaliyev, a software developer, writer and podcaster. I run [Hexlet](https://hexlet.io), an educational project that mostly targets Russian-speaking markets. I live in Helsinki, Finland.
+
+### Current projects
+
+- [Hexlet](https://hexlet.io). Programming courses.
+- []

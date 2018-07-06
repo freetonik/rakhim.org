@@ -1,13 +1,12 @@
-# Site settings
 title: Rakhim.org
 description: >
     I'm Rakhim: a programmer, teacher, writer and podcaster.
 author: Rakhim Davletkaliyev
 email: contact@rakhim.org
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rakhim.org" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://rakhim.org"
 twitter_username: freetonik
-github_username:  freetonik
+github_username: freetonik
 
 # Build settings
 include: [_pages]

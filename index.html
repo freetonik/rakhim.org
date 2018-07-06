@@ -8,20 +8,20 @@ title: Home
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-        <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-        <ul>
+        <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
+        <ul class="posts">
     {% endif %}
         <li>
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+            <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
         </li>
     {% if forloop.last %}
         </ul>
     {% else %}
         {% if this_year != next_year %}
         </ul>
-        <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
-        <ul class="c-archives__list">
+        <h3 id="{{ next_year }}-ref">{{next_year}}</h3>
+        <ul class="posts">
         {% endif %}
     {% endif %}
 {% endfor %}
