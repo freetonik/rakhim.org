@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Social responsibility of computer science"
+title: "We shouldn't let people get used to the idea that software fails"
 summary: "I believe that computer scientists and software engineers have the moral responsibility to tell the public that software's failure is not acceptable, not how the things are supposed to be."
 ---
 
-Lately, there's been lots of discussions about social responsibilities of technology and engineers. I want to talk about the non-political social responsibilities of computer science in general.
+Society has certain expectations when it comes to engineering and technology. We expect buildings and bridges to basically never fail. We expect cars to be extremely safe and fool-proof, as much as explosions-based metal boxes moving at hundred miles per hour can be safe and fool-proof. Home appliances are supposed to work for years without any serious maintenance. Electricity is just there, always. And when it goes out, we are incredibly frustrated and surprised. 
 
-Society has certain expectations when it comes to engineering and technology. We expect buildings and bridges to basically never fail. We expect cars to be extremely safe and fool-proof, as much as tiny-explosions-based metal boxes moving at hundred miles per hour can be safe and fool-proof. Home appliances are supposed to work for years without any serious maintenance. Electricity is just there, forever. And when it goes out, we are incredibly frustrated and surprised. 
-
-This very high expectation of engineering runs deep into relevant industries and educational institutions. Engineers take oaths! And get a special ring!
+The high expectation of engineering runs deep into relevant industries and educational institutions. Engineers take oaths!
 
 ---
 
@@ -26,15 +24,15 @@ This very high expectation of engineering runs deep into relevant industries and
 
 It might seem like I'm about to start a rant about buggy OS updates and how software engineering must be held accountable as much as industrial engineering. I'm not. Just to be clear: yes, I think the state of modern software development is ridiculous. Yes, seems like it'll take quite some time and quite a few technological catastrophes until we take software more seriously. 
 
-What worries me more than the current state of the things is how it affects the mindset of society. These high expectations of engineering are reversely mirrored in software. We've learned to expect software to *fail*. 
+What worries me more than the current state of the things is how it affects the mindset of society. These high expectations of engineering are reversely mirrored in software. We have learned to expect software to *fail*. 
 
-Just a few decades ago it was different. Software developers were the only ones who sometimes expected software to fail. The general society had high hopes for it, and journalists helped build it. 
+Just a few decades ago it was different. Software developers were the only ones who sometimes expected software to fail. The general public had high hopes, and journalists helped build it. 
 
 The rise of information technology was akin to the rise of mechanization of the early XX century. We could see the analogy clearly: in the 20s and 30s everyone in the developed world started having and using cars, washing machines, air conditioners and other wonderful devices. They were new, yet incredibly reliable. Every year they became better and cheaper. 
 
 In the 80s and 90s, everyone in the developed world started having and using computers and mobile phones. And at first, the process looked very similar. The first personal computers were clunky and weird, but pretty reliable. I'd say, incredibly stable and relatively fast compared to modern computers. 
 
-Of course, they were a million times less complex and had fewer features. But hey, here is something to consider: I'm typing this in a macOS app on a very powerful 5K iMac computer. It's just text, and I'm going to publish it on the web. The whole experience is mediocre at best. The software is not blazing fast, even though it's a native app for text editing (it has very high app store rating and it's one of the apps selected by the app store editors). The typing experience is laggy on a Bluetooth keyboard. To publish this, I'm going to interact with a browser, which is at this point the whole other operating system with another layer of delays. The only thing that really feels "20 years better" is the connection speed itself. 
+Of course, they were million times less complex and had fewer features. But hey, here is something to consider: I'm typing this in a macOS app on a very powerful 5K iMac computer. It's just text, and I'm going to publish it on the web. The whole experience is mediocre at best. The software is not blazing fast, even though it's a native app for text editing (it has very high app store rating and it's one of the apps selected by the app store editors). The typing experience is laggy on a Bluetooth keyboard. To publish this, I'm going to interact with a browser, which is at this point the whole other operating system with another layer of delays. The only thing that really feels "20 years better" is the connection speed itself. 
 
 Almost slipped into a rant there.
 
@@ -56,9 +54,10 @@ While this is anecdotal evidence, today most of the people I know are frustrated
 
 We just got used to that. Electronics is something that's wonky and buggy. That's what we expect.
 
-And this is scary. Hate to use this term, but that's a slippery slope. When a society expects certain industries or institutions to fail or do harmful things due to lack of quality control or unprofessionalism, we think that society is in bad shape. When we expect politicians to fail, we revolt. When we expect medicine to fail, we protest. When we expect infrastructure to fail, we at least write angry letters to our representatives and try to make some difference through political means.
+And this is scary. 
 
-We can't do much when software fails. Even in those shrinking areas where there's still competition, there isn't much choice: all software fails. I, for one, can only name a couple of software products that are rock solid. But they don't exist on their own, they operate on top of multiple other layers (hardware, OS, frameworks, web, etc). And it's unlikely that all the layers are as good.
+When a society expects certain industries or institutions to fail or do harmful things due to lack of quality control or unprofessionalism, we think that society is in bad shape. When we expect politicians to fail, we revolt. When we expect medicine to fail, we protest. When we expect infrastructure to fail, we at least write angry letters to our representatives and try to make some difference through political means.
 
-I believe that computer scientists and software engineers have the moral responsibility to tell the public that software's failure is not acceptable, and it's not how the things are supposed to be.
+We can't do much when software fails. Unlike science, there's no public accountability. Even in those shrinking areas where there's still competition, there isn't much choice: all software fails. I, for one, can only name a couple of software products that are rock solid. But they don't exist on their own, they operate on top of multiple other layers (hardware, OS, frameworks, web, etc). And it's unlikely that all the layers are as good.
 
+I'm in no position to propose a better way for the world to evolve. But I believe that computer scientists and software engineers have the moral responsibility to educate the public about the way __software should be__. We shouldn't let people get used to the idea that software inevitably fails.
