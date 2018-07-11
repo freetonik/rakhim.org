@@ -1,0 +1,60 @@
+---
+layout: category
+title: Rakhim's bookshelf
+permalink: /bookshelf/
+summary: The books I read and didn't forget about.
+cover_url: /images/book_covers/stockholm_library.jpg
+layout: page
+---
+
+<div>
+
+  <h2>Bookshelf</h2>
+
+  <p>
+    Here are some of the books I have read lately.
+  </p>
+
+  <h3>2018</h3>
+  <div>
+    {% for book in site.data.bookshelf_2018 %}
+      {% include bookshelf_book.html %}
+    {% endfor %}
+  </div>
+
+  <hr>
+  <h3>2017</h3>
+  <div>
+    {% for book in site.data.bookshelf_2017 %}
+      {% include bookshelf_book.html %}
+    {% endfor %}
+  </div>
+
+  <hr>
+  <h3>2016</h3>
+  <div>
+    {% for book in site.data.bookshelf_2016 %}
+      {% include bookshelf_book.html %}
+    {% endfor %}
+  </div>
+
+  <hr>
+  <h3>2015</h3>
+  <div>
+    {% for book in site.data.bookshelf_2015 %}
+      {% include bookshelf_book.html %}
+    {% endfor %}
+  </div>
+
+  <hr>
+  <h3>Before 2015</h3>
+  <div>
+    <p>
+      I didn't really track books before 2015. Here is a short list of some books I really loved and remembered from that ancient past. Everything else is lost and forgotten forever.
+    </p>
+    {% for book in site.data.bookshelf_pre_2015 %}
+      {% include bookshelf_book.html %}
+    {% endfor %}
+  </div>
+
+</div>

@@ -1,0 +1,89 @@
+- title: "Creativity, Inc"
+  author: Sheryl Sandberg, Adam Grant
+  featured: yes
+  isbn: 0812993012
+  comment: I didn't expect it to be this interesting and insightful. Great book. Recommended to anyone in the creative and managerial industry.
+
+- title: Sophie's World
+  author: Jostein Gaarder
+  isbn: 9781857993288
+  comment: A beautiful and gentle overview of philosophy. Nice read.
+
+
+- title: Algorithms to Live By
+  author: Brian Christian, Tom Griffiths
+  isbn: 1250118360
+  comment: One of the few books that successfully brings CS into everyday life. We need more books like this. An audiobook is also available, but this one is better on paper.
+
+- title: "The Wisdom of Insecurity: A Message for an Age of Anxiety"
+  author: Alan Watts
+  featured: yes
+  isbn: 9780307741202
+  comment: Can't go wrong with Alan Watts.
+
+- title: "You Are Not So Smart"
+  author: David McRaney
+  isbn: "9781592407361"
+  comment: More like a series of blog posts than a cohesive narration, but still a fantastic book about most common cognitive gotchas.
+
+
+- title: "Flow: The Psychology of Optimal Experience"
+  author: Mihaly Csikszentmihalyi
+  featured: yes
+  isbn: 9780061339202
+  comment: "It's one of those things that make perfect sense once you think about it. Great book, very important premise and a short and concise explanation. Can't recommend enough."
+
+- title: "Behave: The Biology of Humans at Our Best and Worst"
+  author: "Robert M. Sapolsky"
+  featured: yes
+  isbn: 9781594205071
+  comment: "What a great book! A lot of interesting research and anecdotal data. Changes your perception of human behavior quite a bit. There's also an audio version narrated by the author. And a series of free Stanford lectures available on Youtube."
+
+- title: Thinking, Fast and Slow
+  author: Daniel Kahneman
+  featured: yes
+  isbn: 9780374275631
+  comment: It's a great book. I wish it was shorter though.
+
+- title: "Designing Your Life: How to Build a Well-Lived, Joyful Life"
+  author: Bill Burnett, Dave Evans
+  isbn: 9781101875322
+  comment: Feel-good meh.
+
+- title: "The Elements of Style"
+  author: William Strunk Jr., E.B. White
+  featured: yes
+  isbn: 9780205313426
+  comment: I wish everybody read this book. The surprising thing is that many aspects and recommendations apply to virtually any language, not specifically English.
+
+- title: "The Happiness Track: How to Apply the Science of Happiness to Accelerate Your Success"
+  author: Emma Seppälä
+  isbn: 9780062344014
+  comment: "It's... okay."
+
+- title: "Option B: Facing Adversity, Building Resilience, and Finding Joy"
+  isbn: 9781524732684
+  comment: "I guess it's not for everyone."
+
+- title: "Start with Why: How Great Leaders Inspire Everyone to Take Action"
+  author: Simon Sinek
+  isbn: 1591842808
+  comment: It was a great 5 minute TED talk, but making a book out of it is meh. Very repetitive and self-conscious. Nothing new here.
+
+- title: "The Annotated Turing: A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine"
+  author: Charles Petzold
+  featured: yes
+  isbn: 9780470229057
+  comment: I guess you can't go wrong with Charles Petzold. This book is excellent and highly recommended to anyone interested in computing. Must read for computer science students and software developers.
+
+- title: Accidental Gods
+  author: Andrew Busey
+  isbn: "UNDEFINED_ISBN_01"
+  comment: Pretty cool idea, a somewhat rushed execution.
+
+# - title:
+#   author:
+#   isbn:
+#   comment:
+
+

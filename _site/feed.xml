@@ -6,9 +6,85 @@
 </description>
     <link>http://localhost:4242/</link>
     <atom:link href="http://localhost:4242/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jul 2018 22:32:35 +0300</pubDate>
-    <lastBuildDate>Thu, 05 Jul 2018 22:32:35 +0300</lastBuildDate>
+    <pubDate>Wed, 11 Jul 2018 15:38:26 +0300</pubDate>
+    <lastBuildDate>Wed, 11 Jul 2018 15:38:26 +0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Social responsibility of computer science</title>
+        <description>&lt;p&gt;Lately, there’s been lots of discussions about social responsibilities of technology and engineers. I want to talk about the non-political social responsibilities of computer science in general.&lt;/p&gt;
+
+&lt;p&gt;Society has certain expectations when it comes to engineering and technology. We expect buildings and bridges to basically never fail. We expect cars to be extremely safe and fool-proof, as much as tiny-explosions-based metal boxes moving at hundred miles per hour can be safe and fool-proof. Home appliances are supposed to work for years without any serious maintenance. Electricity is just there, forever. And when it goes out, we are incredibly frustrated and surprised.&lt;/p&gt;
+
+&lt;p&gt;This very high expectation of engineering runs deep into relevant industries and educational institutions. Engineers take oaths! And get a special ring!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;The Obligation of The Engineer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am an Engineer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In my profession I take deep pride. To it I owe solemn obligations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As an engineer, I, (full name), pledge to practice Integrity and Fair Dealing, Tolerance, and Respect, and to uphold devotion to the standards and dignity of my profession, conscious always that my skill carries with it the obligation to serve humanity by making best use of the Earth’s precious wealth.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As an engineer, I shall participate in none but honest enterprises. When needed, my skill and knowledge shall be given without reservation for the public good. In the performance of duty, and in fidelity to my profession, I shall give the utmost.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It might seem like I’m about to start a rant about buggy OS updates and how software engineering must be held accountable as much as industrial engineering. I’m not. Just to be clear: yes, I think the state of modern software development is ridiculous. Yes, seems like it’ll take quite some time and quite a few technological catastrophes until we take software more seriously.&lt;/p&gt;
+
+&lt;p&gt;What worries me more than the current state of the things is how it affects the mindset of society. These high expectations of engineering are reversely mirrored in software. We’ve learned to expect software to &lt;em&gt;fail&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just a few decades ago it was different. Software developers were the only ones who sometimes expected software to fail. The general society had high hopes for it, and journalists helped build it.&lt;/p&gt;
+
+&lt;p&gt;The rise of information technology was akin to the rise of mechanization of the early XX century. We could see the analogy clearly: in the 20s and 30s everyone in the developed world started having and using cars, washing machines, air conditioners and other wonderful devices. They were new, yet incredibly reliable. Every year they became better and cheaper.&lt;/p&gt;
+
+&lt;p&gt;In the 80s and 90s, everyone in the developed world started having and using computers and mobile phones. And at first, the process looked very similar. The first personal computers were clunky and weird, but pretty reliable. I’d say, incredibly stable and relatively fast compared to modern computers.&lt;/p&gt;
+
+&lt;p&gt;Of course, they were a million times less complex and had fewer features. But hey, here is something to consider: I’m typing this in a macOS app on a very powerful 5K iMac computer. It’s just text, and I’m going to publish it on the web. The whole experience is mediocre at best. The software is not blazing fast, even though it’s a native app for text editing (it has very high app store rating and it’s one of the apps selected by the app store editors). The typing experience is laggy on a Bluetooth keyboard. To publish this, I’m going to interact with a browser, which is at this point the whole other operating system with another layer of delays. The only thing that really feels “20 years better” is the connection speed itself.&lt;/p&gt;
+
+&lt;p&gt;Almost slipped into a rant there.&lt;/p&gt;
+
+&lt;p&gt;Personal computers felt like the new “cars for everyone”. We all get computers! They will get better, faster and cheaper every year! They are becoming the backbone of the world, as much as motor vehicles did.&lt;/p&gt;
+
+&lt;p&gt;It all started to change with the Web. The Web was the first global technological phenomena that was built and maintained by the amateurs. Computer hardware, software, and the internet itself were built by mathematicians and engineers. The Web was built by people like me.&lt;/p&gt;
+
+&lt;p&gt;Mathematicians and engineers are tightly connected to the academia, and they operate with ideas like “proof”, “peer review” and “oath”. While many software developers operate with ideas like “ship early, ship often”, “move fast and break things” and “If you are not embarrassed by the first version of your product, you’ve launched too late”.&lt;/p&gt;
+
+&lt;p&gt;This isn’t bad in the long run. I think the society will go through The Age of the Amateur and get better in the end.&lt;/p&gt;
+
+&lt;p&gt;Amateurs were making things all the time. Up until the recent years, we just couldn’t make our amateur inventions ship to millions of people that easily. When amateurs invented something potentially useful, it took quite a few iterations and stages to get it to the public. By that time it became more refined and tested and stable, thanks to regulations, selection and just time.&lt;/p&gt;
+
+&lt;p&gt;Today I can make a bad piece of software that does something interesting, and potentially millions of people will get frustrated or harmed.&lt;/p&gt;
+
+&lt;p&gt;If you asked a member of the general population in the 90s or early 2000s about computers and the internet, I bet most of them would sound optimistic. That’s what everyone is talking about, right? Soon, we will do everything with computers! Computers are super smart!&lt;/p&gt;
+
+&lt;p&gt;While this is anecdotal evidence, today most of the people I know are frustrated with technology. Apps are buggy, the web is filled with ads and intrusive useless notifications (would you like some cookies?), touch screens everywhere suddenly made simple things like washing machines and car control panels barely usable.&lt;/p&gt;
+
+&lt;p&gt;We just got used to that. Electronics is something that’s wonky and buggy. That’s what we expect.&lt;/p&gt;
+
+&lt;p&gt;And this is scary. Hate to use this term, but that’s a slippery slope. When a society expects certain industries or institutions to fail or do harmful things due to lack of quality control or unprofessionalism, we think that society is in bad shape. When we expect politicians to fail, we revolt. When we expect medicine to fail, we protest. When we expect infrastructure to fail, we at least write angry letters to our representatives and try to make some difference through political means.&lt;/p&gt;
+
+&lt;p&gt;We can’t do much when software fails. Even in those shrinking areas where there’s still competition, there isn’t much choice: all software fails. I, for one, can only name a couple of software products that are rock solid. But they don’t exist on their own, they operate on top of multiple other layers (hardware, OS, frameworks, web, etc). And it’s unlikely that all the layers are as good.&lt;/p&gt;
+
+&lt;p&gt;I believe that computer scientists and software engineers have the moral responsibility to tell the public that software’s failure is not acceptable, and it’s not how the things are supposed to be.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 Jul 2018 00:00:00 +0300</pubDate>
+        <link>http://localhost:4242/2018/07/social-responsibility-of-cs</link>
+        <guid isPermaLink="true">http://localhost:4242/2018/07/social-responsibility-of-cs</guid>
+        
+        
+      </item>
     
       <item>
         <title>Products aren't for people yet</title>
@@ -16,7 +92,7 @@
 
 &lt;p&gt;It wasn’t awesome, but it was sincere. Nobody was pretending that software was built for regular people, and the consensus was: in order to use a computer you have to learn something. Or know someone who can help.&lt;/p&gt;
 
-&lt;p&gt;Today we’re living in times when &lt;strong&gt;programmers ~are building products for people~ believe that they’re building products for people&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Today we’re living in times when &lt;strong&gt;programmers &lt;strike&gt;are building products for people&lt;/strike&gt; believe that they’re building products for people&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This isn’t awesome and it’s not sincere. Today all of us regularly feel like our parents with Windows 95. You have to learn or, more commonly, just remember how to use a certain website or an app. And I’m not talking about small pieces of software, I’m mostly talking about huge, global products: Google’s user interfaces are chaos and madness, Facebook is madness and mess, Android is mess and vertigo. Trying to do something non-trivial, not the most basic thing reminds me of good old pixel-hunting quest games: What if I press here? Is it a button? Can I drag this? Oh, this is text, but it’s clickable, and this is a button, but it looks like a text…&lt;/p&gt;
 
@@ -234,7 +310,7 @@
     
       <item>
         <title>What am I doing</title>
-        <description>&lt;p&gt;There is a popular anecdote in the frog community. Especially older, wiser frogs love to tell to it to younger frogs. It goes something like this: once there was a man who worked at work and ate at diners, and all seemed fine enough to him, and over the years things in his life were constantly changing for the worst, but he didn’t really notice and didn’t make decisions to fix this trend. Today always seemed not too bad compared to yesterday. A year ago was hard to recall, so he didn’t bother. He died being an unhappy, grumpy, miserable man. The end.&lt;/p&gt;
+        <description>&lt;p&gt;There is a popular anecdote in the frog community. Older, wiser frogs love to tell to it to younger frogs. It goes something like this: once there was a man who worked at work and ate at diners, and all seemed fine enough to him, and over the years things in his life were constantly changing for the worst, but he didn’t really notice and didn’t make decisions to fix this trend. Today always seemed not too bad compared to yesterday. A year ago was hard to recall, so he didn’t bother. He died being an unhappy, grumpy, miserable man. The end.&lt;/p&gt;
 
 &lt;p&gt;The boiling frog anecdote is considered extremely offensive in the frog community.&lt;/p&gt;
 
