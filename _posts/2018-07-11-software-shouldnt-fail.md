@@ -61,3 +61,5 @@ When a society expects certain industries or institutions to fail or do harmful 
 We can't do much when software fails. Unlike science, there's no public accountability. Even in those shrinking areas where there's still competition, there isn't much choice: all software fails. I, for one, can only name a couple of software products that are rock solid. But they don't exist on their own, they operate on top of multiple other layers (hardware, OS, frameworks, web, etc). And it's unlikely that all the layers are as good.
 
 I'm in no position to propose a better way for the world to evolve. But I believe that computer scientists and software engineers have the moral responsibility to educate the public about the way __software should be__. We shouldn't let people get used to the idea that software inevitably fails.
+
+(Discussion on [Lobste.rs](https://lobste.rs/s/abf7r8/we_shouldn_t_let_people_get_used_idea))
