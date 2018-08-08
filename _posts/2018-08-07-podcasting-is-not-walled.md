@@ -45,3 +45,6 @@ The thing is, **this shouldn't matter**. If some company decides not to include 
 And it works! For most people, RSS for podcasts don't exist, and a corporation is in charge of what they can listen to.
 
 [Last time](https://rakhim.org/2018/07/software-shouldnt-fail) I was talking about programmers' responsibilities when it comes to software reliability. Today I want to add: we, developers and software engineers, also have the moral responsibility to educate the public about the way the internet was supposed to be. Open, un-censorable, with underlying protocols put in place to ensure it's a forest, not a walled garden.
+
+**UPD:** some readers think I refuse to add my pocasts to iTunes/Google/Spotify etc. **I don't**. Both podcasts are already everywhere. The review process took days, and I wanted to share my podcasts with people sooner, so I tweeted about it and then receiving questions about iTunes, etc. I am not against curated catalogs, they bring value and help me promote my stuff free of charge. I am talking about the fact that companies made people think that these catalogs are the only sources of podcasts.
+
