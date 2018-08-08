@@ -8,7 +8,7 @@ summary: >-
   un-censorable, with underlying protocols put in place to ensure it's a forest,
   not a walled garden."
 ---
-I've launched a podcast recently ([EmacsCast](http://emacscast.rakhim.org/)) and received lots of feedback. One of the perplexing things people said was "*that's great, but how do I subscribe, it's not on iTunes/Google Podcasts?*"
+I've launched two podcasts recently (check out [EmacsCast](http://emacscast.rakhim.org/)) and received lots of feedback. One of the perplexing things people said was "*that's great, but how do I subscribe, it's not on iTunes/Google Podcasts?*"
 
 I had a similar experience 10+ years ago when I started podcasting, but today it's much worse. It worries me a lot.
 
