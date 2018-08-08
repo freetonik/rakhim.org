@@ -1,11 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 title: Podcasting is not walled (yet)
 summary: >-
-  I believe that computer scientists and software engineers have the moral
-  responsibility to tell the public that software's failure is not acceptable,
-  not how the things are supposed to be.
+  "We, developers and software engineers, also have the moral responsibility to
+  educate the public about the way the internet was supposed to be. Open,
+  un-censorable, with underlying protocols put in place to ensure it's a forest,
+  not a walled garden."
 ---
 I've launched a podcast recently ([EmacsCast](http://emacscast.rakhim.org/)) and received lots of feedback. One of the perplexing things people said was "*that's great, but how do I subscribe, it's not on iTunes/Google Podcasts?*"
 
