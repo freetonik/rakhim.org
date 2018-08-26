@@ -1,0 +1,15 @@
+#+TITLE: Posts
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: blog
+#+SEQ_TODO: TODO DRAFT DONE
+#+PROPERTY: header-args :eval never-export
+
+#+OPTIONS: creator:t toc:nil
+
+* Blog
+** TODO Moved from Jekyll to Hugo and ox-hugo
+:PROPERTIES:
+:EXPORT_FILE_NAME: move
+:END:
+
+Pump, pump

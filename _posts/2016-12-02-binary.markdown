@@ -1,8 +1,0 @@
----
-title: What is binary?
-layout: post
----
-
-My attempt to explain binary numbers.
-
-![](/images/posts/binary.png)

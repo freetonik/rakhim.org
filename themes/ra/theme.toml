@@ -1,0 +1,11 @@
+name = "Ra"
+license = "MIT"
+description = "A minimal blog theme for Rakhim.org."
+homepage = "https://rakhim.org"
+tags = ["minimal", "blog", "personal", "simple", "clean", "starter", "minimalist"]
+features = ["blog"]
+min_version = "0.1"
+
+[author]
+  name = "Rakhim Davletkaliyev"
+  homepage = "https://rakhim.org"

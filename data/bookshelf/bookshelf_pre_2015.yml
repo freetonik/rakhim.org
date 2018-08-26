@@ -1,0 +1,111 @@
+year: "pre-2015"
+books:
+- title: "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character"
+  author: Richard Feynman
+  featured: yes
+  isbn: 9780393316049
+  comment: Feynman was a Teacher. This book is as fantastic as the man himself.
+
+- title: "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory"
+  author: Brian Greene
+  featured: yes
+  isbn: 9780375708114
+  comment: "String theory for the masses. This is how popular science books should be like: interesting, enchanting, inviting."
+
+- title: "The Design of Everyday Things"
+  author: Donald A. Norman
+  featured: yes
+  isbn: 9780465067107
+  comment: Must read not only for designers, but for software developers too, even if you develop backend exclusively. I wish everybody read it really.
+
+- title: A Brief History of Time
+  author: Stephen Hawking
+  featured: yes
+  isbn: 9780553380163
+  comment: Talking about quantum physics and singularity is hard. This book makes it seem easy. Loved it.
+
+- title: Introduction to Algorithms
+  author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+  isbn: 9780262032933
+  featured: yes
+  comment: Spent endless hours digging through The Book. It's very well written and organized and was a tremendous help in my CS studies.
+
+- title: "Fermat's Enigma: The Epic Quest to Solve the World's Greatest Mathematical Problem"
+  author: Simon Singh
+  featured: yes
+  isbn: 9780385493628
+  comment: The book that sparked my interest in discrete math and abstract algebra. Other books by Simon Singh are also fantastic.
+
+- title: "Physics of the Impossible: A Scientific Exploration Into the World of Phasers, Force Fields, Teleportation, and Time Travel"
+  author: Michio Kaku
+  isbn: 9780385520690
+  comment: It's a very interesting book, but for some reason Michio Kaku's style doesn't spark me as much as Briane Greene's or Stephen Hawking's or Neil deGrasse Tyson's.
+
+- title: The Chronicles of Amber
+  author: Roger Zelazny
+  featured: yes
+  isbn: 9780380809066
+  comment: One of the top 3 books in my life.
+
+- title: "The God Delusion"
+  author: Richard Dawkins
+  isbn: 9780618680009
+  comment: Militant atheism is entertaining, but generally counter productive.
+
+- title: Modern Operating Systems
+  author: Andrew S. Tanenbaum
+  isbn: "0136006639"
+  comment: I really enjoyed reading this textbook even after finishing the corresponding course.
+
+- title: Dune
+  author: Frank Herbert
+  featured: yes
+  isbn: 9780340839935
+  comment: No way around it — Dune is probably the best science fiction I've ever read.
+
+- title: Lord of Light
+  author: Roger Zelazny
+  featured: yes
+  isbn: 9780060567231
+  comment: Back in high school this book had changed the way I perceive reality and science fiction.
+
+- title: The Selfish Gene
+  author: Richard Dawkins
+  featured: yes
+  isbn: 9780199291151
+  comment: Having an interest in genetics and molecular biology, I was completely enchanted by the narrative.
+
+- title: "Just for Fun: The Story of an Accidental Revolutionary"
+  author: Linus Torvalds, David Diamond
+  isbn: 9780066620732
+  comment: Nicely written and an entertaining story of Linus Torvalds and the creation of Linux kernel. I read it in high school and it definitely strengthened my interest in computer programming.
+
+- title: "Getting Things Done: The Art of Stress-Free Productivity"
+  author: David Allen
+  isbn: 9780142000281
+  comment: I don't do GTD now, but the book is very good even if you don't plan to follow the methodology to the word.
+
+- title: The Silmarillion
+  author: J.R.R. Tolkien
+  isbn: 9780618391110
+  comment: Middle-Earth's bible, myths and legends. Loved at the time.
+
+- title: The Hobbit
+  author: J.R.R. Tolkien
+  isbn: 9780547928227
+  comment: Having read this after LOTR, it was fun but underwhelming. Starting from scratch, it's definitely better to start with The Hobbit.
+
+- title: The Lord of the Rings
+  author: J.R.R. Tolkien
+  isbn: 9780618640157
+  comment: What can I say? Seems like I spent most of my free time in this universe back in high school…
+
+- title: Harry Potter series
+  author: J. K. Rowling
+  isbn: 9780545162074
+  comment: Ah, high school memories! Seems like this series was an important part of my childhood.
+
+- title: "Introduction to Assembly Language Programming: From 8086 to Pentium Processors (Undergraduate Texts in Computer Science)"
+  author: Sivarama P. Dandamudi
+  isbn: "0387985301"
+  comment: Dark nights, lots of coffee… This was fun!

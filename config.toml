@@ -1,0 +1,44 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Rakhim.org"
+theme = "ra"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+paginate = 25
+
+[permalinks]
+    post = "/:year/:month/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Bookshelf"
+    url = "/bookshelf"
+    weight = 3
+
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/freetonik"
+    weight = 4
+
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/freetonik"
+    weight = 5
+
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."
+    footer = "© Rakhim Davletkaliyev 2018<br>[Github](https://github.com/freetonik) | [Twitter](https://twitter.com/freetonik)"

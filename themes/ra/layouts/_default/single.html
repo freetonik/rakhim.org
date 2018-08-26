@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<main class="container">
+
+  <div class="article-meta">
+    <h1 class="h2 mb0">{{ .Title }}</h1>
+    {{ if .Params.date }}<span class="date text-muted text-light">{{ .Date.Format "January 1, 2006" }}</span>{{ end }}
+    {{ if .Params.draft }}<strong>= draft =</strong>{{ end }}
+  </div>
+
+  {{ if .Params.toc }}
+  {{ .TableOfContents }}
+  {{ end }}
+
+  {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
