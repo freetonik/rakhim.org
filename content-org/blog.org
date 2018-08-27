@@ -9,7 +9,7 @@
 * Blog
 ** TODO Moved from Jekyll to Hugo and ox-hugo
 :PROPERTIES:
-:EXPORT_FILE_NAME: move
+:EXPORT_FILE_NAME: moved-from-jekyll-to-hugo-and-ox-hugo
 :END:
 
-Pump, pump
+I have changed the setup from Jekyll + Github to Hugo + ox-hugo + Netlify. In this post I will describe the process

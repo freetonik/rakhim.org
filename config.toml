@@ -8,7 +8,7 @@ footnotereturnlinkcontents = "↩"
 paginate = 25
 
 [permalinks]
-    post = "/:year/:month/:slug/"
+    blog = "/:year/:month/:slug/"
 
 [[menu.main]]
     name = "Home"
