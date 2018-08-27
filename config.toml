@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://rakhim.org"
 languageCode = "en-us"
 title = "Rakhim.org"
 theme = "ra"
