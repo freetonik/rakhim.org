@@ -1,6 +1,5 @@
 ---
 date: "2018-08-07T00:00:00Z"
-published: false
 summary: I believe that computer scientists and software engineers have the moral
   responsibility to tell the public that software's failure is not acceptable, not
   how the things are supposed to be.
