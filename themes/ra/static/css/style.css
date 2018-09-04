@@ -1,8 +1,7 @@
 html {font-size: 1.125em;}
 
 body {
-  /*font-family: Helvetica, Arial, sans-serif;*/
-  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background: #f4e2b617;
   color: rgb(17, 17, 17);
@@ -13,6 +12,20 @@ body {
 }
 
 p {margin-bottom: 1.3em;}
+
+p code {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 95%;
+  white-space: pre-wrap;
+  background: #f4f1e9;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 10px;
+}
 
 hr {
   margin: 3em 0;
@@ -70,6 +83,25 @@ small, .font_small {font-size: 0.833em;}
 
 img {
   max-width: 100%;
+}
+
+strong img {
+  margin-left: -290px;
+  max-width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  strong img {
+    margin-left: calc((95vw - 620px) / -2);
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 700px) {
+  strong img {
+    margin-left: 0;
+    max-width: 100%;
+  }
 }
 
 .container {
