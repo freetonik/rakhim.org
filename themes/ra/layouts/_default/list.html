@@ -12,7 +12,7 @@
     {{ range .Site.Taxonomies.tags.featured }}
     <li>
       <a href="{{ .URL }}">{{ .Title }}</a>
-      {{ if .Params.date }}<span class="date text-muted text-light">{{ .Date.Format "January 1, 2006" }}</span>{{ end }}
+      {{ if .Params.date }}<span class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</span>{{ end }}
     </li>
     {{ end }}
   </ul>
@@ -23,7 +23,7 @@
   {{ range $paginator.Pages }}
   <div class="mb4">
     <h1 class="mb0"><a href="{{ .URL }}" class="link-unstyled">{{ .Title }}</a></h1>
-    {{ if .Params.date }}<a href="{{ .URL }}" class="link-unstyled"><span class="date text-muted text-light">{{ .Date.Format "January 1, 2006" }}</span></a>{{ end }}
+    {{ if .Params.date }}<a href="{{ .URL }}" class="link-unstyled"><span class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</span></a>{{ end }}
     {{ .Content }}
   </div>
   {{ end }}
