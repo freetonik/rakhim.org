@@ -11,6 +11,14 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+blockquote {
+  border-left: 4px solid #CCC;
+  font-style: italic;
+  color: #707070;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
 p {margin-bottom: 1.3em;}
 
 p code {
