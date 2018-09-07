@@ -30,11 +30,11 @@ This is how it looked like for the most part:
 5. Write Markdown in Sublime, reload page to see result.
 6. Push to Github when ready.
 
-Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. Github's support is excellent, but this process is no fun.
+Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
 
 *** New setup
 
-Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static html. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
+Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
 
 This is how it looks like:
 
@@ -89,3 +89,117 @@ Some other social media sites support og tags with certain quirks. Like, you pro
 The sheer amount of resources the industry pours into made up problems like that...
 
 I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
+** DONE Personal finances and controlled anarchy
+CLOSED: [2018-09-07 Fri 12:31]
+:PROPERTIES:
+:EXPORT_FILE_NAME: personal-finances-and-controlled-anarchy
+:END:
+
+Most of my life, I didn't have much money. I was born in the 90s in a tiny Kazakh town, and nobody had a job there, it seemed. USSR just collapsed and my parents were trying to make ends meet in a constant hustle.
+
+That life defined my relationship with money and wealth for years to come. Every time I had to buy coffee, I was thinking "is it worth it?.. Maybe I shouldn't". In restaurants and cafes I was looking at prices first, then at meals. "Hmm, this cheap pasta looks so attractive! Ooh, I bet this expensive steak is not that good".
+
+"You know what? I'll just buy this coffee and not buy that iPhone game I wanted to buy. Yeah, perfect! Now I'm calm and safe!"
+
+After graduating and starting working full time I decided to follow a popular advice: budget everything. I started using an excellent app called [YNAB](https://www.youneedabudget.com/) — You Need a Budget. Not only it allows you to track all your expenses and plan ahead, it also comes with a philosophy, a set of rules and ideas to help you navigate your personal finance world.
+
+First things first: save one month worth of expenses and never let your account get dry. The idea is to be spending money that is at least 30 days old. So, if you got your salary on February 1st, you will spend this money in March or later, but not in February. This way you never get into «I need some money until my next salary».
+
+Next, give every dollar a job. This means that each dollar you get — you decide what it's for. I have regular expenses like rent, phone fees, groceries etc. Some amount of money MUST go there. But I also have other categories, like "Books" or "Electronics" or "Travel". And if I want to buy a book or go for a vacation, I have to have enough money saved in that category.
+
+Putting money into savings account is another type of a job.
+
+YNAB allows you to assign every dollar a particular job. It actually encourages you to keep exactly ZERO cents unassigned! You feel like a finance director of a small enterprise. Serious business!
+
+This way you know exactly whether you can afford something. And you never have to guess "hmm, if I buy this laptop now, will I be okay with the rent?..".
+
+*https://i.imgur.com/ds7Ziy9.png*
+/YNAB classic app screenshot (not mine)/
+
+Another YNAB rule is to budget in detail and ahead. "Make your money boring" is their slogan for it. For every bill to come or an unexpected expense to surprise you, you'll have money waiting.
+
+For example, I was putting some money into "Car repair" category each month, even though for the most part my car didn't require any repair. But when the AC compressor suddenly died in the middle of the hot German summer vacation, I knew I don't have to worry.
+
+Basically, save money for Christmas all year long, not just in December.
+
+One more YNAB rule is to "Roll With The Punches". When you overspend in a budget category, just adjust. No guilt necessary! It was easy for me to justify another gadget when I under-spent in some other categories.
+
+I was an everyday user of YNAB for 7 years. The app itself is 14 years old and it has a great following and a nice community around it. It helped me *tremendously*! A huge amount of stress just went away, I was on top of my finances, I knew exactly what's happening and how much money I'm getting and spending. When my girlfriend moved in with me and we started sharing our budgets, YNAB was able to accommodate it. I just added another bank account in the settings. In total, I was controlling multiple bank accounts (including "cash" account) and cards, several sources of income and tens of budgeting categories.
+
+It was great.
+
+So, why did I stop?
+
+Don't get me wrong: an app and a method like that makes a HUGE difference. I will never go back to having no control and no knowledge over my finances, but I still had lots of stress points.
+
+First, it took a lot of time and energy to maintain the system. I had to put all the expenses precisely, every purchase, every fee, including cash purchases. The system makes sense only if you're precise and 100% accurate.
+
+Card purchases overseas were especially painful. They often change over time, like, you buy something off Amazon, and they charge you with currency conversion, and after a week or so an "adjustment" charge is made silently (since the exchange rate changed a bit). You have to track it all and "consolidate" your accounts every month.
+
+Or you just forget what that $0.99 supermarket purchase was three weeks ago. Was it chocolate, so, groceries category? Or a LAN cable, so, electronics category? Does it really matter? It's just 99 cents, so… whatever, let it be groceries.
+
+Another problem was — I still had some stress over money. Less than before, but still. This "roll with the punches" rule is nice and liberating, but sometimes it seemed like I was just abusing the system. I want a new gadget, so, I'll just transfer $100 from "car repair" and compensate next month by spending less in every category. It'll be just fine!
+
+It takes lots of energy not only to maintain the system, but to keep disciplined. I'm not that good at it.
+
+A year ago I decided to deliberately simplify my life. Automate everything I can, ignore more stuff, eliminate pain points and minimize the mental energy requirements on everything except first-order things.
+
+First-order things are the actual things I want to spend time on, the things that are intrinsically important for me. Money is a tool, so, it's at most second-order. It allows for the first-order things, but it doesn't have intrinsic value itself.
+
+So I ditched YNAB and budgeting in general.
+
+This was the most liberating moment I had in some time!
+
+I call my new system "controlled anarchy", and it's pretty simple.
+
+Every time our family gets salary payment or other income, I distribute it between three bank accounts:
+
+1. *Monthly bills.* This account pays all the bills, from rent to Netflix. It has its own debit card, so I don't really see the purchases very often. I know exactly how much money is spent, though, since all the expenses here are static. Like with YNAB philosophy, this account has 2 months of expenses all the time, so it never gets dry. (I am actually increasing this account to 6 months of expenses so it will act as the emergency fund. Bad things happen — we have 6 months to figure things out).
+2. *Savings.*. Yup, just savings. At least 33% of all the income is saved. A portion of it is invested in mutual funds for the long term.
+3. *Everyday spending.* The rest is free! This is the key — I don't have to plan or to calculate or track anything. This account is the free money we can spend however we want! (Some of it goes to groceries, but the rest is truly free).
+
+The Everyday spending account rarely gets to zero, and we never move money away from it. So, it actually grows gradually, and if we don't spend it all one month, we get even more free money next month!
+
+The goal is to eliminate guilt and uncertainty about purchases. You want that new thing? Just buy it if there's enough money. Not enough in Everyday spending? Well, sorry, you can't buy it. But hey — feel free to buy whatever — spend it all away!
+
+Oh, man, this made our lives so much easier.
+
+The "controlled anarchy" system lacks the precision of the previous one, but requires no time and energy to maintain. All the payments and transfers are automatic, it's like we're kids and a wise parent manages our spending money :)
+
+This is what I call simplification: less decision-making means more energy for the truly important things.
+
+Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
+** DRAFT Keyboard fanaticism
+:PROPERTIES:
+:EXPORT_FILE_NAME: keyboard-fanaticism
+:END:
+
+I've been reading [[https://sites.google.com/site/steveyegge2/effective-emacs][an article about Emacs]], and this paragraph had nailed me right into the heart:
+
+#+BEGIN_QUOTE
+IDE users spend most of their time fumbling around with the mouse. They wouldn't dream of doing it any other way, but they don't realize how inefficient their motions are.
+
+...
+
+Whenever you need to jump the cursor backward or forward more than about 5 lines, and you can see the target location, you should be using i-search.
+
+...
+
+Let your eye defocus slightly and take in the whole paragraph or region around the target point, and choose a word that looks reasonably unique or easy to type. Then i-search for it to navigate to it. You may need to hit Ctrl-r or Ctrl-s repeatedly if your anchor word turns out not to be unique.
+#+END_QUOTE
+
+This is a common rhetoric: use keyboard only, don't you dare to use the mouse — it's so inefficient!
+
+The scenario in question is simple: you have to move the cursor to some position you see on the screen. Instead of moving your head to the mouse and moving the pointer, the author suggests the following algorithm:
+
+1. Determine if the place you need to go to is before or after current position. This is mental work.
+2. Take a look around that point and "choose a word that looks reasonably unique". Meaning, perform more mental work of determining which word is unique enough.
+3. If the target is before the current position, use =Ctrl+s=. If it's after, use =Ctrl+r=. More mental work, even though it's automatic: maintain a map of position to binding.
+4. If your judgement of the uniqueness wasn't good enough, you'll end up somewhere else. Possibly, in a completely different section of the document. Additional mental work — you have to realize what happened, be disoriented. Keep hitting =Ctrl+s= or =Ctrl+r=. And you have to keep scanning the surroundings every time you jump until you get there.
+5. Okay, you're there! But remember, you've been jumping to the place near the target, so now you have to move a bit more — by word or by character.
+
+#+BEGIN_QUOTE
+Mastering it simply requires that you do it repeatedly until your fingers do it "automatically". Emacs eventually becomes like an extension of your body, and you'll be performing hundreds of different keystrokes and mini-techniques like this one without thinking about them.
+#+END_QUOTE
+
+While I understand the premise completely, and I have no doubts that you will do it automatically after some
