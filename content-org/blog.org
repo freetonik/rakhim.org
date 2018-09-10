@@ -169,12 +169,13 @@ The "controlled anarchy" system lacks the precision of the previous one, but req
 This is what I call simplification: less decision-making means more energy for the truly important things.
 
 Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
-** DRAFT Keyboard fanaticism
+** DONE Keyboard fanaticism
+CLOSED: [2018-09-10 Mon 16:54]
 :PROPERTIES:
 :EXPORT_FILE_NAME: keyboard-fanaticism
 :END:
 
-I've been reading [[https://sites.google.com/site/steveyegge2/effective-emacs][an article about Emacs]], and this paragraph had nailed me right into the heart:
+I've been reading [[https://sites.google.com/site/steveyegge2/effective-emacs][an article about Emacs]], and this paragraph had nailed me right into the soul:
 
 #+BEGIN_QUOTE
 IDE users spend most of their time fumbling around with the mouse. They wouldn't dream of doing it any other way, but they don't realize how inefficient their motions are.
@@ -182,7 +183,6 @@ IDE users spend most of their time fumbling around with the mouse. They wouldn't
 ...
 
 Whenever you need to jump the cursor backward or forward more than about 5 lines, and you can see the target location, you should be using i-search.
-
 ...
 
 Let your eye defocus slightly and take in the whole paragraph or region around the target point, and choose a word that looks reasonably unique or easy to type. Then i-search for it to navigate to it. You may need to hit Ctrl-r or Ctrl-s repeatedly if your anchor word turns out not to be unique.
@@ -190,16 +190,24 @@ Let your eye defocus slightly and take in the whole paragraph or region around t
 
 This is a common rhetoric: use keyboard only, don't you dare to use the mouse — it's so inefficient!
 
-The scenario in question is simple: you have to move the cursor to some position you see on the screen. Instead of moving your head to the mouse and moving the pointer, the author suggests the following algorithm:
+The scenario in question is simple: you have to move the cursor to some position you see on the screen. Instead of moving your hand to the mouse to move the pointer, the author suggests the following algorithm:
 
-1. Determine if the place you need to go to is before or after current position. This is mental work.
-2. Take a look around that point and "choose a word that looks reasonably unique". Meaning, perform more mental work of determining which word is unique enough.
-3. If the target is before the current position, use =Ctrl+s=. If it's after, use =Ctrl+r=. More mental work, even though it's automatic: maintain a map of position to binding.
-4. If your judgement of the uniqueness wasn't good enough, you'll end up somewhere else. Possibly, in a completely different section of the document. Additional mental work — you have to realize what happened, be disoriented. Keep hitting =Ctrl+s= or =Ctrl+r=. And you have to keep scanning the surroundings every time you jump until you get there.
-5. Okay, you're there! But remember, you've been jumping to the place near the target, so now you have to move a bit more — by word or by character.
+1. Determine if the place you need to go to is before or after current position. This is non-zero mental work.
+2. Take a look around that point and "choose a word that looks reasonably unique". Perform more mental work of determining which word is unique enough.
+3. If the target is before the current position, use =Ctrl+s=. If it's after, use =Ctrl+r=. This is more or less automatic, but still required mental work of maintaining the mapping between direction and binding.
+4. If your judgement of the uniqueness wasn't good enough, you'll end up somewhere else. Possibly, in a completely different section of the document. Additional mental work — you have to realize what happened, disoriented. Keep hitting =Ctrl+s= or =Ctrl+r=. And you have to keep scanning the surroundings every time you jump until you get where you want.
+5. Okay, you're there! But remember, you've been jumping to a place *near* the target, so now you have to move a bit more — by word or by character.
 
 #+BEGIN_QUOTE
 Mastering it simply requires that you do it repeatedly until your fingers do it "automatically". Emacs eventually becomes like an extension of your body, and you'll be performing hundreds of different keystrokes and mini-techniques like this one without thinking about them.
 #+END_QUOTE
 
-While I understand the premise completely, and I have no doubts that you will do it automatically after some
+While I understand the premise completely, and I occasionally use the same technique, I can’t help but think an advice like that rarely takes into account the trade-off. Yes, moving your hand to the mouse takes time, but it’s not uncommon that the time required is actually *less* than multi key multi step keybinding. Instead of spending a second, two motions and a single click the user is advised to analyze text, make several decisions and hit multiple keys, which might or might not be enough. But hey, you didn't leave the home row, so, win, I guess?..
+
+I'm not defending the mouse here, but I do think there are occasions where using the mouse is just better *for me*. Too often these articles are trying to make you feel like an unintelligent cave man for daring to use the "device of IDE users".
+
+Also, Emacs packages like [[https://github.com/abo-abo/avy][avy]] or [[https://github.com/hlissner/evil-snipe][evil-snipe]] make jumping to visible text much simpler and cost less mentally.
+
+The vast sea of discussions and advice about programming tools and especially text editing is full of opinions, approaches and cult-like repeated revelations. Often, the loud sounds of the echo chamber make it difficult to stop for a moment and evaluate something yourself. But please do try.
+
+It's easy to be indoctrinated.
