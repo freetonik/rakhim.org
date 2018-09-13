@@ -18,29 +18,5 @@
     <link rel="apple-touch-icon-precomposed" href="/favicon.png">
   </head>
 
-  <header>
-    <div class="container">
-      <h1 class="h2 mt0">
-        <a href="{{ .Site.BaseURL }}">Rakhim.org</a>
-      </h1>
-
-      <p>
-        I'm <a href="{{ .Site.BaseURL }}/about">Rakhim</a>: a programmer, teacher, writer and podcaster.
-      </p>
-
-      <nav>
-        <p>
-          {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
-          <span class="dot">•</span>
-          {{ end }}
-
-          {{ range .Site.Menus.feed }}
-          <a href="{{ .URL }}">RSS</a>
-          {{end}}
-        <p>
-      </nav>
-    </div>
-  </header>
 
   <body>

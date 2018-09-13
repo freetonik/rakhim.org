@@ -8,7 +8,7 @@ footnotereturnlinkcontents = "↩"
 paginate = 25
 
 pygmentsCodeFences = true
-pygmentsStyle = "tango"
+pygmentsStyle = "manni"
 
 [permalinks]
     blog = "/:year/:month/:slug/"
@@ -44,4 +44,3 @@ pygmentsStyle = "tango"
 
 [params]
     description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."
-    footer = "© Rakhim Davletkaliyev 2018<br>[Github](https://github.com/freetonik) | [Twitter](https://twitter.com/freetonik)<br><br>Powered by [Hugo](https://gohugo.io/), [ox-hugo](https://github.com/kaushalmodi/ox-hugo/) and [netlify](https://www.netlify.com/)."

@@ -16,14 +16,16 @@
     </li>
     {{ end }}
   </ul>
+</div>
 
-  <hr>
+<hr>
 
+<div class="container">
   {{ $paginator := .Paginate (where .Data.Pages "Section" "=" "blog") }}
   {{ range $paginator.Pages }}
   <div class="mb4">
-    <h1 class="mb0"><a href="{{ .URL }}" class="link-unstyled">{{ .Title }}</a></h1>
-    {{ if .Params.date }}<a href="{{ .URL }}" class="link-unstyled"><span class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</span></a>{{ end }}
+    <h1 class="h2"><a href="{{ .URL }}">{{ .Title }}</a></h1>
+    {{ if .Params.date }}<small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>{{ end }}
     {{ .Content }}
   </div>
   {{ end }}
