@@ -24,7 +24,7 @@ YNAB allows you to assign every dollar a particular job. It actually encourages 
 
 This way you know exactly whether you can afford something. And you never have to guess "hmm, if I buy this laptop now, will I be okay with the rent?..".
 
-**![](https://i.imgur.com/ds7Ziy9.png)**
+**![](/images/posts/ynab.jpg)**
 _YNAB classic app screenshot (not mine)_
 
 Another YNAB rule is to budget in detail and ahead. "Make your money boring" is their slogan for it. For every bill to come or an unexpected expense to surprise you, you'll have money waiting.
