@@ -69,7 +69,7 @@ The whole blog setup, including this custom theme is available on [[https://gith
 ** DONE I no longer care about og tags, twitter cards, etc.
 CLOSED: [2018-09-04 Tue 15:44]
 :PROPERTIES:
-:EXPORT_FILE_NAME: no-more-og-crap
+:EXPORT_FILE_NAME: i-no-longer-care-about-og-tags-twitter-cards-etc
 :END:
 
 Enough.
@@ -214,7 +214,7 @@ It's easy to be indoctrinated.
 ** DONE A Simple Introduction to Proof by Contradiction :featured:
 CLOSED: [2018-09-12 Wed 17:49]
 :PROPERTIES:
-:EXPORT_FILE_NAME: proof-by-contradiction
+:EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-contradiction
 :END:
 
 In mathematics, a theorem is a true statement, but the mathematician is expected to be able to prove it rather than take it on faith. The proof is a sequence of mathematical statements, a path from some basic truth to the desired outcome. An impeccable argument, if you will.

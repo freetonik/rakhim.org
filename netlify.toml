@@ -32,3 +32,7 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
   from = "/feed.xml"
   to = "/index.xml"
+
+[[redirects]]
+  from = "/2018/09/i-no-longer-care-about-og-tags-twitter-cards-etc./"
+  to = "/2018/09/i-no-longer-care-about-og-tags-twitter-cards-etc/"

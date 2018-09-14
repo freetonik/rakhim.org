@@ -11,7 +11,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "manni"
 
 [permalinks]
-    blog = "/:year/:month/:slug/"
+    blog = "/:year/:month/:filename/"
 
 [[menu.main]]
     name = "Home"
