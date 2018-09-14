@@ -20,7 +20,7 @@ I'm not gonna go all "3-2-1 backup" on you. That's the idea that in the perfect 
 1. Offsite backups with Arq (Dropbox and Amazon Cloud Drive)
 2. Local backups with Time Machine and Carbon Copy Cloner
 
-![](/images/posts/backup_strategy.png)
+![](/images/posts/backup_strategy.jpg)
 
 Most of the things I work on daily are on Github (personal and work), Dropbox (personal) and Google Drive (work).
 

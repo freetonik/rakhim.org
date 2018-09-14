@@ -26,7 +26,7 @@ I tell you my name and you type it into Safari. If my blog was already added to 
 
 But if I haven't added my blog to their catalog, or, even worse, I've tried, but it wasn't approved for some reason, then I'll be just sitting here, shouting "dude, just go to `https://rakhim.org`, it's **there!**", but you'd have no idea what to do with that information. For you, _my site doesn't exist_.
 
-![future_of_the_web.png](/images/posts/future_of_the_web.png)
+![future_of_the_web.png](/images/posts/future_of_the_web.jpg)
 
 Your browser is capable of reaching my blog, but the feature is hidden or about to disappear. I can teach you to find some obscure menu item, but I can't do it for all potential visitors.
 
