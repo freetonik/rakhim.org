@@ -1,0 +1,12 @@
+<nav>
+  <p>
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    <span class="text-muted"> | </span>
+    {{ end }}
+
+    {{ range .Site.Menus.feed }}
+    <a href="{{ .URL }}">RSS</a>
+    {{end}}
+  <p>
+</nav>

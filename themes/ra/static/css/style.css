@@ -16,6 +16,16 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
 blockquote { margin-left: 1.777rem; }
 p { margin-bottom: 1.3rem; }
 
@@ -24,6 +34,10 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover {text-decoration: underline;}
+
+nav a:link, nav a:visited {
+  color: #980909;
+}
 
 .highlight {font-size: 16px;}
 .highlight pre {padding: 0.5rem; overflow: auto;}
@@ -37,18 +51,25 @@ hr {
 
 /* Main container */
 
+.container-fluid {
+  max-width: 1000px;
+  padding: 21px 21px 21px 15%;
+}
+
 .container {
   max-width: 630px;
-  /* margin-right: auto; */
-  /* margin-left: auto; */
   padding: 21px 21px 21px 15%;
 }
 
 @media (max-width: 850px) {
-  .container {
+  .container, .container-fluid {
     margin-right: auto;
     margin-left: auto;
     padding: 21px;
+  }
+
+  .container-fluid .primary-title {
+    margin-top: 0.5rem;
   }
 }
 
@@ -133,12 +154,16 @@ h4, .h4 {
 }
 
 small, .small { font-size: 0.75em; line-height: 1.333; }
-.credits { margin-top: 4rem; }
+.mt4 { margin-top: 4rem; }
 .text-muted { color: #888; }
 .text-muted a, .text-muted a:visited { color: inherit; }
 
 img {
   max-width: 100%;
+}
+
+li {
+  line-height: 1.75rem;
 }
 
 h1 a:link, h1 a:visited, h1 a:hover {

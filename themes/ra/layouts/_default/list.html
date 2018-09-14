@@ -1,36 +1,28 @@
 {{ partial "header.html" . }}
 
-<div class="container">
+<div class="container-fluid">
   {{if not .IsHome }}
   <h1>{{ .Title }}</h1>
   {{ end }}
 
   {{ .Content }}
 
-  <h3>Featured</h3>
+  <h1 class="h2 primary-title">Hello!</h2>
+<p>I'm Rakhim. I teach, program and make podcasts.</p>
+
+{{ partial "nav.html" . }}
+
+  <h4>Writing</h4>
   <ul>
-    {{ range .Site.Taxonomies.tags.featured }}
+    {{ range (where .Data.Pages "Section" "=" "blog") }}
     <li>
       <a href="{{ .URL }}">{{ .Title }}</a>
-      {{ if .Params.date }}<span class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</span>{{ end }}
+      {{ if .Params.date }}<i class="text-muted text-light">{{ .Date.Format "Jan 2, 2006" }}</i>{{ end }}
     </li>
     {{ end }}
   </ul>
-</div>
 
-<hr>
 
-<div class="container">
-  {{ $paginator := .Paginate (where .Data.Pages "Section" "=" "blog") }}
-  {{ range $paginator.Pages }}
-  <div class="mb4">
-    <h1 class="h2"><a href="{{ .URL }}">{{ .Title }}</a></h1>
-    {{ if .Params.date }}<small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>{{ end }}
-    {{ .Content }}
-  </div>
-  {{ end }}
-
-  {{ template "_internal/pagination.html" . }}
 </div>
 
 {{ partial "footer.html" . }}

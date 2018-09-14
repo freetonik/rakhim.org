@@ -1,20 +1,13 @@
-     <footer>
+    </div>
+    <footer>
+       {{if not .IsHome }}
        <p>
         Hello, I'm Rakhim. I teach, program and make podcasts.
-      </p>
+       </p>
 
-      <nav>
-        <p>
-          {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
-          <span class="text-muted"> | </span>
-          {{ end }}
-
-          {{ range .Site.Menus.feed }}
-          <a href="{{ .URL }}">RSS</a>
-          {{end}}
-        <p>
-      </nav>
+       {{ partial "nav.html" . }}
+       <div class="mt4"></div>
+       {{ end }}
 
        <p class="small credits text-muted">
          © Rakhim Davletkaliyev, 2018.<br>
