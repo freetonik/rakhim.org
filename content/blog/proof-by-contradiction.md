@@ -94,7 +94,7 @@ Remember, something like \\(2k + 1\\) is odd, and \\(2k\\) is even. Here we see 
 
 Then, using Theorem 2, we can say that \\(p\\) is even as well, which means we can write \\(p\\) as \\(p = 2k\\). So:
 
-\\[ 2q^2 = p^2 = 4p^2 \\]
+\\[ 2q^2 = p^2 = (2k)^2 \\]
 
 \\[ 2q^2 = 4k^2 \\]
 
