@@ -40,9 +40,20 @@ Today when we say "the population is growing" and "the internet is growing", we 
 
 Millions of people move from powerty to middle class, and they are "the big wave" of new users for technology. If your father died of hunger, but you suddenly found yourself having a job and buying a smartphone, I bet it'll be a long time until you start caring about Android core size and Chrome's render speed. Even if you know a thing or two about technology.
 
+What I'm trying to say is:
+
+1.  Most users in the developed countries are used to bad software.
+2.  Most users in the developing countries are conditioned to bad software from the beginning.
+
+This is weird! An average Western European family has very different notions of "enough food" and "a good job" and "nice life" to an average rural family from a developing country. But when it comes to, say, Android apps, both families have pretty similar experience and expectations, I guess.
+
+Insert equality rhetoric.
+
 Why software 20-40 years ago was actually faster, more stable and nicer to use (as long as you invest some time to RTFM)? Because it wasn't built for the general public ****and**** wasn't built by the general public, it was very limited in both audience and developers.
 
 Today there is no good incentive to make good software unless it's some highly specific professional product.
+
+One can easily interpret this in a wrong way, I believe. Software becoming a mass product is ultimately good, but comes with some harsh transition periods.
 
 >Google Inbox, a web app written by Google, running in Chrome browser also by Google, takes 13 seconds to open moderately-sized emails.
 
