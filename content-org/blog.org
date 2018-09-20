@@ -532,7 +532,8 @@ It seems, individual users don't matter anymore. As long as the final majority o
 I'm all for your "Better world manifesto", sign me up. But I think that developers are not the bottleneck, the users are. We do have the responsibility, but this is an industry change we're talking about, and only markets seem to be able to effectively change industries.
 
 Until we all live in some perfect society, there will be huge markets full of users with "other problems than your stupid app". And as long as it makes economical sense to produce cheap crap, it will be produced.
-** DRAFT A Simple Introduction to Proof by Induction
+** DONE A Simple Introduction to Proof by Induction
+CLOSED: [2018-09-20 Thu 17:18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-induction
 :END:

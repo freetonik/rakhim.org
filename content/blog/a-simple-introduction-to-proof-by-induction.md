@@ -1,7 +1,8 @@
 +++
 title = "A Simple Introduction to Proof by Induction"
 author = ["Rakhim Davletkaliyev"]
-draft = true
+date = 2018-09-20T17:18:00+03:00
+draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++
 
