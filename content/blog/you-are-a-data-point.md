@@ -1,7 +1,8 @@
 +++
 title = "For Google, you're neither the consumer nor the product. You're a data point."
 author = ["Rakhim Davletkaliyev"]
-draft = true
+date = 2018-09-26T14:24:00+03:00
+draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++
 
@@ -31,7 +32,6 @@ What does it mean to be a data point?
 1.  Your personal issues don't matter.
 2.  You, alone, are not valuable.
 3.  You are can be easily replaced.
-4.  You can be discarded at any moment.
 
 While this is a gloomy oversimplification, I believe it's important to recognize the general idea.
 
@@ -91,7 +91,7 @@ Google itself uses your data to grow, but it also uses it for to make money by t
 
 But it's not like Adidas wants _my data_. Or yours. They want a large group that satisfies certain parameters.
 
-{{< figure src="/images/posts/google_data_point/selling_data.jpg" caption="Figure 3: A company sells your data" class="wide" >}}
+{{< figure src="/images/posts/google_data_point/selling_data.jpg" caption="Figure 3: A company sells your data." class="wide" >}}
 
 Of course, companies don't get a .zip-file with names and addresses. They receive the ability to show certain ads to certain people. Google doesn't _sell_ your data, they _sell access_ to your eyes and ears. So, you're not just a product, you're renewable source of products. Your tastes and needs change over time, you can be targeted over and over.
 
@@ -134,7 +134,7 @@ Then there would be no point in complaining. That's a fair deal. Of course, this
 
 If Google said upfront:
 
-> We're giving you a lot of awesome products free of charge. You don't have to pay ever! But we'll collect as much information on you as possible, and if we think that's not enough at some point, we'll add more features and keep changing the services to collect more data. We will use this information to target ads and maybe do something else. Would you like to participate?
+> We're giving you a lot of awesome products free of charge. But we'll collect as much information on you as possible, and if we'll keep changing the services and terms to collect more data. We will use this information to target ads and maybe do something else. Would you like to participate?
 
 That's a fair deal too. You are _free_ to give up anything, as long as you understand what's going on. Of course, this kind of message doesn't survive the path from Terms of Service to The Marketing Department.
 
@@ -155,9 +155,18 @@ Let's summarize:
 
 And as the result:
 
--   We no longer interact with businesses. We interact with the top layer interface of a multi-layered, non-obvious system built with implicit, vague rules.
--   Never before did users' and companies' goals were so unrelated to each other. I usually care if the company is profitable, I want them to survive. But I don't care if the company grows, that is irrelevant to my values.
--   We're constantly playing games we're not aware of.
+-   **We no longer interact with businesses.** We interact with the top layer interface of a multi-layered, non-obvious system built with implicit, vague rules.
+-   Never before were users' and companies' goals so irrelated to each other.
+-   We're constantly **playing games** we're not aware of.
 -   We have to learn to understand the implications of this.
+
+
+## Final words {#final-words}
+
+Not all is bad. This symbiosis can be very benificial for all parties. We can explicitly play roles of consumers, products and data points at the same time, knowing what's happening and being in control. Companies can play whatever games they need to play with us.
+
+Extremely relevant ads and extremely personalized user experiences sound pretty good to me, all the creepiness aside.
+
+Legislation will never catch up in time, so we have to take things into our own hands and learn to live in this brave new world.
 
 [^fn:1]: Rather, a generator of myriads of data points, but "data point" sounds more inhumane and humiliating, so I'll stick to this term for dramatic purposes.
