@@ -49,6 +49,12 @@ hr {
   margin: 2em 0;
 }
 
+p code, li code {
+  background-color: #fbefde;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+
 /* Main container */
 
 .container-fluid {
