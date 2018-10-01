@@ -24,10 +24,7 @@ You can also try Firefox Nightly, it is currently version 64 on the dark side. N
 
 By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
 
-Go to `about:config` in the address bar. Search for `animate` and set at least the following to `false`:
-
--   `cosmeticAnimations`
--
+Go to `about:config` in the address bar. Search for `animate` and set at least  `cosmeticAnimations` to `false`.
 
 Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to `0 0`:
 
