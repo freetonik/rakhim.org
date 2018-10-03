@@ -12,17 +12,23 @@
 
 {{ partial "nav.html" . }}
 
-  <h4>Writing</h4>
-  <ul>
-    {{ range (where .Data.Pages "Section" "=" "blog") }}
-    <li>
-      <a href="{{ .URL }}">{{ .Title }}</a>
-      {{ if .Params.date }}<i class="text-muted text-light">{{ .Date.Format "Jan 2, 2006" }}</i>{{ end }}
-    </li>
+  <section>
+  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    {{ if eq "categories" $taxonomyname }}
+      {{ range $key, $value := $taxonomy }}
+        <h4 class="capitalize">{{ $key }}</h4>
+        <ul>
+        {{ range $value.Pages }}
+          <li>
+            <a href="{{ .URL }}">{{ .Title }}</a>
+            {{ if .Params.date }}<i class="text-muted text-light">{{ .Date.Format "Jan 2, 2006" }}</i>{{ end }}
+          </li>
+        {{ end }}
+        </ul>
+      {{ end }}
     {{ end }}
-  </ul>
-
-
+  {{ end }}
+  </section>
 </div>
 
 {{ partial "footer.html" . }}

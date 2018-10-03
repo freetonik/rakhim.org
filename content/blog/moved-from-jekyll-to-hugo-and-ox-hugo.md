@@ -2,6 +2,7 @@
 title = "Moved from Jekyll to Hugo and ox-hugo"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-03T17:13:00+03:00
+categories = ["software and tools"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++
@@ -24,12 +25,12 @@ This is how it looked like for the most part:
 5.  Write Markdown in Sublime, reload page to see result.
 6.  Push to Github when ready.
 
-Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. Github's support is excellent, but this process is no fun.
+Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
 
 
 ## New setup {#new-setup}
 
-Now I use [Hugo](https://gohugo.io/) static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [EmacsCast episode 2](http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f)) and use [ox-hugo](https://ox-hugo.scripter.co/) to generate Markdown files for Hugo to then generate static html. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
+Now I use [Hugo](https://gohugo.io/) static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [EmacsCast episode 2](http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f)) and use [ox-hugo](https://ox-hugo.scripter.co/) to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
 
 This is how it looks like:
 

@@ -1,6 +1,7 @@
 ---
 date: "2014-12-23T00:00:00Z"
 title: Dreaming of obsession
+categories: ["life"]
 slug: obsession
 tags: ["featured"]
 ---

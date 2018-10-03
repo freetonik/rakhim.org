@@ -2,6 +2,7 @@
 title = "Make Firefox faster and nicer on macOS"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-10-01T13:53:00+03:00
+categories = ["software and tools"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++

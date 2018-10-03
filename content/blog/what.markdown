@@ -1,6 +1,7 @@
 ---
 date: "2016-10-30T00:00:00Z"
 title: What am I doing
+categories: ["uncool"]
 slug: what
 ---
 

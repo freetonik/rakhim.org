@@ -4,6 +4,7 @@ summary: In the past I spent hours asking people in both real life and on the in
   about books they recommend. I was starting to learn programming, so obviously I
   wanted to find **The Bible**, the best book for each of the aspects of coding.
 title: Please, recommend me a book about X
+categories: ["life"]
 slug: books
 tags: ["featured"]
 ---

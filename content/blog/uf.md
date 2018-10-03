@@ -1,6 +1,7 @@
 ---
 date: "2017-01-19T00:00:00Z"
 title: Justify when reducing user's freedom
+categories: ["humane computing"]
 slug: uf
 ---
 

@@ -2,6 +2,7 @@
 title = "RE: Software disenchantment"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-17T23:57:00+03:00
+categories = ["humane computing"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++

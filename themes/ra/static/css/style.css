@@ -247,3 +247,7 @@ a.footnote-return {
 .mb4 {
   margin-bottom: 4rem;
 }
+
+.capitalize {
+  text-transform: capitalize;
+}

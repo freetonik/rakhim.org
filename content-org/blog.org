@@ -5,89 +5,35 @@
 #+PROPERTY: header-args :eval never-export
 #+OPTIONS: creator:t toc:nil
 
-* Blog
-** DONE Moved from Jekyll to Hugo and ox-hugo
-CLOSED: [2018-09-03 Mon 17:13]
+* Drafts                                                           :@xdrafts:
+** TODO It Just Doesn't Work
 :PROPERTIES:
-:EXPORT_FILE_NAME: moved-from-jekyll-to-hugo-and-ox-hugo
+:EXPORT_FILE_NAME: it-just-doesn-t-work
+:END:
+- used to fiddle with tools and apps
+- discovered the world of apple
+- everything gradually became shit
+- now I fiddle with tools and apps to make them work, but the tradeoff is gone, I now invest time and don't get the benefit of autonomy
+** TODO Please, stop telling beginners to always use Git in the command line
+:PROPERTIES:
+:EXPORT_FILE_NAME: please-stop-telling-beginners-to-always-use-git-in-the-command-line
 :END:
 
-I have changed the setup for this blog from Jekyll + Github to Hugo + ox-hugo + Netlify. The main goal was to be able to write blog posts from within Emacs and reduce as much traction as possible. Also, Org mode is much more comfortable to write in compared to any Markdown editor I've tried.
-
-*** Previous setup
-
-I've been using Jekyll and Github pages for a long time, and it was generally a good experience. I don't have big complaints about Jekyll. It can be a bit clunky when it comes to things like tags, but I don't use them anyway. My [[https://rakh.im/][Russian blog]] is still powered by it. One thing that is never fun — the need to manage Ruby environment and dependencies. Some people prefer to encapsulate everything into Docker containers, and I've tried that with Jekyll as well, but the overhead complexity is not worth it.
-
-I was using Sublime Text or sometimes iA writer to write posts. The whole process was full of small steps that added friction. I fully acknowledge that this sounds like "the tools stopped me from being a prolific blogger, if only I had better tools" fallacy.
-
-This is how it looked like for the most part:
-
-1. Go to iTerm, navigate to my blog directory and start Jekyll server.
-2. Open the project in Sublime.
-3. Create a new Markdown file with a correct name (e.g. =2018-01-11-be_bored.md=). I have a bash script to quickly create a new file with some front-matter inserted by default.
-4. Go to browser, reload page, open post.
-5. Write Markdown in Sublime, reload page to see result.
-6. Push to Github when ready.
-
-Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
-
-*** New setup
-
-Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
-
-This is how it looks like:
-
-1. Go to Emacs, open my blog project (one second worth of key strokes thanks to [[https://github.com/bbatsov/projectile][Projectile]] and [[https://github.com/emacs-helm/helm][Helm]], which were also mentioned in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]).
-2. Open shell buffer, start Hugo server, open browser.
-3. Write new post. All posts are stored in a single Org file, so I don't need to create new files. The name of the final Markdown file is generated automatically from the post title.
-4. Save Org file. New post is generated and browser is redirected or refreshed.
-5. When ready, change the Org status of the section to *DONE*.
-6. Use Magit or a single Bash script to add, commit and push files to Github.
-7. Netlify picks up the commit and builds the pages. If something goes wrong, I can see the detailed build logs.
-
-*[[/images/posts/oxhugo.png]]*
-
-And with Org capture I can create a new draft from anywhere in Emacs with two key strokes.
-
-*** Nice things about Hugo
-
-There are several small things that make Hugo nicer than Jekyll for me:
-
-1. With =hugo server -D --navigateToChanged= the browser navigates to the changed file automatically and refreshes the page on each change. No need to refresh the page manually! Instant Markdown preview.
-2. Hugo is distributed via Homebrew, and I don't need to care about Ruby environment and dependencies like I had to with Jekyll.
-3. I have several sites, and Hugo randomizes the port if the default port is in use. A tiny nice detail.
-4. It seems much faster than Jekyll.
-
-*** Nice things about Org and ox-hugo
-
-While this transition was mainly performed due to workcrastination, I'm pretty happy with the results. Hugo itself wouldn't be the reason to switch, it's the combination of Org + ox-hugo + hugo that makes it all worth the hassle.
-
-Writing in Org is arguably a more pleasant experience compared to Markdown. Being able to integrate blogging into the same program that is used for planning, programming and long-form writing is very nice.
-
-The whole blog setup, including this custom theme is available on [[https://github.com/freetonik/rakhim.org][Github]].
-** DONE I no longer care about og tags, twitter cards, etc.
-CLOSED: [2018-09-04 Tue 15:44]
+This week creators of Sublime Text released a GUI client for Git.
+** TODO Why I stopped daily journalling after 5+ years
 :PROPERTIES:
-:EXPORT_FILE_NAME: i-no-longer-care-about-og-tags-twitter-cards-etc
+:EXPORT_FILE_NAME: why-i-stopped-daily-journalling-after-5-years
 :END:
 
-Enough.
+I've been writing a daily journal for more than five years.
+** TODO Web Development From The First Principles
+:PROPERTIES:
+:EXPORT_FILE_NAME: web-development-from-the-first-principles
+:END:
 
-Facebook, Twitter and other social networks have their own markup formats that "enable any web page to become a rich object in a social graph". For the most part it means that if you want to make your link look nice when people share it, you have to set some meta tags.
+I have an idea!
 
-#+BEGIN_SRC html
-<meta property="og:title" content="The Wonderful" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="/images/cover.jpg" />
-#+END_SRC
-
-This is a noble idea in the abstract, and one more attempt at creating semantic web, since you can not only specify titles and cover images for shared links, but detailed meta information as well, like the type of content, authors, dates, etc. Facebook is a for-profit company that just made all the decisions and created their own protocol. It's not open - there is no way for the public to participate in its development, unlike W3C's work. The only reason people are using this protocol is because often their livelihood depends on the amount of traffic that comes from Facebook. Of course they'd like to make their links look good in Facebook posts!
-
-Some other social media sites support og tags with certain quirks. Like, you provide a cover image, but different sites crop them differently because they want consistent media proportions on their side. So, now your content looks link still looks like garbage and #webdesign Medium blog posts are full of "how to make your link look awesome in LinkedIn in 2018" tutorials.
-
-The sheer amount of resources the industry pours into made up problems like that...
-
-I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
+* Life :@life:
 ** DONE Personal finances and controlled anarchy
 CLOSED: [2018-09-07 Fri 12:31]
 :PROPERTIES:
@@ -168,480 +114,119 @@ The "controlled anarchy" system lacks the precision of the previous one, but req
 This is what I call simplification: less decision-making means more energy for the truly important things.
 
 Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
-** DONE Keyboard fanaticism
-CLOSED: [2018-09-10 Mon 16:54]
+
+
+* Software and Tools                                      :@software__and__tools:
+** DONE Moved from Jekyll to Hugo and ox-hugo
+CLOSED: [2018-09-03 Mon 17:13]
 :PROPERTIES:
-:EXPORT_FILE_NAME: keyboard-fanaticism
+:EXPORT_FILE_NAME: moved-from-jekyll-to-hugo-and-ox-hugo
 :END:
 
-I've been reading [[https://sites.google.com/site/steveyegge2/effective-emacs][an article about Emacs]], and this paragraph had nailed me right into the soul:
+I have changed the setup for this blog from Jekyll + Github to Hugo + ox-hugo + Netlify. The main goal was to be able to write blog posts from within Emacs and reduce as much traction as possible. Also, Org mode is much more comfortable to write in compared to any Markdown editor I've tried.
 
-#+BEGIN_QUOTE
-IDE users spend most of their time fumbling around with the mouse. They wouldn't dream of doing it any other way, but they don't realize how inefficient their motions are.
+*** Previous setup
 
-...
+I've been using Jekyll and Github pages for a long time, and it was generally a good experience. I don't have big complaints about Jekyll. It can be a bit clunky when it comes to things like tags, but I don't use them anyway. My [[https://rakh.im/][Russian blog]] is still powered by it. One thing that is never fun — the need to manage Ruby environment and dependencies. Some people prefer to encapsulate everything into Docker containers, and I've tried that with Jekyll as well, but the overhead complexity is not worth it.
 
-Whenever you need to jump the cursor backward or forward more than about 5 lines, and you can see the target location, you should be using i-search.
-...
+I was using Sublime Text or sometimes iA writer to write posts. The whole process was full of small steps that added friction. I fully acknowledge that this sounds like "the tools stopped me from being a prolific blogger, if only I had better tools" fallacy.
 
-Let your eye defocus slightly and take in the whole paragraph or region around the target point, and choose a word that looks reasonably unique or easy to type. Then i-search for it to navigate to it. You may need to hit Ctrl-r or Ctrl-s repeatedly if your anchor word turns out not to be unique.
-#+END_QUOTE
+This is how it looked like for the most part:
 
-This is a common rhetoric: use keyboard only, don't you dare to use the mouse — it's so inefficient!
+1. Go to iTerm, navigate to my blog directory and start Jekyll server.
+2. Open the project in Sublime.
+3. Create a new Markdown file with a correct name (e.g. =2018-01-11-be_bored.md=). I have a bash script to quickly create a new file with some front-matter inserted by default.
+4. Go to browser, reload page, open post.
+5. Write Markdown in Sublime, reload page to see result.
+6. Push to Github when ready.
 
-The scenario in question is simple: you have to move the cursor to some position you see on the screen. Instead of moving your hand to the mouse to move the pointer, the author suggests the following algorithm:
+Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
 
-1. Determine if the place you need to go to is before or after current position. This is non-zero mental work.
-2. Take a look around that point and "choose a word that looks reasonably unique". Perform more mental work of determining which word is unique enough.
-3. If the target is before the current position, use =Ctrl+s=. If it's after, use =Ctrl+r=. This is more or less automatic, but still required mental work of maintaining the mapping between direction and binding.
-4. If your judgement of the uniqueness wasn't good enough, you'll end up somewhere else. Possibly, in a completely different section of the document. Additional mental work — you have to realize what happened, disoriented. Keep hitting =Ctrl+s= or =Ctrl+r=. And you have to keep scanning the surroundings every time you jump until you get where you want.
-5. Okay, you're there! But remember, you've been jumping to a place *near* the target, so now you have to move a bit more — by word or by character.
+*** New setup
 
-#+BEGIN_QUOTE
-Mastering it simply requires that you do it repeatedly until your fingers do it "automatically". Emacs eventually becomes like an extension of your body, and you'll be performing hundreds of different keystrokes and mini-techniques like this one without thinking about them.
-#+END_QUOTE
+Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
 
-While I understand the premise completely, and I occasionally use the same technique, I can’t help but think an advice like that rarely takes into account the trade-off. Yes, moving your hand to the mouse takes time, but it’s not uncommon that the time required is actually *less* than multi key multi step keybinding. Instead of spending a second, two motions and a single click the user is advised to analyze text, make several decisions and hit multiple keys, which might or might not be enough. But hey, you didn't leave the home row, so, win, I guess?..
+This is how it looks like:
 
-I'm not defending the mouse here, but I do think there are occasions where using the mouse is just better *for me*. Too often these articles are trying to make you feel like an unintelligent cave man for daring to use the "device of IDE users".
+1. Go to Emacs, open my blog project (one second worth of key strokes thanks to [[https://github.com/bbatsov/projectile][Projectile]] and [[https://github.com/emacs-helm/helm][Helm]], which were also mentioned in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]).
+2. Open shell buffer, start Hugo server, open browser.
+3. Write new post. All posts are stored in a single Org file, so I don't need to create new files. The name of the final Markdown file is generated automatically from the post title.
+4. Save Org file. New post is generated and browser is redirected or refreshed.
+5. When ready, change the Org status of the section to *DONE*.
+6. Use Magit or a single Bash script to add, commit and push files to Github.
+7. Netlify picks up the commit and builds the pages. If something goes wrong, I can see the detailed build logs.
 
-Also, Emacs packages like [[https://github.com/abo-abo/avy][avy]] or [[https://github.com/hlissner/evil-snipe][evil-snipe]] make jumping to visible text much simpler and cost less mentally.
+*[[/images/posts/oxhugo.png]]*
 
-The vast sea of discussions and advice about programming tools and especially text editing is full of opinions, approaches and cult-like repeated revelations. Often, the loud sounds of the echo chamber make it difficult to stop for a moment and evaluate something yourself. But please do try.
+And with Org capture I can create a new draft from anywhere in Emacs with two key strokes.
 
-It's easy to be indoctrinated.
-** DONE A Simple Introduction to Proof by Contradiction :featured:
-CLOSED: [2018-09-12 Wed 17:49]
+*** Nice things about Hugo
+
+There are several small things that make Hugo nicer than Jekyll for me:
+
+1. With =hugo server -D --navigateToChanged= the browser navigates to the changed file automatically and refreshes the page on each change. No need to refresh the page manually! Instant Markdown preview.
+2. Hugo is distributed via Homebrew, and I don't need to care about Ruby environment and dependencies like I had to with Jekyll.
+3. I have several sites, and Hugo randomizes the port if the default port is in use. A tiny nice detail.
+4. It seems much faster than Jekyll.
+
+*** Nice things about Org and ox-hugo
+
+While this transition was mainly performed due to workcrastination, I'm pretty happy with the results. Hugo itself wouldn't be the reason to switch, it's the combination of Org + ox-hugo + hugo that makes it all worth the hassle.
+
+Writing in Org is arguably a more pleasant experience compared to Markdown. Being able to integrate blogging into the same program that is used for planning, programming and long-form writing is very nice.
+
+The whole blog setup, including this custom theme is available on [[https://github.com/freetonik/rakhim.org][Github]].
+** DONE Make Firefox faster and nicer on macOS
+CLOSED: [2018-10-01 Mon 13:53]
 :PROPERTIES:
-:EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-contradiction
+:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
 :END:
 
-In mathematics, a theorem is a true statement, but the mathematician is expected to be able to prove it rather than take it on faith. The proof is a sequence of mathematical statements, a path from some basic truth to the desired outcome. An impeccable argument, if you will.
+I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
 
-One of the basic techniques is proof by contradiction. Here is the idea:
+Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
 
-1. Assume the statement is false.
-2. Derive a contradiction, a paradox, something that doesn't make sense. This will mean that the statement cannot possibly be false, therefore it's true.
+Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
 
-When I first saw this formal technique, it puzzled me. It didn't seem to be valid: alright, assuming something is false leads to a paradox, so what? We haven't proven that assuming it's true doesn't lead to another paradox! Or even the same paradox, for that matter. What I failed to understand conceptually is that a statement is a binary thing: it's either true or untrue. Nothing in between. So, if one can definitely declare "X is not false", then no other options are left: "X must be true".
+*** Download Firefox 63 or higher
 
-*** Direct proof
+As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
 
-To demonstrate this, let's first use another technique of a /direct proof/ so that we have something to work with.
+You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
 
-*Theorem 1.* If \(n\) is an odd positive integer, then $n^2$ is odd.
+*** Disable animations
 
-A /direct proof/ just goes head in, trying to see what the statement means if we kinda play with it.
+By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
 
-*Proof.* An odd positive integer can be written as \( n = 2k + 1 \), since something like \( 2k \) is even and adding 1 makes it definitely odd. We're interested in what odd squared looks like, so let's square this definition:
+Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
 
-$$ n^2 = (2k + 1)^2 = $$
-$$4k^2 + 4k + 1 = $$
-$$ 2(2k^2 + 2k) + 1 $$
+Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
 
-So, we have this final formula \( 2(2k^2 + 2k) + 1 \) and it follows the pattern of \( 2k + 1 \). This means it's odd! We have a proof. ■
+- =full-screen-api.transition-duration.enter=
+- =full-screen-api.transition-duration.leave=
 
-This theorem is based on an idea that numbers described as \( 2k + 1 \) are definitely odd. This might be another theorem that requires another proof, and that proof might be based on some other theorems. The general idea of mathematics is that if you follow any theorem to the very beginning, you'll meet the fundamental axioms, the basis of everything.
+*** Disable Pocket
 
-Now that we have this proven theorem in our arsenal, let's take a look at another theorem and prove it by contradiction.
+Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
 
-*** Proof by contradiction
+*** Other stuff
 
-*Theorem 2.* \(n\) is a positive integer. If \( n^2 \) is even, then $n$ is even.
+These are not related to performance, but can make your Firefox experience a bit nicer.
 
-We may try to construct another direct proof, but creating paradoxes is much more fun!
+Set to true:
 
-*Proof.* Let's assume that \(n^2\) is even, *but $n$ is odd*. This is the opposite of what we want, and we will show that this scenario is impossible.
+- =modalHighlight= highlight all the search results.
+- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
+- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
+- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
 
-$n$ is odd, and from Theorem 1 we know that $n^2$ must be odd. This doesn't make sense! Our assumption and our conclusion are the opposite. This is a paradox, so the assumption was wrong. Meaning, the idea "\(n^2\) is even, but $n$ is odd" is false. Therefore, the idea "\(n^2\) is even, $n$ is even" is true.■
+Minor things:
 
-*** Famous irrational \( \sqrt{2} \)
+- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
+- =geo.enabled= set to =false= to disable geolocation.
+- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
 
-*Theorem 3.* \( \sqrt{2} \) is irrational.
-
-Woah, this is... different. In the first two theorems we had formulas, something to play with, something physical. This now is just an idea, so how would we even start?
-
-Let's start with a definition.
-
-#+BEGIN_QUOTE
-In mathematics, the irrational numbers are all the real numbers which are not rational numbers.[fn:1]
-#+END_QUOTE
-
-Doesn't seem helpful, but let's continue. What are rational numbers then? Are they some reasonable beings who make optimal decisions all the time?
-
-#+BEGIN_QUOTE
-A rational number is any number that can be expressed as the fraction \(\frac{p}{q}\) of two integers.[fn:2]
-#+END_QUOTE
-
-Oh! They are rational because they are /ratios/!
-
-Just to make things super clear, let's dig one more step and make sure we understand integers.
-
-#+BEGIN_QUOTE
-An integer (from the Latin /integer/ meaning "whole") is a number that can be written without a fractional component. For example, 21, 4, 0, and −2048 are integers, while \(9.75\), \( 5\frac{1}{2} \) and \( \sqrt{2} \) are not.[fn:3]
-#+END_QUOTE
-
-Combining these things, we can construct a comprehensive definition of an irrational number: it's a number that cannot be expressed as the fraction of two whole numbers.
-
-Now, let's apply this to Theorem 3 so that it has some meat:
-
-*Theorem 3.* \( \sqrt{2} \) cannot be expressed as \( \frac{p}{q} \), where $p$ and $q$ are integers.
-
-Alright, now there is something to play with!
-
-*Proof.* Start by assuming the opposite -- \( \sqrt{2} \) is rational. This means it can be written as a fraction of two integers:
-
-$$ \sqrt{2} = \frac{p}{q}\ $$
-
-We can assume that $p$ and $q$ are not *both* even, because if they are, we can reduce them by dividing both by a common factor (like, for example, \( \frac{8}{10}\ \) should be reduced to \( \frac{4}{5}\ \)). In other words, if they are both even, reduce them until at least one is odd and no further reductions are possible.
-
-Now, let's square the square root:
-
-$$ (\sqrt{2})^2 = \frac{p^2}{q^2}\ $$
-
-$$ 2 = \frac{p^2}{q^2}\ $$
-
-$$ p^2 = 2q^2 $$
-
-Remember, something like $2k + 1$ is odd, and $2k$ is even. Here we see this pattern: $p^2 = 2q^2$, which means that $p^2$ is even (it consists of /two/ things).
-
-Then, using Theorem 2, we can say that $p$ is even as well, which means we can write $p$ as $p = 2k$. So:
-
-$$ 2q^2 = p^2 = (2k)^2 $$
-
-$$ 2q^2 = 4k^2 $$
-
-Divide both by two:
-
-$$ q^2 = 2k^2 $$
-
-So, $q^2$ is even. By the same Theorem 2 it follows that $q$ is even.
-
-Let's summarize the two conclusions:
-
-1. $p$ is even.
-2. $q$ is even.
-
-Wait... We made sure that not both $p$ and $q$ are even before starting this whole thing! We made sure to reduce them until at least one is odd, but then, by applying Theorem 2, we ended up with two even numbers. This is impossible, so the idea that "$\sqrt{2}$ is rational" is not true.
-
-Therefore, $\sqrt{2}$ is irrational.■
-
-/P.S. I often use proof by contradiction in real life by arguing that, for example, not eating the whole bucket of ice cream at once will lead to a paradox that endangers the whole fabric of space-time. It works for me, but your mileage my vary./
-
-[fn:1] https://en.wikipedia.org/wiki/Irrational_number
-[fn:2] https://en.wikipedia.org/wiki/Rational_number
-[fn:3] https://en.wikipedia.org/wiki/Integer
-** DONE Dumb Down the Context Until the Problem Goes Away :featured:
-CLOSED: [2018-09-14 Fri 21:10]
-:PROPERTIES:
-:EXPORT_FILE_NAME: dumb-down-the-context-until-the-problem-goes-away
-:END:
-
-At work we use SCSS and HAML, so I rarely write pure HTML and CSS there. But for small side projects and my personal blog I tend to stick with the simplest (and dumbest) possible tools. This week I was working on a refreshed look for this blog. Being a good modern man, I tried to stick with =em= or =rem= for sizing and typography.
-
-Using =em= means adding state to your specs, and I don't like this. Looking at a particular element, it can be impossible to understand what =em= means. So =rem= it is.
-
-The value =rem= is "equal to the computed value of font-size on the root element", so starting with this:
-
-#+BEGIN_SRC
-html {
-  font-size: 21px;
-}
-#+END_SRC
-
-we suppose to get a universal and stable variable. =10rem= now means =210px=. Cool? Not so much.
-
-I wrote a simple media query to make headers smaller on narrow screens:
-
-#+BEGIN_SRC
-@media (max-width: 34rem) {
-  h1 {
-    font-size: 2.369rem;
-  }
-}
-#+END_SRC
-
-But it doesn't work at the specified break point of =34rem = 714px=. Turns out that in media queries =rem= means "initial value of font-size", as per spec[fn:1]. It's =16px= in most browsers.
-
-You have two lines of code near one another, and the same symbol means different things. Check out this [[https://fvsch.com/browser-bugs/rem-mediaquery/][demonstration]]. And you dare to complain about mutations in your imperative programming language!
-
-[[https://adamwathan.me/dont-use-em-for-media-queries/][Using =em='s in media queries brings problems]] as well. So, in the end, pixels are the only units that behave consistently across all browsers and don't add hidden qualities to your styles.
-
-I then thought okay, I can get around this problem by using =calc=, which seems to be supported in all browsers nowadays.  Nope, it doesn't work in media queries.
-
-The first thought that came after that is almost a reflex for many web developers alike: just use some tools on top of this ugly and inconsistent language!
-
-A pre-compiler like SCSS provides variables and calculations and other sweet features. It can seamlessly generate final CSS if you enable a watcher, or even better, set up something like Gulp or Webpack (oh, god). But then it'll be kind of difficult to use the web inspector in the browser, since it shows the final CSS, but I never work with it directly.
-
-Oh, no worries, you can generate source maps for SASS/SCSS. Magic[fn:2]!
-
-But wait... While this solves my problem, it adds a tremendous amount of complexity. Is it worth it? Clearly, not in my case, but for a huges project like Hexlet at my main job it clearly does. Where is the threshold? How does one know when it's worth to invest into a set of new abstractions that comes with their own quirks and problems?
-
-It's a difficult question, but for me and my small projects I found it important to remind myself: resist complexity at all costs, resist adding new things into the system. If my problem asks for a solution that involves additional tools or systems, first and foremost consider dumbing the whole thing down so that the problem goes away. By regressing to pixels, which are so "not modern", I managed to avoid a whole bag of cruft being put on top of this primitive project. The system became dumber. It's a win for me.
-
-This is a weak example, I agree, so let me provide another one. Few years ago I needed to launch a small wiki site. Many popular wiki engines (like MediaWiki) are way too complex and feature-rich, so I looked for simpler alternatives. I found a nice Ruby library[fn:3] and spend few hours setting it up, providing custom templates and styles. I was happy with the result, but then I found myself daunted by the worst part: deploy and maintenance.
-
-Of course, setting up a server by hand is a no-no, so I had to write an Ansible recipe for Ubuntu Rails environment. Accidental complexity involved in this problem became so large I started forgetting what I was trying to achieve.
-
-It took me some time to realize that the primary audience for this wiki will actually be much more comfortable editing text directly via Git rather than fiddle with a web interface. And if it's hosted on GitHub, I don't have to worry about authorization and accounts. I still needed it to run on my domain with some specific HTML, so I just made a simple Jekyll site and provided links to quickly edit and send pull requests via GitHub.
-
-I had problems associated with deployment and maintenance, and instead of adding tools as solutions, I dumbed the whole context so that the problems went away.
-
-Note that these problems are often of accidental complexity type. Intrinsic, real problems don't surrender this easily.
-
-If playing with lots of inter operating tools is fun, by all means go for it. As long as you /remember/ and /realize/ what is going on. Complexity is not inherently bad, it's just sort of cunning when you're not mindful.
-
-[fn:1] https://www.w3.org/TR/css3-mediaqueries/
-[fn:2] https://robots.thoughtbot.com/sass-source-maps-chrome-magic
-[fn:3] https://github.com/gollum/gollum
-** TODO It Just Doesn't Work
-:PROPERTIES:
-:EXPORT_FILE_NAME: it-just-doesn-t-work
-:END:
-- used to fiddle with tools and apps
-- discovered the world of apple
-- everything gradually became shit
-- now I fiddle with tools and apps to make them work, but the tradeoff is gone, I now invest time and don't get the benefit of autonomy
-** DONE RE: Software disenchantment
-CLOSED: [2018-09-17 Mon 23:57]
-:PROPERTIES:
-:EXPORT_FILE_NAME: re-software-disenchantment
-:END:
-
-Nikita just published [[http://tonsky.me/blog/disenchantment/][Software disenchantment]], and here is my rant-y reply. Please, read his post first.
-
-TL;DR: I agree with Nikita and I am equally frustrated with the current state of the industry. We started [[https://grumpy.website/][grumpy.website]] together, after all. But I don't believe that situation will significantly improve until the general public's standards increase. Along with the responsibility to make better software, we have a responsibility to educate the public, so that they don't get used to the idea that computers suck.
-
----
-
->Would you buy a car if it eats 100 liters per 100 kilometers? How about 1000 liters? With computers, we do that all the time.
-
-The thing is — yes, people would. It all comes to the micro economic level. If a car eats 1000 liters per 100 km and fuel is cheap (and cars hold enough liters to drive around everyday), people will buy them, use them and rarely think about it. Just like they do it today with 6 liters per 100km cars and don't think about how the combustion engine system is inefficient in terms of pure energy output. A lot of that energy goes into useless heat and noise. 6 liters of matter has the potential to fuel the planet for weeks if we were to extract it efficiently.
-
-It doesn't matter if something is efficient or optimal when it comes to general consumer market. And, whether you like it or not, technology and software is now in the general consumer market, in the same area with clothing, cars and such.
-
-Have you been noticing how annoying the clothing industry is? Home items? Furniture? I've never seen a laundry detergent or a hand cream bottle that wasn't downright obnoxious. I've used a potato chips package that was /easy to use/. It's everywhere: unusable, badly designed, over bloated with unnecessary solutions and optimized for marketing and fast development, not for good use. The things you're describing are not specific to software, it's about design in general.
-
-The only places where things are truly not too damn awful are some parts of military and super high level industrial solutions, where stakes are wa-a-a-a-y higher and general consumer is a non-existent agent altogether.
-
->Yet half of webpages struggle to maintain smooth 60fps scroll on the latest top-of-the-line MacBook Pro.
-
-You care, I care, but most people don't. Not because they're stupid, they just don't notice these things. And we can dream all day long that engineers finally wake up and realize the scale of the crap-monster we've been building for years, but I don't think any significant change will happen until the general population starts to care.
-
-I've seen this just a few weeks ago: a professional marketing specialist is using a high end laptop with some bloatware in the browser. Forget 60fps, his pages were doing 10-12 fps at best, /and/ every time he moved the cursor to close a tab, an antivirus popup appeared on top of the button. He says "damn!", moves the cursor away, then slowly moves it back again from a specific angle, carefully trying not to invoke that popup. He succeeds and carries on with his task. I asked him, it's been months like that. Hundreds of times. Every day. He just doesn't know better, this is /what computers are/.
-
-When a car makes barely works, we think it needs to be fixed asap. When a computer barely works, we think "those damn computers!".
-
-The things that contributed to your depression are often minor annoyances to the people. Sorry. This whole statement is a good catalyst for a whole another mental issue, fuck.
-
-This is why I stopped pleading to the developers and started pleading to the users. I want users to demand more and be angrier with the promise of computing.
-
-But this is a wrong battle anyway, I think. You, me and our peers are in the 0.1% of the world population when it comes to opportunity, wealth and availability of technology. We care about browsers' fps because we don't think about whether or not our children will eat tomorrow. Not to dwell on the "first world problems", this is how global economy works.
-
-Today when we say "the population is growing" and "the internet is growing", we actually mean "China, Asia and Africa are growing and connecting to the global economy and the internet". Software industry is as global as globalization goes, and, like any other industry, it often adapts to the lowest denominator with the best margins.
-
-Millions of people move from powerty to middle class, and they are "the big wave" of new users for technology. If your father died of hunger, but you suddenly found yourself having a job and buying a smartphone, I bet it'll be a long time until you start caring about Android core size and Chrome's render speed. Even if you know a thing or two about technology.
-
-What I'm trying to say is:
-
-1. Most users in the developed countries are used to bad software.
-2. Most users in the developing countries are conditioned to bad software from the beginning.
-
-This is weird! An average Western European family has very different notions of "enough food" and "a good job" and "nice life" to an average rural family from a developing country. But when it comes to, say, Android apps, both families have pretty similar experience and expectations, I guess.
-
-Insert equality rhetoric.
-
-Why software 20-40 years ago was actually faster, more stable and nicer to use (as long as you invest some time to RTFM)? Because it wasn't built for the general public **and** wasn't built by the general public, it was very limited in both audience and developers.
-
-Today there is no good incentive to make good software unless it's some highly specific professional product.
-
-One can easily interpret this in a wrong way, I believe. Software becoming a mass product is ultimately good, but comes with some harsh transition periods.
-
->Google Inbox, a web app written by Google, running in Chrome browser also by Google, takes 13 seconds to open moderately-sized emails.
-
-Well, Google inbox is discontinued next Spring, so, that's not a problem anymore. Especially for Google.
-
-But, here comes my second point: even if you care about this stuff, you still use it, and as far as Google is concerned, that's a success. I asked you recently why did you switch away from Firefox back to Chrome, even though so many Google's design decisions are appalling for you and me. And I knew the answer: we don't have much choice. There are just a handful of alternatives, and everything is bad.
-
-Individual developers at Google will probably agree with you, they probably care a lot about all that stuff. But Google-the-company is not the collection of those developers, it's another organism altogether. That organism, just like any other evolutionary being in a competitive global economy, tries to do the least to get the most. It's a corporation, it wants to make... no, scratch that, it wants to _have_ money, but not necessarily _make_ it.
-
->Windows 10 takes 30 minutes to update. What could it possibly be doing for that long?
-
-Yeah, so? Is Microsoft having any difficulties because of that? Maybe, but I don't think they believe that. What can you do? Switch to Linux, ha?
-
-Yeah, if that update takes 24 hours, I bet not much changes, people will still use it, because for the majority of people Windows = Computers. It's not "windows is slow", it's "this is what computers are".
-
-And organizations will develop special routines and systems to deal with that "intrinsic nature of computation": have "windows update" weeks. As long as everybody in the world suffers, there is no competitive advantage of having faster updates. Or better software.
-
->Android system with no apps takes almost 6 Gb. Just think for a second how obscenely HUGE that number is.
-
-Look at plastic and garbage in general. The amount of packaging is staggering, but only a handful of activists care. It's hidden and doesn't really affect us. Yeah, you need larger garbage bins, whatever. Just buy them.
-
-Just like you need a larger SD card or a new phone. Just buy them.
-
----
-
-My third point is that software industry consists of amateurs, mostly (see https://rakhim.org/2018/07/software-shouldnt-fail/).
-
-/"The Web was the first global technological phenomena that was built and maintained by the amateurs. Computer hardware, software, and the internet itself were built by mathematicians and engineers. The Web was built by people like me."/
-
-And that middle class thing comes into play again. Being an amateur web developer is a way to bring your family out of poverty for many people. See success stories of many boot camps and such. If I couldn't provide for my family, but then I learned how to combine 10000 node modules into an electron app, and some company pays me money for that, I will happily make a lot of electron apps long before I start worrying about problems that most of the users don't have.
-
-Bad sofware design and bad UX are ethically acceptable.
-
-The machine is self-supporting and recursive: the more amateurs build software, the more developers we need to support it, thus creating more demand for new people becoming developers ASAP. More amateurs building software creates more amateurs building software.
-
-Keep in mind that this is a net positive result for the individual lives of people and communities in the short term, even though it /might/ be a net negative for the civilization at large. Considering this, talking about this is very difficult.
-
->A 3D game can fill whole screen with hundreds of thousands (!!!) of polygons in the same 16ms and also process input, recalculate the world and dynamically load/unload resources. How come?
-
-Several things:
-
-1. Gamers *care*. See millions of views and comments to videos about minor differences in gaming performance.
-2. A game costs 60€. People can return games if they're slow or bad (because they care). An iPhone/Android app costs cents. You can't return them. Free apps cost nothing and have miniscule margins of profit for devs (ads).
-3. Slow games are actully unusable. You can't play at 15fps, it's just physically uncomfortable. But reading web at 10fps is, well, like Kindle. It's fine.
-
-Another big idea about games I wanted to refer to is console games. This is the industry we can learn a lot from! Unlike PC games, console games seem to be much more stable. Because when Sony unveils a new PS, it says "this thing is THE console for the next 8 years. Have fun!"
-
-Game devs know the schedule, and can take their time to tailor code to that particular, immutable and stable system. This is why every year new console games look better and better, even though the underlying hardware doesn't change at all. Devs squeeze the shit out of the resources.
-
-Compare first PS3 games and last PS3 games. It's crazy. Same hardware!
-
-Web developers don't care that much, next year their product will probably work faster (given it doesn't break due to browser update or API deprecation), because next year the average smartphone CPU will be faster.
-
->A simple text chat is notorious for its load speed and memory consumption. Yes, you really have to count Slack in as a resource-heavy application. I mean, chatroom and barebones text editor, those are supposed to be two of the less demanding apps in the whole world. Welcome to 2018.
-
-Notice how the biggest and probably one of the most complex software projects in the history is being developed without Slack. Those Linux kernel devs, how can they work like that?! Without real time chat! Without Slack integration with CI and github?! Without notifications?! They still communicate via email, those weirdos!!!
-
-I often hear this: "Slack is great because of integrations, we see errors and status updates and CI live in our chat!".
-
-When the whole world is updating like crazy because everyone else is doing this, not necessarily because it's intrinsically good for the users, and the teams have to grow big to cope with the speed, and the technology has to be fragile and complex because Lean and Agile... you have no choice but to monitor and react to the system updates like a team of military doctors.
-
-This doesn't make Slack an intrinsically good product. But it's **necessery** given the state of things.
-
-*"This complex portable surgeon robot is great, it allows us to move fast every time we shoot ourselves in the foot!"*
-
-So, you can't make truly good apps because you're a team of amateurs in the world full of similar competition, and to be able to move you NEED slack. If slack is 2x slower tomorrow, you take it, you NEED it.
-
->Nobody understands anything at this point. Neither they want to. We just throw barely baked shit out there, hope for the best and call it “startup wisdom”.
-
-Yup. 100% this.
-
-It seems, individual users don't matter anymore. As long as the final majority of users end up in the "okay, I guess it works" state, we're golden.
-
-I'm all for your "Better world manifesto", sign me up. But I think that developers are not the bottleneck, the users are. We do have the responsibility, but this is an industry change we're talking about, and only markets seem to be able to effectively change industries.
-
-Until we all live in some perfect society, there will be huge markets full of users with "other problems than your stupid app". And as long as it makes economical sense to produce cheap crap, it will be produced.
-** DONE A Simple Introduction to Proof by Induction
-CLOSED: [2018-09-20 Thu 17:18]
-:PROPERTIES:
-:EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-induction
-:END:
-
-Now that you're familiar with [[/2018/09/a-simple-introduction-to-proof-by-contradiction/][direct proof and proof by contradiction]], it's time to discover a powerful technique of proof by induction.
-
-/Aside: do not confuse mathematical induction with inductive or deductive reasoning. Despite the name, mathematical induction is actually a form of deductive reasoning./
-
-Let's say, we want to prove that some statement $P$ is true for all positive integers. In other words:
-
-$P(1)$ is true, $P(2)$ is true, $P(3)$ is true... etc.
-
-We could try and prove each one directly or by contradiction, but the infinite number of positive integers makes this task rather grueling. Proof by induction is a sort of generalization that starts with the basis:
-
-*Basis:* Prove that $P(1)$ is true.
-
-Then makes one generic step that can be applied indefinitely:
-
-*Induction step:* Prove that for all $n\geq1$, the following statement holds: If $P(n)$ is true, then $P(n+1)$ is also true.
-
-See what we did there? We've devised another problem to solve, and it's seemingly the same. But if the basis is true, then proving this /inductive step/ will prove the theorem.
-
-To do this, we chose an arbitrary $n\geq1$ and assume that $P(n)$ is true. This assumption is called the /inductive hypothesis/. The tricky part is this: we don't prove the hypothesis directly, but prove the $n+1$ version of it.
-
-This is all rather amorphous, so let's prove a real theorem.
-
-*Theorem 1.* For all positive integers $n$, the following is true:
-
-\begin{equation}
-\label{eq:1}
-1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}
-\end{equation}
-
-*Proof*. Start with the basis when $n$ is $1$. Just calculate it:
-
-$$ 1 = \frac{1(1+1)}{2}. $$
-
-This is correct, so, the basis is proven. Now, assume that the theorem is true for any $n\geq1$:
-
-\begin{equation}
-\label{eq:2}
-1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}
-\end{equation}
-
-In the induction step we have to prove that it's true for $n+1$:
-
-\begin{equation}
-\label{eq:3}
-1 + 2 + 3 + ... + (n+1) = \frac{(n+1)(n+2)}{2}
-\end{equation}
-
-
-Having this equation, we should just try to expand it and prove directly. Since the last member on the left side is $n+1$, the second last must be $n$, so:
-
-$$ 1 + 2 + 3 + ... + (n + 1) = 1 + 2 + 3 + ... + n + (n+1) $$
-
-From our assumption, we know, that
-
-$$ 1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}. $$
-
-So, let's replace it on the right hand side:
-
-$$ 1 + 2 + 3 + ... + (n + 1) = \frac{n(n+1)}{2} + (n+1) $$
-
-And then make that addition so that the right hand side is a single fraction:
-
-$$ 1 + 2 + 3 + ... + (n + 1) = \frac{n(n+1)}{2} + \frac{2(n+1)}{2} $$
-
-$$ = \frac{n(n+1) + 2(n+1)}{2} $$
-
-$$ = \frac{(n+1)(n+2)}{2}. $$
-
-Done, we have proven that the inductive step (\ref{eq:3}) is true.
-
-There are two results:
-
-1. The theorem is true for $n=1$.
-2. If the theorem is true for any $n$, then it's also true for $n+1$.
-
-Combining these two results we can conclude that the theorem is true for all positive integers $n$.
-
------
-
-I had troubles with this technique because for a long time I couldn't for the life of me understand why is this /enough/ and how is the basis /helping/?! The basis seemed redundant. We assume $P(n)$ is true, then prove that $P(n+1)$ is true given that $P(n)$ is true, but so what? We didn't prove the thing we assumed!
-
-It clicked after I understood that we don't have to prove $P(n)$, we just take the concrete value from the basis and use it as $n$. Since we have a proof of $P(n+1)$ being true *if* $P(n)$ is true, we conclude that if $P(1)$ is true, then $P(1+1)$ is true.
-
-Well, if $P(1+1)$ is true, then, using the same idea, $P(1+1+1)$ is true, and so forth.
-
-The basis was the cheat-code to kick-start the process by avoiding the need to prove the assumption \ref{eq:2}.
-** TODO Please, stop telling beginners to always use Git in the command line
-:PROPERTIES:
-:EXPORT_FILE_NAME: please-stop-telling-beginners-to-always-use-git-in-the-command-line
-:END:
-
-This week creators of Sublime Text released a GUI client for Git.
-** TODO Why I stopped daily journalling after 5+ years
-:PROPERTIES:
-:EXPORT_FILE_NAME: why-i-stopped-daily-journalling-after-5-years
-:END:
-
-I've been writing a daily journal for more than five years.
-** TODO Web Development From The First Principles
-:PROPERTIES:
-:EXPORT_FILE_NAME: web-development-from-the-first-principles
-:END:
-
-I have an idea!
+* Humane computing                                   :@humane__computing:
 ** DONE For Google, you're neither the consumer nor the product. You're a data point.
 CLOSED: [2018-09-26 Wed 14:24]
 :PROPERTIES:
@@ -810,52 +395,479 @@ Extremely relevant ads and extremely personalized user experiences sound pretty 
 Legislation will never catch up in time, so we have to take things into our own hands and learn to live in this brave new world.
 
 [fn:1] Rather, a generator of myriads of data points, but "data point" sounds more inhumane and humiliating, so I'll stick to this term for dramatic purposes.
-** DONE Make Firefox faster and nicer on macOS
-CLOSED: [2018-10-01 Mon 13:53]
+** DONE RE: Software disenchantment
+CLOSED: [2018-09-17 Mon 23:57]
 :PROPERTIES:
-:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
+:EXPORT_FILE_NAME: re-software-disenchantment
 :END:
 
-I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
+Nikita just published [[http://tonsky.me/blog/disenchantment/][Software disenchantment]], and here is my rant-y reply. Please, read his post first.
 
-Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
+TL;DR: I agree with Nikita and I am equally frustrated with the current state of the industry. We started [[https://grumpy.website/][grumpy.website]] together, after all. But I don't believe that situation will significantly improve until the general public's standards increase. Along with the responsibility to make better software, we have a responsibility to educate the public, so that they don't get used to the idea that computers suck.
 
-Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
+---
 
-*** Download Firefox 63 or higher
+>Would you buy a car if it eats 100 liters per 100 kilometers? How about 1000 liters? With computers, we do that all the time.
 
-As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
+The thing is — yes, people would. It all comes to the micro economic level. If a car eats 1000 liters per 100 km and fuel is cheap (and cars hold enough liters to drive around everyday), people will buy them, use them and rarely think about it. Just like they do it today with 6 liters per 100km cars and don't think about how the combustion engine system is inefficient in terms of pure energy output. A lot of that energy goes into useless heat and noise. 6 liters of matter has the potential to fuel the planet for weeks if we were to extract it efficiently.
 
-You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
+It doesn't matter if something is efficient or optimal when it comes to general consumer market. And, whether you like it or not, technology and software is now in the general consumer market, in the same area with clothing, cars and such.
 
-*** Disable animations
+Have you been noticing how annoying the clothing industry is? Home items? Furniture? I've never seen a laundry detergent or a hand cream bottle that wasn't downright obnoxious. I've used a potato chips package that was /easy to use/. It's everywhere: unusable, badly designed, over bloated with unnecessary solutions and optimized for marketing and fast development, not for good use. The things you're describing are not specific to software, it's about design in general.
 
-By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
+The only places where things are truly not too damn awful are some parts of military and super high level industrial solutions, where stakes are wa-a-a-a-y higher and general consumer is a non-existent agent altogether.
 
-Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
+>Yet half of webpages struggle to maintain smooth 60fps scroll on the latest top-of-the-line MacBook Pro.
 
-Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
+You care, I care, but most people don't. Not because they're stupid, they just don't notice these things. And we can dream all day long that engineers finally wake up and realize the scale of the crap-monster we've been building for years, but I don't think any significant change will happen until the general population starts to care.
 
-- =full-screen-api.transition-duration.enter=
-- =full-screen-api.transition-duration.leave=
+I've seen this just a few weeks ago: a professional marketing specialist is using a high end laptop with some bloatware in the browser. Forget 60fps, his pages were doing 10-12 fps at best, /and/ every time he moved the cursor to close a tab, an antivirus popup appeared on top of the button. He says "damn!", moves the cursor away, then slowly moves it back again from a specific angle, carefully trying not to invoke that popup. He succeeds and carries on with his task. I asked him, it's been months like that. Hundreds of times. Every day. He just doesn't know better, this is /what computers are/.
 
-*** Disable Pocket
+When a car makes barely works, we think it needs to be fixed asap. When a computer barely works, we think "those damn computers!".
 
-Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
+The things that contributed to your depression are often minor annoyances to the people. Sorry. This whole statement is a good catalyst for a whole another mental issue, fuck.
 
-*** Other stuff
+This is why I stopped pleading to the developers and started pleading to the users. I want users to demand more and be angrier with the promise of computing.
 
-These are not related to performance, but can make your Firefox experience a bit nicer.
+But this is a wrong battle anyway, I think. You, me and our peers are in the 0.1% of the world population when it comes to opportunity, wealth and availability of technology. We care about browsers' fps because we don't think about whether or not our children will eat tomorrow. Not to dwell on the "first world problems", this is how global economy works.
 
-Set to true:
+Today when we say "the population is growing" and "the internet is growing", we actually mean "China, Asia and Africa are growing and connecting to the global economy and the internet". Software industry is as global as globalization goes, and, like any other industry, it often adapts to the lowest denominator with the best margins.
 
-- =modalHighlight= highlight all the search results.
-- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
-- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
-- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
+Millions of people move from powerty to middle class, and they are "the big wave" of new users for technology. If your father died of hunger, but you suddenly found yourself having a job and buying a smartphone, I bet it'll be a long time until you start caring about Android core size and Chrome's render speed. Even if you know a thing or two about technology.
 
-Minor things:
+What I'm trying to say is:
 
-- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
-- =geo.enabled= set to =false= to disable geolocation.
-- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
+1. Most users in the developed countries are used to bad software.
+2. Most users in the developing countries are conditioned to bad software from the beginning.
+
+This is weird! An average Western European family has very different notions of "enough food" and "a good job" and "nice life" to an average rural family from a developing country. But when it comes to, say, Android apps, both families have pretty similar experience and expectations, I guess.
+
+Insert equality rhetoric.
+
+Why software 20-40 years ago was actually faster, more stable and nicer to use (as long as you invest some time to RTFM)? Because it wasn't built for the general public **and** wasn't built by the general public, it was very limited in both audience and developers.
+
+Today there is no good incentive to make good software unless it's some highly specific professional product.
+
+One can easily interpret this in a wrong way, I believe. Software becoming a mass product is ultimately good, but comes with some harsh transition periods.
+
+>Google Inbox, a web app written by Google, running in Chrome browser also by Google, takes 13 seconds to open moderately-sized emails.
+
+Well, Google inbox is discontinued next Spring, so, that's not a problem anymore. Especially for Google.
+
+But, here comes my second point: even if you care about this stuff, you still use it, and as far as Google is concerned, that's a success. I asked you recently why did you switch away from Firefox back to Chrome, even though so many Google's design decisions are appalling for you and me. And I knew the answer: we don't have much choice. There are just a handful of alternatives, and everything is bad.
+
+Individual developers at Google will probably agree with you, they probably care a lot about all that stuff. But Google-the-company is not the collection of those developers, it's another organism altogether. That organism, just like any other evolutionary being in a competitive global economy, tries to do the least to get the most. It's a corporation, it wants to make... no, scratch that, it wants to _have_ money, but not necessarily _make_ it.
+
+>Windows 10 takes 30 minutes to update. What could it possibly be doing for that long?
+
+Yeah, so? Is Microsoft having any difficulties because of that? Maybe, but I don't think they believe that. What can you do? Switch to Linux, ha?
+
+Yeah, if that update takes 24 hours, I bet not much changes, people will still use it, because for the majority of people Windows = Computers. It's not "windows is slow", it's "this is what computers are".
+
+And organizations will develop special routines and systems to deal with that "intrinsic nature of computation": have "windows update" weeks. As long as everybody in the world suffers, there is no competitive advantage of having faster updates. Or better software.
+
+>Android system with no apps takes almost 6 Gb. Just think for a second how obscenely HUGE that number is.
+
+Look at plastic and garbage in general. The amount of packaging is staggering, but only a handful of activists care. It's hidden and doesn't really affect us. Yeah, you need larger garbage bins, whatever. Just buy them.
+
+Just like you need a larger SD card or a new phone. Just buy them.
+
+---
+
+My third point is that software industry consists of amateurs, mostly (see https://rakhim.org/2018/07/software-shouldnt-fail/).
+
+/"The Web was the first global technological phenomena that was built and maintained by the amateurs. Computer hardware, software, and the internet itself were built by mathematicians and engineers. The Web was built by people like me."/
+
+And that middle class thing comes into play again. Being an amateur web developer is a way to bring your family out of poverty for many people. See success stories of many boot camps and such. If I couldn't provide for my family, but then I learned how to combine 10000 node modules into an electron app, and some company pays me money for that, I will happily make a lot of electron apps long before I start worrying about problems that most of the users don't have.
+
+Bad sofware design and bad UX are ethically acceptable.
+
+The machine is self-supporting and recursive: the more amateurs build software, the more developers we need to support it, thus creating more demand for new people becoming developers ASAP. More amateurs building software creates more amateurs building software.
+
+Keep in mind that this is a net positive result for the individual lives of people and communities in the short term, even though it /might/ be a net negative for the civilization at large. Considering this, talking about this is very difficult.
+
+>A 3D game can fill whole screen with hundreds of thousands (!!!) of polygons in the same 16ms and also process input, recalculate the world and dynamically load/unload resources. How come?
+
+Several things:
+
+1. Gamers *care*. See millions of views and comments to videos about minor differences in gaming performance.
+2. A game costs 60€. People can return games if they're slow or bad (because they care). An iPhone/Android app costs cents. You can't return them. Free apps cost nothing and have miniscule margins of profit for devs (ads).
+3. Slow games are actully unusable. You can't play at 15fps, it's just physically uncomfortable. But reading web at 10fps is, well, like Kindle. It's fine.
+
+Another big idea about games I wanted to refer to is console games. This is the industry we can learn a lot from! Unlike PC games, console games seem to be much more stable. Because when Sony unveils a new PS, it says "this thing is THE console for the next 8 years. Have fun!"
+
+Game devs know the schedule, and can take their time to tailor code to that particular, immutable and stable system. This is why every year new console games look better and better, even though the underlying hardware doesn't change at all. Devs squeeze the shit out of the resources.
+
+Compare first PS3 games and last PS3 games. It's crazy. Same hardware!
+
+Web developers don't care that much, next year their product will probably work faster (given it doesn't break due to browser update or API deprecation), because next year the average smartphone CPU will be faster.
+
+>A simple text chat is notorious for its load speed and memory consumption. Yes, you really have to count Slack in as a resource-heavy application. I mean, chatroom and barebones text editor, those are supposed to be two of the less demanding apps in the whole world. Welcome to 2018.
+
+Notice how the biggest and probably one of the most complex software projects in the history is being developed without Slack. Those Linux kernel devs, how can they work like that?! Without real time chat! Without Slack integration with CI and github?! Without notifications?! They still communicate via email, those weirdos!!!
+
+I often hear this: "Slack is great because of integrations, we see errors and status updates and CI live in our chat!".
+
+When the whole world is updating like crazy because everyone else is doing this, not necessarily because it's intrinsically good for the users, and the teams have to grow big to cope with the speed, and the technology has to be fragile and complex because Lean and Agile... you have no choice but to monitor and react to the system updates like a team of military doctors.
+
+This doesn't make Slack an intrinsically good product. But it's **necessery** given the state of things.
+
+*"This complex portable surgeon robot is great, it allows us to move fast every time we shoot ourselves in the foot!"*
+
+So, you can't make truly good apps because you're a team of amateurs in the world full of similar competition, and to be able to move you NEED slack. If slack is 2x slower tomorrow, you take it, you NEED it.
+
+>Nobody understands anything at this point. Neither they want to. We just throw barely baked shit out there, hope for the best and call it “startup wisdom”.
+
+Yup. 100% this.
+
+It seems, individual users don't matter anymore. As long as the final majority of users end up in the "okay, I guess it works" state, we're golden.
+
+I'm all for your "Better world manifesto", sign me up. But I think that developers are not the bottleneck, the users are. We do have the responsibility, but this is an industry change we're talking about, and only markets seem to be able to effectively change industries.
+
+Until we all live in some perfect society, there will be huge markets full of users with "other problems than your stupid app". And as long as it makes economical sense to produce cheap crap, it will be produced.
+** DONE Dumb Down the Context Until the Problem Goes Away
+CLOSED: [2018-09-14 Fri 21:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: dumb-down-the-context-until-the-problem-goes-away
+:END:
+
+At work we use SCSS and HAML, so I rarely write pure HTML and CSS there. But for small side projects and my personal blog I tend to stick with the simplest (and dumbest) possible tools. This week I was working on a refreshed look for this blog. Being a good modern man, I tried to stick with =em= or =rem= for sizing and typography.
+
+Using =em= means adding state to your specs, and I don't like this. Looking at a particular element, it can be impossible to understand what =em= means. So =rem= it is.
+
+The value =rem= is "equal to the computed value of font-size on the root element", so starting with this:
+
+#+BEGIN_SRC
+html {
+  font-size: 21px;
+}
+#+END_SRC
+
+we suppose to get a universal and stable variable. =10rem= now means =210px=. Cool? Not so much.
+
+I wrote a simple media query to make headers smaller on narrow screens:
+
+#+BEGIN_SRC
+@media (max-width: 34rem) {
+  h1 {
+    font-size: 2.369rem;
+  }
+}
+#+END_SRC
+
+But it doesn't work at the specified break point of =34rem = 714px=. Turns out that in media queries =rem= means "initial value of font-size", as per spec[fn:1]. It's =16px= in most browsers.
+
+You have two lines of code near one another, and the same symbol means different things. Check out this [[https://fvsch.com/browser-bugs/rem-mediaquery/][demonstration]]. And you dare to complain about mutations in your imperative programming language!
+
+[[https://adamwathan.me/dont-use-em-for-media-queries/][Using =em='s in media queries brings problems]] as well. So, in the end, pixels are the only units that behave consistently across all browsers and don't add hidden qualities to your styles.
+
+I then thought okay, I can get around this problem by using =calc=, which seems to be supported in all browsers nowadays.  Nope, it doesn't work in media queries.
+
+The first thought that came after that is almost a reflex for many web developers alike: just use some tools on top of this ugly and inconsistent language!
+
+A pre-compiler like SCSS provides variables and calculations and other sweet features. It can seamlessly generate final CSS if you enable a watcher, or even better, set up something like Gulp or Webpack (oh, god). But then it'll be kind of difficult to use the web inspector in the browser, since it shows the final CSS, but I never work with it directly.
+
+Oh, no worries, you can generate source maps for SASS/SCSS. Magic[fn:2]!
+
+But wait... While this solves my problem, it adds a tremendous amount of complexity. Is it worth it? Clearly, not in my case, but for a huges project like Hexlet at my main job it clearly does. Where is the threshold? How does one know when it's worth to invest into a set of new abstractions that comes with their own quirks and problems?
+
+It's a difficult question, but for me and my small projects I found it important to remind myself: resist complexity at all costs, resist adding new things into the system. If my problem asks for a solution that involves additional tools or systems, first and foremost consider dumbing the whole thing down so that the problem goes away. By regressing to pixels, which are so "not modern", I managed to avoid a whole bag of cruft being put on top of this primitive project. The system became dumber. It's a win for me.
+
+This is a weak example, I agree, so let me provide another one. Few years ago I needed to launch a small wiki site. Many popular wiki engines (like MediaWiki) are way too complex and feature-rich, so I looked for simpler alternatives. I found a nice Ruby library[fn:3] and spend few hours setting it up, providing custom templates and styles. I was happy with the result, but then I found myself daunted by the worst part: deploy and maintenance.
+
+Of course, setting up a server by hand is a no-no, so I had to write an Ansible recipe for Ubuntu Rails environment. Accidental complexity involved in this problem became so large I started forgetting what I was trying to achieve.
+
+It took me some time to realize that the primary audience for this wiki will actually be much more comfortable editing text directly via Git rather than fiddle with a web interface. And if it's hosted on GitHub, I don't have to worry about authorization and accounts. I still needed it to run on my domain with some specific HTML, so I just made a simple Jekyll site and provided links to quickly edit and send pull requests via GitHub.
+
+I had problems associated with deployment and maintenance, and instead of adding tools as solutions, I dumbed the whole context so that the problems went away.
+
+Note that these problems are often of accidental complexity type. Intrinsic, real problems don't surrender this easily.
+
+If playing with lots of inter operating tools is fun, by all means go for it. As long as you /remember/ and /realize/ what is going on. Complexity is not inherently bad, it's just sort of cunning when you're not mindful.
+
+[fn:1] https://www.w3.org/TR/css3-mediaqueries/
+[fn:2] https://robots.thoughtbot.com/sass-source-maps-chrome-magic
+[fn:3] https://github.com/goll
+** DONE Keyboard fanaticism
+CLOSED: [2018-09-10 Mon 16:54]
+:PROPERTIES:
+:EXPORT_FILE_NAME: keyboard-fanaticism
+:END:
+
+I've been reading [[https://sites.google.com/site/steveyegge2/effective-emacs][an article about Emacs]], and this paragraph had nailed me right into the soul:
+
+#+BEGIN_QUOTE
+IDE users spend most of their time fumbling around with the mouse. They wouldn't dream of doing it any other way, but they don't realize how inefficient their motions are.
+
+...
+
+Whenever you need to jump the cursor backward or forward more than about 5 lines, and you can see the target location, you should be using i-search.
+...
+
+Let your eye defocus slightly and take in the whole paragraph or region around the target point, and choose a word that looks reasonably unique or easy to type. Then i-search for it to navigate to it. You may need to hit Ctrl-r or Ctrl-s repeatedly if your anchor word turns out not to be unique.
+#+END_QUOTE
+
+This is a common rhetoric: use keyboard only, don't you dare to use the mouse — it's so inefficient!
+
+The scenario in question is simple: you have to move the cursor to some position you see on the screen. Instead of moving your hand to the mouse to move the pointer, the author suggests the following algorithm:
+
+1. Determine if the place you need to go to is before or after current position. This is non-zero mental work.
+2. Take a look around that point and "choose a word that looks reasonably unique". Perform more mental work of determining which word is unique enough.
+3. If the target is before the current position, use =Ctrl+s=. If it's after, use =Ctrl+r=. This is more or less automatic, but still required mental work of maintaining the mapping between direction and binding.
+4. If your judgement of the uniqueness wasn't good enough, you'll end up somewhere else. Possibly, in a completely different section of the document. Additional mental work — you have to realize what happened, disoriented. Keep hitting =Ctrl+s= or =Ctrl+r=. And you have to keep scanning the surroundings every time you jump until you get where you want.
+5. Okay, you're there! But remember, you've been jumping to a place *near* the target, so now you have to move a bit more — by word or by character.
+
+#+BEGIN_QUOTE
+Mastering it simply requires that you do it repeatedly until your fingers do it "automatically". Emacs eventually becomes like an extension of your body, and you'll be performing hundreds of different keystrokes and mini-techniques like this one without thinking about them.
+#+END_QUOTE
+
+While I understand the premise completely, and I occasionally use the same technique, I can’t help but think an advice like that rarely takes into account the trade-off. Yes, moving your hand to the mouse takes time, but it’s not uncommon that the time required is actually *less* than multi key multi step keybinding. Instead of spending a second, two motions and a single click the user is advised to analyze text, make several decisions and hit multiple keys, which might or might not be enough. But hey, you didn't leave the home row, so, win, I guess?..
+
+I'm not defending the mouse here, but I do think there are occasions where using the mouse is just better *for me*. Too often these articles are trying to make you feel like an unintelligent cave man for daring to use the "device of IDE users".
+
+Also, Emacs packages like [[https://github.com/abo-abo/avy][avy]] or [[https://github.com/hlissner/evil-snipe][evil-snipe]] make jumping to visible text much simpler and cost less mentally.
+
+The vast sea of discussions and advice about programming tools and especially text editing is full of opinions, approaches and cult-like repeated revelations. Often, the loud sounds of the echo chamber make it difficult to stop for a moment and evaluate something yourself. But please do try.
+
+It's easy to be indoctrinated.
+
+* Math :@mathematics:
+** DONE A Simple Introduction to Proof by Induction
+CLOSED: [2018-09-20 Thu 17:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-induction
+:END:
+
+Now that you're familiar with [[/2018/09/a-simple-introduction-to-proof-by-contradiction/][direct proof and proof by contradiction]], it's time to discover a powerful technique of proof by induction.
+
+/Aside: do not confuse mathematical induction with inductive or deductive reasoning. Despite the name, mathematical induction is actually a form of deductive reasoning./
+
+Let's say, we want to prove that some statement $P$ is true for all positive integers. In other words:
+
+$P(1)$ is true, $P(2)$ is true, $P(3)$ is true... etc.
+
+We could try and prove each one directly or by contradiction, but the infinite number of positive integers makes this task rather grueling. Proof by induction is a sort of generalization that starts with the basis:
+
+*Basis:* Prove that $P(1)$ is true.
+
+Then makes one generic step that can be applied indefinitely:
+
+*Induction step:* Prove that for all $n\geq1$, the following statement holds: If $P(n)$ is true, then $P(n+1)$ is also true.
+
+See what we did there? We've devised another problem to solve, and it's seemingly the same. But if the basis is true, then proving this /inductive step/ will prove the theorem.
+
+To do this, we chose an arbitrary $n\geq1$ and assume that $P(n)$ is true. This assumption is called the /inductive hypothesis/. The tricky part is this: we don't prove the hypothesis directly, but prove the $n+1$ version of it.
+
+This is all rather amorphous, so let's prove a real theorem.
+
+*Theorem 1.* For all positive integers $n$, the following is true:
+
+\begin{equation}
+\label{eq:1}
+1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}
+\end{equation}
+
+*Proof*. Start with the basis when $n$ is $1$. Just calculate it:
+
+$$ 1 = \frac{1(1+1)}{2}. $$
+
+This is correct, so, the basis is proven. Now, assume that the theorem is true for any $n\geq1$:
+
+\begin{equation}
+\label{eq:2}
+1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}
+\end{equation}
+
+In the induction step we have to prove that it's true for $n+1$:
+
+\begin{equation}
+\label{eq:3}
+1 + 2 + 3 + ... + (n+1) = \frac{(n+1)(n+2)}{2}
+\end{equation}
+
+
+Having this equation, we should just try to expand it and prove directly. Since the last member on the left side is $n+1$, the second last must be $n$, so:
+
+$$ 1 + 2 + 3 + ... + (n + 1) = 1 + 2 + 3 + ... + n + (n+1) $$
+
+From our assumption, we know, that
+
+$$ 1 + 2 + 3 + ... + n = \frac{n(n+1)}{2}. $$
+
+So, let's replace it on the right hand side:
+
+$$ 1 + 2 + 3 + ... + (n + 1) = \frac{n(n+1)}{2} + (n+1) $$
+
+And then make that addition so that the right hand side is a single fraction:
+
+$$ 1 + 2 + 3 + ... + (n + 1) = \frac{n(n+1)}{2} + \frac{2(n+1)}{2} $$
+
+$$ = \frac{n(n+1) + 2(n+1)}{2} $$
+
+$$ = \frac{(n+1)(n+2)}{2}. $$
+
+Done, we have proven that the inductive step (\ref{eq:3}) is true.
+
+There are two results:
+
+1. The theorem is true for $n=1$.
+2. If the theorem is true for any $n$, then it's also true for $n+1$.
+
+Combining these two results we can conclude that the theorem is true for all positive integers $n$.
+
+-----
+
+I had troubles with this technique because for a long time I couldn't for the life of me understand why is this /enough/ and how is the basis /helping/?! The basis seemed redundant. We assume $P(n)$ is true, then prove that $P(n+1)$ is true given that $P(n)$ is true, but so what? We didn't prove the thing we assumed!
+
+It clicked after I understood that we don't have to prove $P(n)$, we just take the concrete value from the basis and use it as $n$. Since we have a proof of $P(n+1)$ being true *if* $P(n)$ is true, we conclude that if $P(1)$ is true, then $P(1+1)$ is true.
+
+Well, if $P(1+1)$ is true, then, using the same idea, $P(1+1+1)$ is true, and so forth.
+
+The basis was the cheat-code to kick-start the process by avoiding the need to prove the assumption \ref{eq:2}.
+** DONE A Simple Introduction to Proof by Contradiction
+CLOSED: [2018-09-12 Wed 17:49]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-contradiction
+:END:
+
+In mathematics, a theorem is a true statement, but the mathematician is expected to be able to prove it rather than take it on faith. The proof is a sequence of mathematical statements, a path from some basic truth to the desired outcome. An impeccable argument, if you will.
+
+One of the basic techniques is proof by contradiction. Here is the idea:
+
+1. Assume the statement is false.
+2. Derive a contradiction, a paradox, something that doesn't make sense. This will mean that the statement cannot possibly be false, therefore it's true.
+
+When I first saw this formal technique, it puzzled me. It didn't seem to be valid: alright, assuming something is false leads to a paradox, so what? We haven't proven that assuming it's true doesn't lead to another paradox! Or even the same paradox, for that matter. What I failed to understand conceptually is that a statement is a binary thing: it's either true or untrue. Nothing in between. So, if one can definitely declare "X is not false", then no other options are left: "X must be true".
+
+*** Direct proof
+
+To demonstrate this, let's first use another technique of a /direct proof/ so that we have something to work with.
+
+*Theorem 1.* If \(n\) is an odd positive integer, then $n^2$ is odd.
+
+A /direct proof/ just goes head in, trying to see what the statement means if we kinda play with it.
+
+*Proof.* An odd positive integer can be written as \( n = 2k + 1 \), since something like \( 2k \) is even and adding 1 makes it definitely odd. We're interested in what odd squared looks like, so let's square this definition:
+
+$$ n^2 = (2k + 1)^2 = $$
+$$4k^2 + 4k + 1 = $$
+$$ 2(2k^2 + 2k) + 1 $$
+
+So, we have this final formula \( 2(2k^2 + 2k) + 1 \) and it follows the pattern of \( 2k + 1 \). This means it's odd! We have a proof. ■
+
+This theorem is based on an idea that numbers described as \( 2k + 1 \) are definitely odd. This might be another theorem that requires another proof, and that proof might be based on some other theorems. The general idea of mathematics is that if you follow any theorem to the very beginning, you'll meet the fundamental axioms, the basis of everything.
+
+Now that we have this proven theorem in our arsenal, let's take a look at another theorem and prove it by contradiction.
+
+*** Proof by contradiction
+
+*Theorem 2.* \(n\) is a positive integer. If \( n^2 \) is even, then $n$ is even.
+
+We may try to construct another direct proof, but creating paradoxes is much more fun!
+
+*Proof.* Let's assume that \(n^2\) is even, *but $n$ is odd*. This is the opposite of what we want, and we will show that this scenario is impossible.
+
+$n$ is odd, and from Theorem 1 we know that $n^2$ must be odd. This doesn't make sense! Our assumption and our conclusion are the opposite. This is a paradox, so the assumption was wrong. Meaning, the idea "\(n^2\) is even, but $n$ is odd" is false. Therefore, the idea "\(n^2\) is even, $n$ is even" is true.■
+
+*** Famous irrational \( \sqrt{2} \)
+
+*Theorem 3.* \( \sqrt{2} \) is irrational.
+
+Woah, this is... different. In the first two theorems we had formulas, something to play with, something physical. This now is just an idea, so how would we even start?
+
+Let's start with a definition.
+
+#+BEGIN_QUOTE
+In mathematics, the irrational numbers are all the real numbers which are not rational numbers.[fn:1]
+#+END_QUOTE
+
+Doesn't seem helpful, but let's continue. What are rational numbers then? Are they some reasonable beings who make optimal decisions all the time?
+
+#+BEGIN_QUOTE
+A rational number is any number that can be expressed as the fraction \(\frac{p}{q}\) of two integers.[fn:2]
+#+END_QUOTE
+
+Oh! They are rational because they are /ratios/!
+
+Just to make things super clear, let's dig one more step and make sure we understand integers.
+
+#+BEGIN_QUOTE
+An integer (from the Latin /integer/ meaning "whole") is a number that can be written without a fractional component. For example, 21, 4, 0, and −2048 are integers, while \(9.75\), \( 5\frac{1}{2} \) and \( \sqrt{2} \) are not.[fn:3]
+#+END_QUOTE
+
+Combining these things, we can construct a comprehensive definition of an irrational number: it's a number that cannot be expressed as the fraction of two whole numbers.
+
+Now, let's apply this to Theorem 3 so that it has some meat:
+
+*Theorem 3.* \( \sqrt{2} \) cannot be expressed as \( \frac{p}{q} \), where $p$ and $q$ are integers.
+
+Alright, now there is something to play with!
+
+*Proof.* Start by assuming the opposite -- \( \sqrt{2} \) is rational. This means it can be written as a fraction of two integers:
+
+$$ \sqrt{2} = \frac{p}{q}\ $$
+
+We can assume that $p$ and $q$ are not *both* even, because if they are, we can reduce them by dividing both by a common factor (like, for example, \( \frac{8}{10}\ \) should be reduced to \( \frac{4}{5}\ \)). In other words, if they are both even, reduce them until at least one is odd and no further reductions are possible.
+
+Now, let's square the square root:
+
+$$ (\sqrt{2})^2 = \frac{p^2}{q^2}\ $$
+
+$$ 2 = \frac{p^2}{q^2}\ $$
+
+$$ p^2 = 2q^2 $$
+
+Remember, something like $2k + 1$ is odd, and $2k$ is even. Here we see this pattern: $p^2 = 2q^2$, which means that $p^2$ is even (it consists of /two/ things).
+
+Then, using Theorem 2, we can say that $p$ is even as well, which means we can write $p$ as $p = 2k$. So:
+
+$$ 2q^2 = p^2 = (2k)^2 $$
+
+$$ 2q^2 = 4k^2 $$
+
+Divide both by two:
+
+$$ q^2 = 2k^2 $$
+
+So, $q^2$ is even. By the same Theorem 2 it follows that $q$ is even.
+
+Let's summarize the two conclusions:
+
+1. $p$ is even.
+2. $q$ is even.
+
+Wait... We made sure that not both $p$ and $q$ are even before starting this whole thing! We made sure to reduce them until at least one is odd, but then, by applying Theorem 2, we ended up with two even numbers. This is impossible, so the idea that "$\sqrt{2}$ is rational" is not true.
+
+Therefore, $\sqrt{2}$ is irrational.■
+
+/P.S. I often use proof by contradiction in real life by arguing that, for example, not eating the whole bucket of ice cream at once will lead to a paradox that endangers the whole fabric of space-time. It works for me, but your mileage my vary./
+
+[fn:1] https://en.wikipedia.org/wiki/Irrational_number
+[fn:2] https://en.wikipedia.org/wiki/Rational_number
+[fn:3] https://en.wikipedia.org/wiki/Integer
+
+
+* Small stuff                                             :@uncool:
+** DONE I no longer care about og tags, twitter cards, etc.
+CLOSED: [2018-09-04 Tue 15:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: i-no-longer-care-about-og-tags-twitter-cards-etc
+:END:
+
+Enough.
+
+Facebook, Twitter and other social networks have their own markup formats that "enable any web page to become a rich object in a social graph". For the most part it means that if you want to make your link look nice when people share it, you have to set some meta tags.
+
+#+BEGIN_SRC html
+<meta property="og:title" content="The Wonderful" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="/images/cover.jpg" />
+#+END_SRC
+
+This is a noble idea in the abstract, and one more attempt at creating semantic web, since you can not only specify titles and cover images for shared links, but detailed meta information as well, like the type of content, authors, dates, etc. Facebook is a for-profit company that just made all the decisions and created their own protocol. It's not open - there is no way for the public to participate in its development, unlike W3C's work. The only reason people are using this protocol is because often their livelihood depends on the amount of traffic that comes from Facebook. Of course they'd like to make their links look good in Facebook posts!
+
+Some other social media sites support og tags with certain quirks. Like, you provide a cover image, but different sites crop them differently because they want consistent media proportions on their side. So, now your content looks link still looks like garbage and #webdesign Medium blog posts are full of "how to make your link look awesome in LinkedIn in 2018" tutorials.
+
+The sheer amount of resources the industry pours into made up problems like that...
+
+I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.

@@ -4,6 +4,7 @@ summary: New Year is upon us, and along with resolutions for 2015 many of us try
   take a look at 2014 and find some promising changes. Did I become a better entrepreneur?
   Am I smarter than before? Am I going in the right direction? Do I even know what
   direction to go?
+tags: ["life"]
 title: How to evaluate personal growth
 slug: how_to_evaluate_personal_growth
 ---

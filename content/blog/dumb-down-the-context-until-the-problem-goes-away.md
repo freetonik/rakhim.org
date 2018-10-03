@@ -2,7 +2,7 @@
 title = "Dumb Down the Context Until the Problem Goes Away"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-14T21:10:00+03:00
-tags = ["featured"]
+categories = ["humane computing"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++
@@ -63,4 +63,4 @@ If playing with lots of inter operating tools is fun, by all means go for it. As
 
 [^fn:1]: <https://www.w3.org/TR/css3-mediaqueries/>
 [^fn:2]: <https://robots.thoughtbot.com/sass-source-maps-chrome-magic>
-[^fn:3]: <https://github.com/gollum/gollum>
+[^fn:3]: <https://github.com/goll>

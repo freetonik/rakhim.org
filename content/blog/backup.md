@@ -4,6 +4,7 @@ summary: It's extremely unlikely that you'll ever need a backup. You're probably
   I prefer to think about this stuff as an insurance. This is how you buy peace of
   mind.
 title: Backups
+categories: ["software and tools"]
 slug: backup
 ---
 

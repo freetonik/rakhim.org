@@ -2,6 +2,7 @@
 title = "Personal finances and controlled anarchy"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-07T12:31:00+03:00
+categories = ["life"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++

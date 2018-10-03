@@ -4,6 +4,7 @@ summary: I believe that computer scientists and software engineers have the mora
   responsibility to tell the public that software's failure is not acceptable, not
   how the things are supposed to be.
 title: We shouldn't let people get used to the idea that software fails
+categories: ["humane computing"]
 slug: software-shouldnt-fail
 tags: ["featured"]
 ---

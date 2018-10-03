@@ -5,6 +5,7 @@ summary: In the past programmers were building products for programmers. Today p
   believe that they're building products for people.
 title: Products aren't for people yet
 slug: by_devs
+categories: ["humane computing"]
 tags: ["featured"]
 ---
 

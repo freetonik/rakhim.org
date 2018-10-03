@@ -2,7 +2,7 @@
 title = "A Simple Introduction to Proof by Contradiction"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-12T17:49:00+03:00
-tags = ["featured"]
+categories = ["mathematics"]
 draft = false
 creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
 +++
