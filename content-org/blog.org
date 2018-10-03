@@ -5,226 +5,13 @@
 #+PROPERTY: header-args :eval never-export
 #+OPTIONS: creator:t toc:nil
 
-* Drafts                                                           :@xdrafts:
-** TODO It Just Doesn't Work
+* Honestly Undefined :@honestly__undefined:
+** DRAFT Agile Food Truck
 :PROPERTIES:
-:EXPORT_FILE_NAME: it-just-doesn-t-work
-:END:
-- used to fiddle with tools and apps
-- discovered the world of apple
-- everything gradually became shit
-- now I fiddle with tools and apps to make them work, but the tradeoff is gone, I now invest time and don't get the benefit of autonomy
-** TODO Please, stop telling beginners to always use Git in the command line
-:PROPERTIES:
-:EXPORT_FILE_NAME: please-stop-telling-beginners-to-always-use-git-in-the-command-line
+:EXPORT_FILE_NAME: agile_food_truck
 :END:
 
-This week creators of Sublime Text released a GUI client for Git.
-** TODO Why I stopped daily journalling after 5+ years
-:PROPERTIES:
-:EXPORT_FILE_NAME: why-i-stopped-daily-journalling-after-5-years
-:END:
-
-I've been writing a daily journal for more than five years.
-** TODO Web Development From The First Principles
-:PROPERTIES:
-:EXPORT_FILE_NAME: web-development-from-the-first-principles
-:END:
-
-I have an idea!
-
-* Life :@life:
-** DONE Personal finances and controlled anarchy
-CLOSED: [2018-09-07 Fri 12:31]
-:PROPERTIES:
-:EXPORT_FILE_NAME: personal-finances-and-controlled-anarchy
-:END:
-
-Most of my life, I didn't have much money. I was born in the 90s in a tiny Kazakh town, and nobody had a job there, it seemed. USSR just collapsed and my parents were trying to make ends meet in a constant hustle.
-
-That life defined my relationship with money and wealth for years to come. Every time I had to buy coffee, I was thinking "is it worth it?.. Maybe I shouldn't". In restaurants and cafes I was looking at prices first, then at meals. "Hmm, this cheap pasta looks so attractive! Ooh, I bet this expensive steak is not that good".
-
-"You know what? I'll just buy this coffee and not buy that iPhone game I wanted to buy. Yeah, perfect! Now I'm calm and safe!"
-
-After graduating and starting working full time I decided to follow a popular advice: budget everything. I started using an excellent app called [YNAB](https://www.youneedabudget.com/) — You Need a Budget. Not only it allows you to track all your expenses and plan ahead, it also comes with a philosophy, a set of rules and ideas to help you navigate your personal finance world.
-
-First things first: save one month worth of expenses and never let your account get dry. The idea is to be spending money that is at least 30 days old. So, if you got your salary on February 1st, you will spend this money in March or later, but not in February. This way you never get into «I need some money until my next salary».
-
-Next, give every dollar a job. This means that each dollar you get — you decide what it's for. I have regular expenses like rent, phone fees, groceries etc. Some amount of money MUST go there. But I also have other categories, like "Books" or "Electronics" or "Travel". And if I want to buy a book or go for a vacation, I have to have enough money saved in that category.
-
-Putting money into savings account is another type of a job.
-
-YNAB allows you to assign every dollar a particular job. It actually encourages you to keep exactly ZERO cents unassigned! You feel like a finance director of a small enterprise. Serious business!
-
-This way you know exactly whether you can afford something. And you never have to guess "hmm, if I buy this laptop now, will I be okay with the rent?..".
-
-*[[/images/posts/ynab.jpg]]*
-/YNAB classic app screenshot (not mine)/
-
-Another YNAB rule is to budget in detail and ahead. "Make your money boring" is their slogan for it. For every bill to come or an unexpected expense to surprise you, you'll have money waiting.
-
-For example, I was putting some money into "Car repair" category each month, even though for the most part my car didn't require any repair. But when the AC compressor suddenly died in the middle of the hot German summer vacation, I knew I don't have to worry.
-
-Basically, save money for Christmas all year long, not just in December.
-
-One more YNAB rule is to "Roll With The Punches". When you overspend in a budget category, just adjust. No guilt necessary! It was easy for me to justify another gadget when I under-spent in some other categories.
-
-I was an everyday user of YNAB for 7 years. The app itself is 14 years old and it has a great following and a nice community around it. It helped me *tremendously*! A huge amount of stress just went away, I was on top of my finances, I knew exactly what's happening and how much money I'm getting and spending. When my girlfriend moved in with me and we started sharing our budgets, YNAB was able to accommodate it. I just added another bank account in the settings. In total, I was controlling multiple bank accounts (including "cash" account) and cards, several sources of income and tens of budgeting categories.
-
-It was great.
-
-So, why did I stop?
-
-Don't get me wrong: an app and a method like that makes a HUGE difference. I will never go back to having no control and no knowledge over my finances, but I still had lots of stress points.
-
-First, it took a lot of time and energy to maintain the system. I had to put all the expenses precisely, every purchase, every fee, including cash purchases. The system makes sense only if you're precise and 100% accurate.
-
-Card purchases overseas were especially painful. They often change over time, like, you buy something off Amazon, and they charge you with currency conversion, and after a week or so an "adjustment" charge is made silently (since the exchange rate changed a bit). You have to track it all and "consolidate" your accounts every month.
-
-Or you just forget what that $0.99 supermarket purchase was three weeks ago. Was it chocolate, so, groceries category? Or a LAN cable, so, electronics category? Does it really matter? It's just 99 cents, so… whatever, let it be groceries.
-
-Another problem was — I still had some stress over money. Less than before, but still. This "roll with the punches" rule is nice and liberating, but sometimes it seemed like I was just abusing the system. I want a new gadget, so, I'll just transfer $100 from "car repair" and compensate next month by spending less in every category. It'll be just fine!
-
-It takes lots of energy not only to maintain the system, but to keep disciplined. I'm not that good at it.
-
-A year ago I decided to deliberately simplify my life. Automate everything I can, ignore more stuff, eliminate pain points and minimize the mental energy requirements on everything except first-order things.
-
-First-order things are the actual things I want to spend time on, the things that are intrinsically important for me. Money is a tool, so, it's at most second-order. It allows for the first-order things, but it doesn't have intrinsic value itself.
-
-So I ditched YNAB and budgeting in general.
-
-This was the most liberating moment I had in some time!
-
-I call my new system "controlled anarchy", and it's pretty simple.
-
-Every time our family gets salary payment or other income, I distribute it between three bank accounts:
-
-1. *Monthly bills.* This account pays all the bills, from rent to Netflix. It has its own debit card, so I don't really see the purchases very often. I know exactly how much money is spent, though, since all the expenses here are static. Like with YNAB philosophy, this account has 2 months of expenses all the time, so it never gets dry. (I am actually increasing this account to 6 months of expenses so it will act as the emergency fund. Bad things happen — we have 6 months to figure things out).
-2. *Savings.*. Yup, just savings. At least 33% of all the income is saved. A portion of it is invested in mutual funds for the long term.
-3. *Everyday spending.* The rest is free! This is the key — I don't have to plan or to calculate or track anything. This account is the free money we can spend however we want! (Some of it goes to groceries, but the rest is truly free).
-
-The Everyday spending account rarely gets to zero, and we never move money away from it. So, it actually grows gradually, and if we don't spend it all one month, we get even more free money next month!
-
-The goal is to eliminate guilt and uncertainty about purchases. You want that new thing? Just buy it if there's enough money. Not enough in Everyday spending? Well, sorry, you can't buy it. But hey — feel free to buy whatever — spend it all away!
-
-Oh, man, this made our lives so much easier.
-
-The "controlled anarchy" system lacks the precision of the previous one, but requires no time and energy to maintain. All the payments and transfers are automatic, it's like we're kids and a wise parent manages our spending money :)
-
-This is what I call simplification: less decision-making means more energy for the truly important things.
-
-Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
-
-
-* Software and Tools                                      :@software__and__tools:
-** DONE Moved from Jekyll to Hugo and ox-hugo
-CLOSED: [2018-09-03 Mon 17:13]
-:PROPERTIES:
-:EXPORT_FILE_NAME: moved-from-jekyll-to-hugo-and-ox-hugo
-:END:
-
-I have changed the setup for this blog from Jekyll + Github to Hugo + ox-hugo + Netlify. The main goal was to be able to write blog posts from within Emacs and reduce as much traction as possible. Also, Org mode is much more comfortable to write in compared to any Markdown editor I've tried.
-
-*** Previous setup
-
-I've been using Jekyll and Github pages for a long time, and it was generally a good experience. I don't have big complaints about Jekyll. It can be a bit clunky when it comes to things like tags, but I don't use them anyway. My [[https://rakh.im/][Russian blog]] is still powered by it. One thing that is never fun — the need to manage Ruby environment and dependencies. Some people prefer to encapsulate everything into Docker containers, and I've tried that with Jekyll as well, but the overhead complexity is not worth it.
-
-I was using Sublime Text or sometimes iA writer to write posts. The whole process was full of small steps that added friction. I fully acknowledge that this sounds like "the tools stopped me from being a prolific blogger, if only I had better tools" fallacy.
-
-This is how it looked like for the most part:
-
-1. Go to iTerm, navigate to my blog directory and start Jekyll server.
-2. Open the project in Sublime.
-3. Create a new Markdown file with a correct name (e.g. =2018-01-11-be_bored.md=). I have a bash script to quickly create a new file with some front-matter inserted by default.
-4. Go to browser, reload page, open post.
-5. Write Markdown in Sublime, reload page to see result.
-6. Push to Github when ready.
-
-Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
-
-*** New setup
-
-Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
-
-This is how it looks like:
-
-1. Go to Emacs, open my blog project (one second worth of key strokes thanks to [[https://github.com/bbatsov/projectile][Projectile]] and [[https://github.com/emacs-helm/helm][Helm]], which were also mentioned in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]).
-2. Open shell buffer, start Hugo server, open browser.
-3. Write new post. All posts are stored in a single Org file, so I don't need to create new files. The name of the final Markdown file is generated automatically from the post title.
-4. Save Org file. New post is generated and browser is redirected or refreshed.
-5. When ready, change the Org status of the section to *DONE*.
-6. Use Magit or a single Bash script to add, commit and push files to Github.
-7. Netlify picks up the commit and builds the pages. If something goes wrong, I can see the detailed build logs.
-
-*[[/images/posts/oxhugo.png]]*
-
-And with Org capture I can create a new draft from anywhere in Emacs with two key strokes.
-
-*** Nice things about Hugo
-
-There are several small things that make Hugo nicer than Jekyll for me:
-
-1. With =hugo server -D --navigateToChanged= the browser navigates to the changed file automatically and refreshes the page on each change. No need to refresh the page manually! Instant Markdown preview.
-2. Hugo is distributed via Homebrew, and I don't need to care about Ruby environment and dependencies like I had to with Jekyll.
-3. I have several sites, and Hugo randomizes the port if the default port is in use. A tiny nice detail.
-4. It seems much faster than Jekyll.
-
-*** Nice things about Org and ox-hugo
-
-While this transition was mainly performed due to workcrastination, I'm pretty happy with the results. Hugo itself wouldn't be the reason to switch, it's the combination of Org + ox-hugo + hugo that makes it all worth the hassle.
-
-Writing in Org is arguably a more pleasant experience compared to Markdown. Being able to integrate blogging into the same program that is used for planning, programming and long-form writing is very nice.
-
-The whole blog setup, including this custom theme is available on [[https://github.com/freetonik/rakhim.org][Github]].
-** DONE Make Firefox faster and nicer on macOS
-CLOSED: [2018-10-01 Mon 13:53]
-:PROPERTIES:
-:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
-:END:
-
-I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
-
-Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
-
-Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
-
-*** Download Firefox 63 or higher
-
-As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
-
-You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
-
-*** Disable animations
-
-By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
-
-Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
-
-Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
-
-- =full-screen-api.transition-duration.enter=
-- =full-screen-api.transition-duration.leave=
-
-*** Disable Pocket
-
-Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
-
-*** Other stuff
-
-These are not related to performance, but can make your Firefox experience a bit nicer.
-
-Set to true:
-
-- =modalHighlight= highlight all the search results.
-- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
-- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
-- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
-
-Minor things:
-
-- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
-- =geo.enabled= set to =false= to disable geolocation.
-- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
+*[[/images/hundef/agile_food_truck.jpg]]*
 
 * Humane computing                                   :@humane__computing:
 ** DONE For Google, you're neither the consumer nor the product. You're a data point.
@@ -631,6 +418,88 @@ The vast sea of discussions and advice about programming tools and especially te
 
 It's easy to be indoctrinated.
 
+* Life :@life:
+** DONE Personal finances and controlled anarchy
+CLOSED: [2018-09-07 Fri 12:31]
+:PROPERTIES:
+:EXPORT_FILE_NAME: personal-finances-and-controlled-anarchy
+:END:
+
+Most of my life, I didn't have much money. I was born in the 90s in a tiny Kazakh town, and nobody had a job there, it seemed. USSR just collapsed and my parents were trying to make ends meet in a constant hustle.
+
+That life defined my relationship with money and wealth for years to come. Every time I had to buy coffee, I was thinking "is it worth it?.. Maybe I shouldn't". In restaurants and cafes I was looking at prices first, then at meals. "Hmm, this cheap pasta looks so attractive! Ooh, I bet this expensive steak is not that good".
+
+"You know what? I'll just buy this coffee and not buy that iPhone game I wanted to buy. Yeah, perfect! Now I'm calm and safe!"
+
+After graduating and starting working full time I decided to follow a popular advice: budget everything. I started using an excellent app called [YNAB](https://www.youneedabudget.com/) — You Need a Budget. Not only it allows you to track all your expenses and plan ahead, it also comes with a philosophy, a set of rules and ideas to help you navigate your personal finance world.
+
+First things first: save one month worth of expenses and never let your account get dry. The idea is to be spending money that is at least 30 days old. So, if you got your salary on February 1st, you will spend this money in March or later, but not in February. This way you never get into «I need some money until my next salary».
+
+Next, give every dollar a job. This means that each dollar you get — you decide what it's for. I have regular expenses like rent, phone fees, groceries etc. Some amount of money MUST go there. But I also have other categories, like "Books" or "Electronics" or "Travel". And if I want to buy a book or go for a vacation, I have to have enough money saved in that category.
+
+Putting money into savings account is another type of a job.
+
+YNAB allows you to assign every dollar a particular job. It actually encourages you to keep exactly ZERO cents unassigned! You feel like a finance director of a small enterprise. Serious business!
+
+This way you know exactly whether you can afford something. And you never have to guess "hmm, if I buy this laptop now, will I be okay with the rent?..".
+
+*[[/images/posts/ynab.jpg]]*
+/YNAB classic app screenshot (not mine)/
+
+Another YNAB rule is to budget in detail and ahead. "Make your money boring" is their slogan for it. For every bill to come or an unexpected expense to surprise you, you'll have money waiting.
+
+For example, I was putting some money into "Car repair" category each month, even though for the most part my car didn't require any repair. But when the AC compressor suddenly died in the middle of the hot German summer vacation, I knew I don't have to worry.
+
+Basically, save money for Christmas all year long, not just in December.
+
+One more YNAB rule is to "Roll With The Punches". When you overspend in a budget category, just adjust. No guilt necessary! It was easy for me to justify another gadget when I under-spent in some other categories.
+
+I was an everyday user of YNAB for 7 years. The app itself is 14 years old and it has a great following and a nice community around it. It helped me *tremendously*! A huge amount of stress just went away, I was on top of my finances, I knew exactly what's happening and how much money I'm getting and spending. When my girlfriend moved in with me and we started sharing our budgets, YNAB was able to accommodate it. I just added another bank account in the settings. In total, I was controlling multiple bank accounts (including "cash" account) and cards, several sources of income and tens of budgeting categories.
+
+It was great.
+
+So, why did I stop?
+
+Don't get me wrong: an app and a method like that makes a HUGE difference. I will never go back to having no control and no knowledge over my finances, but I still had lots of stress points.
+
+First, it took a lot of time and energy to maintain the system. I had to put all the expenses precisely, every purchase, every fee, including cash purchases. The system makes sense only if you're precise and 100% accurate.
+
+Card purchases overseas were especially painful. They often change over time, like, you buy something off Amazon, and they charge you with currency conversion, and after a week or so an "adjustment" charge is made silently (since the exchange rate changed a bit). You have to track it all and "consolidate" your accounts every month.
+
+Or you just forget what that $0.99 supermarket purchase was three weeks ago. Was it chocolate, so, groceries category? Or a LAN cable, so, electronics category? Does it really matter? It's just 99 cents, so… whatever, let it be groceries.
+
+Another problem was — I still had some stress over money. Less than before, but still. This "roll with the punches" rule is nice and liberating, but sometimes it seemed like I was just abusing the system. I want a new gadget, so, I'll just transfer $100 from "car repair" and compensate next month by spending less in every category. It'll be just fine!
+
+It takes lots of energy not only to maintain the system, but to keep disciplined. I'm not that good at it.
+
+A year ago I decided to deliberately simplify my life. Automate everything I can, ignore more stuff, eliminate pain points and minimize the mental energy requirements on everything except first-order things.
+
+First-order things are the actual things I want to spend time on, the things that are intrinsically important for me. Money is a tool, so, it's at most second-order. It allows for the first-order things, but it doesn't have intrinsic value itself.
+
+So I ditched YNAB and budgeting in general.
+
+This was the most liberating moment I had in some time!
+
+I call my new system "controlled anarchy", and it's pretty simple.
+
+Every time our family gets salary payment or other income, I distribute it between three bank accounts:
+
+1. *Monthly bills.* This account pays all the bills, from rent to Netflix. It has its own debit card, so I don't really see the purchases very often. I know exactly how much money is spent, though, since all the expenses here are static. Like with YNAB philosophy, this account has 2 months of expenses all the time, so it never gets dry. (I am actually increasing this account to 6 months of expenses so it will act as the emergency fund. Bad things happen — we have 6 months to figure things out).
+2. *Savings.*. Yup, just savings. At least 33% of all the income is saved. A portion of it is invested in mutual funds for the long term.
+3. *Everyday spending.* The rest is free! This is the key — I don't have to plan or to calculate or track anything. This account is the free money we can spend however we want! (Some of it goes to groceries, but the rest is truly free).
+
+The Everyday spending account rarely gets to zero, and we never move money away from it. So, it actually grows gradually, and if we don't spend it all one month, we get even more free money next month!
+
+The goal is to eliminate guilt and uncertainty about purchases. You want that new thing? Just buy it if there's enough money. Not enough in Everyday spending? Well, sorry, you can't buy it. But hey — feel free to buy whatever — spend it all away!
+
+Oh, man, this made our lives so much easier.
+
+The "controlled anarchy" system lacks the precision of the previous one, but requires no time and energy to maintain. All the payments and transfers are automatic, it's like we're kids and a wise parent manages our spending money :)
+
+This is what I call simplification: less decision-making means more energy for the truly important things.
+
+Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
+
 * Math :@mathematics:
 ** DONE A Simple Introduction to Proof by Induction
 CLOSED: [2018-09-20 Thu 17:18]
@@ -847,7 +716,117 @@ Therefore, $\sqrt{2}$ is irrational.■
 [fn:3] https://en.wikipedia.org/wiki/Integer
 
 
-* Small stuff                                             :@uncool:
+* Software and Tools                                      :@software__and__tools:
+** DONE Moved from Jekyll to Hugo and ox-hugo
+CLOSED: [2018-09-03 Mon 17:13]
+:PROPERTIES:
+:EXPORT_FILE_NAME: moved-from-jekyll-to-hugo-and-ox-hugo
+:END:
+
+I have changed the setup for this blog from Jekyll + Github to Hugo + ox-hugo + Netlify. The main goal was to be able to write blog posts from within Emacs and reduce as much traction as possible. Also, Org mode is much more comfortable to write in compared to any Markdown editor I've tried.
+
+*** Previous setup
+
+I've been using Jekyll and Github pages for a long time, and it was generally a good experience. I don't have big complaints about Jekyll. It can be a bit clunky when it comes to things like tags, but I don't use them anyway. My [[https://rakh.im/][Russian blog]] is still powered by it. One thing that is never fun — the need to manage Ruby environment and dependencies. Some people prefer to encapsulate everything into Docker containers, and I've tried that with Jekyll as well, but the overhead complexity is not worth it.
+
+I was using Sublime Text or sometimes iA writer to write posts. The whole process was full of small steps that added friction. I fully acknowledge that this sounds like "the tools stopped me from being a prolific blogger, if only I had better tools" fallacy.
+
+This is how it looked like for the most part:
+
+1. Go to iTerm, navigate to my blog directory and start Jekyll server.
+2. Open the project in Sublime.
+3. Create a new Markdown file with a correct name (e.g. =2018-01-11-be_bored.md=). I have a bash script to quickly create a new file with some front-matter inserted by default.
+4. Go to browser, reload page, open post.
+5. Write Markdown in Sublime, reload page to see result.
+6. Push to Github when ready.
+
+Sometimes thing go bad and Github build fails. There is no clarification, and on rare occasions I had to contact support to find out the actual build error output. GitHub's support is excellent, but this process is no fun.
+
+*** New setup
+
+Now I use [[https://gohugo.io/][Hugo]] static site generator, but don't write Markdown myself. I write in Org mode (I talked about it in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]) and use [[https://ox-hugo.scripter.co/][ox-hugo]] to generate Markdown files for Hugo to then generate static HTML. Yeah, seems like too many moving parts for the sake of the simplest page possible, but it works remarkably well and — worst case scenario — if Emacs or Org or ox-hugo go bad, I can go back to essentially the same process as before.
+
+This is how it looks like:
+
+1. Go to Emacs, open my blog project (one second worth of key strokes thanks to [[https://github.com/bbatsov/projectile][Projectile]] and [[https://github.com/emacs-helm/helm][Helm]], which were also mentioned in [[http://emacscast.rakhim.org/episode/754222a0-714c-41b6-9203-8d0dc0d6210f][EmacsCast episode 2]]).
+2. Open shell buffer, start Hugo server, open browser.
+3. Write new post. All posts are stored in a single Org file, so I don't need to create new files. The name of the final Markdown file is generated automatically from the post title.
+4. Save Org file. New post is generated and browser is redirected or refreshed.
+5. When ready, change the Org status of the section to *DONE*.
+6. Use Magit or a single Bash script to add, commit and push files to Github.
+7. Netlify picks up the commit and builds the pages. If something goes wrong, I can see the detailed build logs.
+
+*[[/images/posts/oxhugo.png]]*
+
+And with Org capture I can create a new draft from anywhere in Emacs with two key strokes.
+
+*** Nice things about Hugo
+
+There are several small things that make Hugo nicer than Jekyll for me:
+
+1. With =hugo server -D --navigateToChanged= the browser navigates to the changed file automatically and refreshes the page on each change. No need to refresh the page manually! Instant Markdown preview.
+2. Hugo is distributed via Homebrew, and I don't need to care about Ruby environment and dependencies like I had to with Jekyll.
+3. I have several sites, and Hugo randomizes the port if the default port is in use. A tiny nice detail.
+4. It seems much faster than Jekyll.
+
+*** Nice things about Org and ox-hugo
+
+While this transition was mainly performed due to workcrastination, I'm pretty happy with the results. Hugo itself wouldn't be the reason to switch, it's the combination of Org + ox-hugo + hugo that makes it all worth the hassle.
+
+Writing in Org is arguably a more pleasant experience compared to Markdown. Being able to integrate blogging into the same program that is used for planning, programming and long-form writing is very nice.
+
+The whole blog setup, including this custom theme is available on [[https://github.com/freetonik/rakhim.org][Github]].
+** DONE Make Firefox faster and nicer on macOS
+CLOSED: [2018-10-01 Mon 13:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
+:END:
+
+I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
+
+Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
+
+Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
+
+*** Download Firefox 63 or higher
+
+As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
+
+You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
+
+*** Disable animations
+
+By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
+
+Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
+
+Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
+
+- =full-screen-api.transition-duration.enter=
+- =full-screen-api.transition-duration.leave=
+
+*** Disable Pocket
+
+Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
+
+*** Other stuff
+
+These are not related to performance, but can make your Firefox experience a bit nicer.
+
+Set to true:
+
+- =modalHighlight= highlight all the search results.
+- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
+- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
+- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
+
+Minor things:
+
+- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
+- =geo.enabled= set to =false= to disable geolocation.
+- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
+
+* Uncool                                                            :@uncool:
 ** DONE I no longer care about og tags, twitter cards, etc.
 CLOSED: [2018-09-04 Tue 15:44]
 :PROPERTIES:
@@ -871,3 +850,31 @@ Some other social media sites support og tags with certain quirks. Like, you pro
 The sheer amount of resources the industry pours into made up problems like that...
 
 I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
+
+* Blog
+** TODO It Just Doesn't Work
+:PROPERTIES:
+:EXPORT_FILE_NAME: it-just-doesn-t-work
+:END:
+- used to fiddle with tools and apps
+- discovered the world of apple
+- everything gradually became shit
+- now I fiddle with tools and apps to make them work, but the tradeoff is gone, I now invest time and don't get the benefit of autonomy
+** TODO Please, stop telling beginners to always use Git in the command line
+:PROPERTIES:
+:EXPORT_FILE_NAME: please-stop-telling-beginners-to-always-use-git-in-the-command-line
+:END:
+
+This week creators of Sublime Text released a GUI client for Git.
+** TODO Why I stopped daily journalling after 5+ years
+:PROPERTIES:
+:EXPORT_FILE_NAME: why-i-stopped-daily-journalling-after-5-years
+:END:
+
+I've been writing a daily journal for more than five years.
+** TODO Web Development From The First Principles
+:PROPERTIES:
+:EXPORT_FILE_NAME: web-development-from-the-first-principles
+:END:
+
+I have an idea!
