@@ -13,7 +13,7 @@ CLOSED: [2018-08-19 Sun 23:19]
 :EXPORT_HUGO_SLUG: 1
 :END:
 
-** DONE React JS
+** DONE Reactive solution
 CLOSED: [2018-08-24 Fri 21:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: react_js
@@ -41,7 +41,7 @@ CLOSED: [2018-09-27 Thu 23:16]
 :EXPORT_HUGO_SLUG: 5
 :END:
 
-** DONE Google shuts down another product
+** DONE I can't believe this happened again
 CLOSED: [2018-09-28 Fri 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: google_shutdowns_product

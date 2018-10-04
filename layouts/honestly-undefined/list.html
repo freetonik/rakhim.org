@@ -3,16 +3,14 @@
   <div class="article-meta-hu">
     <h1 class="h3">Honestly Undefined</h1>
     <p>{{ .Site.Params.descriptionhu }}</p>
+
     <hr>
     {{ range first 1 (where .Data.Pages "Section" "=" "honestly-undefined") }}
     <p><strong>#{{ .Slug }}: {{ .Title }}</strong></p>
     {{ end }}
   </div>
 
-  {{ range first 1 (where .Data.Pages "Section" "=" "honestly-undefined") }}
-  <img src="/images/honestly-undefined/{{ .File }}.jpg" title="{{ .Title }}" alt="{{ .Title }}">
-  {{ .Content }}
-  {{ end }}
+
 
   <nav class="nav-hu">
     <a href="/honestly-undefined/1">
@@ -33,6 +31,11 @@
       &gt;&gt;
     </a>
   </nav>
+
+  {{ range first 1 (where .Data.Pages "Section" "=" "honestly-undefined") }}
+  <img src="/images/honestly-undefined/{{ .File }}.jpg" title="{{ .Title }}" alt="{{ .Title }}">
+  {{ .Content }}
+  {{ end }}
 
 </div>
 

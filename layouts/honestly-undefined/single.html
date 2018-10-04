@@ -9,9 +9,6 @@
     {{ if .Params.draft }}<small class="date text-muted text-light">DRAFT</small>{{ end }}
   </div>
 
-  <img src="/images/honestly-undefined/{{ .File }}.jpg">
-  {{ .Content }}
-
   <nav class="nav-hu">
     <a href="/honestly-undefined/1">
       &lt;&lt;
@@ -41,6 +38,9 @@
       &gt;&gt;
     </a>
   </nav>
+
+  <img src="/images/honestly-undefined/{{ .File }}.jpg">
+  {{ .Content }}
 
 </main>
 

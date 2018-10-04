@@ -12,7 +12,15 @@
 
   {{ partial "nav.html" . }}
 
+  <hr>
+
   <section>
+
+    <h4>Honestly Undefined</h4>
+    <p>
+      <a href="/honestly-undefined/">Check out</a> a webcomic about computers and uncertainty. It's is updated weekly.
+    </p>
+
   {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
     {{ if eq "categories" $taxonomyname }}
       {{ range $key, $value := $taxonomy }}

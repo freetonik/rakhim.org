@@ -1,5 +1,5 @@
 +++
-title = "Google shuts down another product"
+title = "I can't believe this happened again"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-28T23:16:00+03:00
 slug = 6

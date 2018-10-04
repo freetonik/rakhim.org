@@ -1,5 +1,5 @@
 +++
-title = "React JS"
+title = "Reactive solution"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-08-24T21:16:00+03:00
 slug = 2

@@ -27,17 +27,28 @@ pygmentsStyle = "manni"
 [[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf"
-    weight = 3
+    weight = 9
+
+[[menu.main]]
+    name = "Comics"
+    url = "/honestly-undefined"
+    weight = 6
+
+[[menu.main]]
+    name = "EmacsCast"
+    url = "https://emacscast.org"
+    weight = 7
 
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/freetonik"
-    weight = 4
+    weight = 10
 
-[[menu.main]]
-    name = "Github"
-    url = "https://github.com/freetonik"
-    weight = 5
+# [[menu.main]]
+#     name = "Github"
+#     url = "https://github.com/freetonik"
+#     weight = 5
+
 
 [[menu.feed]]
     name = "Subscribe"
