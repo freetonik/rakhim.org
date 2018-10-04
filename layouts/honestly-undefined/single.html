@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+<main class="container-hu">
+  <div class="article-meta-hu">
+    <h1 class="h3"><a href="/honestly-undefined">Honestly Undefined</a></h1>
+    <p>{{ .Site.Params.descriptionhu }}</p>
+    <hr>
+    <p><strong>#{{ .Slug }}: {{ .Title }}</strong></p>
+
+    {{ if .Params.draft }}<small class="date text-muted text-light">DRAFT</small>{{ end }}
+  </div>
+
+  <img src="/images/honestly-undefined/{{ .File }}.jpg">
+  {{ .Content }}
+
+  <nav class="nav-hu">
+    <a href="/honestly-undefined/1">
+      &lt;&lt;
+    </a>
+
+    {{if .PrevInSection}}
+    <a href="{{.PrevInSection.Permalink}}">
+      &lt; Prev
+    </a>
+    {{ else }}
+    <a href="#">
+      &lt; Prev
+    </a>
+    {{end}}
+
+    {{if .NextInSection}}
+    <a href="{{.NextInSection.Permalink}}">
+      Next &gt;
+    </a>
+    {{ else }}
+    <a href="#">
+      Next &gt;
+    </a>
+    {{end}}
+
+    <a href="/honestly-undefined">
+      &gt;&gt;
+    </a>
+  </nav>
+
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid">
+  {{if not .IsHome }}
+  <h1>{{ .Title }}</h1>
+  {{ end }}
+
+  {{ .Content }}
+
+  <h1 class="h2 primary-title">Hello!</h2>
+  <p>I'm Rakhim. I teach, program and make podcasts.</p>
+
+  {{ partial "nav.html" . }}
+
+  {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+  <a href="{{.Permalink}}">{{.Title}}</a></li>
+  {{end}}
+
+
+  <section>
+  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    {{ if eq "categories" $taxonomyname }}
+      {{ range $key, $value := $taxonomy }}
+        <h4 class="capitalize">{{ $key }}</h4>
+        <ul>
+        {{ range $value.Pages }}
+          <li>
+            <a href="{{ .URL }}">{{ .Title }}</a>
+            {{ if .Params.date }}<i class="text-muted text-light">{{ .Date.Format "Jan 2, 2006" }}</i>{{ end }}
+          </li>
+        {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </section>
+</div>
+
+{{ partial "footer.html" . }}
