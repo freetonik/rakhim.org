@@ -12,6 +12,7 @@ pygmentsStyle = "manni"
 
 [permalinks]
     blog = "/:year/:month/:filename/"
+    honestly-undefined = "/:section/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -44,3 +45,4 @@ pygmentsStyle = "manni"
 
 [params]
     description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."
+    descriptionhu = "A webcomic about computers and uncertainty"

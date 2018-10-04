@@ -22,6 +22,10 @@ body.site {
   flex-direction: column;
 }
 
+body.site-honestly-undefined {
+  background: #f5f4f0;
+}
+
 .site-content {
   flex: 1;
 }
@@ -83,6 +87,48 @@ figure {
   margin: 0;
   font-size: 80%;
 }
+
+/* Honestly Undefined Container */
+
+.container-hu {
+  max-width: 630px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 21px;
+  text-align: center;
+}
+
+.article-meta-hu h1 {
+  margin: 10px 0;
+}
+
+.article-meta-hu p {
+  margin-bottom: 0.25em;
+}
+
+.article-meta-hu hr {
+  margin: 1.25em 0;
+}
+
+nav.nav-hu {
+  margin: 0.25em 0 1em;
+}
+
+nav.nav-hu a {
+  background-color:  #f4e2b626;
+  border: 1px solid #cbc3af;
+  padding: 3px 9px 3px 10px;
+  border-radius: 3px;
+  margin: 0 5px;
+  font-size: 75%;
+  color: inherit;
+}
+
+nav.nav-hu a:hover {
+  background-color: #ad904c33;
+  text-decoration: none;
+}
+
 
 /* Images wrapped in <strong> are wide when possible */
 

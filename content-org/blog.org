@@ -5,15 +5,7 @@
 #+PROPERTY: header-args :eval never-export
 #+OPTIONS: creator:t toc:nil
 
-* Honestly Undefined :@honestly__undefined:
-** DRAFT Agile Food Truck
-:PROPERTIES:
-:EXPORT_FILE_NAME: agile_food_truck
-:END:
-
-*[[/images/hundef/agile_food_truck.jpg]]*
-
-* Humane computing                                   :@humane__computing:
+* Humane computing                                       :@humane__computing:
 ** DONE For Google, you're neither the consumer nor the product. You're a data point.
 CLOSED: [2018-09-26 Wed 14:24]
 :PROPERTIES:
