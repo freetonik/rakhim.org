@@ -5,7 +5,7 @@
 #+PROPERTY: header-args :eval never-export
 #+OPTIONS: creator:t toc:nil
 
-* Honestly Undefined
+* Comics
 ** DONE Spaceship Problems
 CLOSED: [2018-08-19 Sun 23:19]
 :PROPERTIES:
@@ -46,4 +46,11 @@ CLOSED: [2018-09-28 Fri 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: google_shutdowns_product
 :EXPORT_HUGO_SLUG: 6
+:END:
+
+** DONE React Expectation vs Reality
+CLOSED: [2018-10-05 Fri 14:01]
+:PROPERTIES:
+:EXPORT_FILE_NAME: react_expectation_reality.jpg
+:EXPORT_HUGO_SLUG: 7
 :END:
