@@ -54,3 +54,9 @@ CLOSED: [2018-10-05 Fri 14:01]
 :EXPORT_FILE_NAME: react_expectation_reality.jpg
 :EXPORT_HUGO_SLUG: 7
 :END:
+** DONE People don't change
+CLOSED: [2018-10-08 Mon 10:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: immutable_gf.jpg
+:EXPORT_HUGO_SLUG: 8
+:END:
