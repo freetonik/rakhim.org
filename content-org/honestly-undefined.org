@@ -60,3 +60,9 @@ CLOSED: [2018-10-08 Mon 10:29]
 :EXPORT_FILE_NAME: immutable_gf.jpg
 :EXPORT_HUGO_SLUG: 8
 :END:
+** DONE Software updates throughout history
+CLOSED: [2018-10-11 Thu 09:26]
+:PROPERTIES:
+:EXPORT_FILE_NAME: software_updates.jpg
+:EXPORT_HUGO_SLUG: 9
+:END:
