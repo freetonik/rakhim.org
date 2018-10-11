@@ -1,5 +1,11 @@
 year: 2018
 books:
+  - title: "Writing for Computer Science"
+    author: "Justin Zobel"
+    isbn: "9781447166405"
+    comment: |
+      Even though it is aimed at scientists writing papers, this book is very useful to anybody writing about computer programming and mathematics. Highly recommended if you write any sort of technical non-fiction, really. Especially documentation or tutorials.
+
   - title: "Harry Potter and the Methods of Rationality"
     author: "Eliezer Yudkowsky"
     isbn: "00000000036127"
