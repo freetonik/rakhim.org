@@ -66,3 +66,8 @@ CLOSED: [2018-10-11 Thu 09:26]
 :EXPORT_FILE_NAME: software_updates.jpg
 :EXPORT_HUGO_SLUG: 9
 :END:
+** TODO A case against LISP
+:PROPERTIES:
+:EXPORT_FILE_NAME: lisp_is_ugly.jpg
+:EXPORT_HUGO_SLUG: 10
+:END:
