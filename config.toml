@@ -19,15 +19,21 @@ pygmentsStyle = "manni"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+# [[menu.main]]
+#     name = "About"
+#     url = "/about"
+#     weight = 2
 
 [[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf"
     weight = 9
+
+[[menu.main]]
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCBmKU1FHwhAoljWDORWgcRA"
+    weight = 6
+
 
 [[menu.main]]
     name = "Comics"

@@ -71,6 +71,14 @@ p code, li code {
   padding: 21px 21px 21px 15%;
 }
 
+.container-about {
+  max-width: 630px;
+}
+
+.container-center {
+  margin: auto;
+}
+
 @media (max-width: 850px) {
   .container, .container-fluid {
     margin-right: auto;
