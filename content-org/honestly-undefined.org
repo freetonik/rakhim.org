@@ -72,3 +72,9 @@ CLOSED: [2018-10-15 Mon 14:30]
 :EXPORT_FILE_NAME: lisp_is_ugly.jpg
 :EXPORT_HUGO_SLUG: 10
 :END:
+** DONE Kids nowadays are LIKE stupid
+CLOSED: [2018-10-22 Mon 11:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: sqlkids.jpg
+:EXPORT_HUGO_SLUG: 11
+:END:
