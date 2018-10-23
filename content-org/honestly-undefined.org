@@ -78,3 +78,9 @@ CLOSED: [2018-10-22 Mon 11:39]
 :EXPORT_FILE_NAME: sqlkids.jpg
 :EXPORT_HUGO_SLUG: 11
 :END:
+** DONE Every movie that involves computers
+CLOSED: [2018-10-23 Tue 12:13]
+:PROPERTIES:
+:EXPORT_FILE_NAME: hackers-in-movies.jpg
+:EXPORT_HUGO_SLUG: 12
+:END:
