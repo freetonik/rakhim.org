@@ -141,7 +141,7 @@ nav.nav-hu a:hover {
 /* Images wrapped in <strong> are wide when possible */
 
 figure.wide img,
-strong img, {
+strong img {
   max-width: 1000px;
 }
 
