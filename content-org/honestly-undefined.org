@@ -90,3 +90,9 @@ CLOSED: [2018-10-29 Mon 10:51]
 :EXPORT_FILE_NAME: git.jpg
 :EXPORT_HUGO_SLUG: 13
 :END:
+** DONE The Ultimate AI answers the Ultimate Question
+CLOSED: [2018-11-07 Wed 13:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: ultimate_ai.jpg
+:EXPORT_HUGO_SLUG: 14
+:END:
