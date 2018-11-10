@@ -1,5 +1,39 @@
 year: 2018
 books:
+  - title: "The Three-Body Problem"
+    author: "Liu Cixin"
+    isbn: "9788075771926"
+    comment: |
+      After first 20 minutes I was convinced this isn't for me, but I decided to go a bit further and, oh man, I'm glad I did. This kind of science fiction is exactly what I was looking for and was missing for many years. It brings me back to my first encounters with engaging literature in childhood. The story takes you away not just into foreign lands, but into foreign ways of being, thinking and comprehending reality. The best news is that there are two more books in the series!
+
+  - title: "Make Time: How to Focus on What Matters Every Day"
+    author: "Jake Knapp, John Zeratsky"
+    isbn: "0593079582"
+    comment: "Gotta stop wasting time reading these feel-good books. I can imagine them being very useful, anyway."
+
+  - title: "Love Yourself Like Your Life Depends on It"
+    author: "Kamal Ravikant"
+    isbn: "9781548493400"
+    comment: "Well... I really want to be able to be affected by books like that, but I don't think I am. It's a wonderful read nevertheless."
+
+  - title: "Computing with Quantum Cats: From Colossus to Qubits"
+    author: "John Gribbin"
+    isbn: "9780552779319"
+    comment: |
+      Such a good and engaging writing, but so underwhelming. I expected to read about how quantum computers work, since it's a very complex and hard-to-explain concept. But this book doesn't really go anywhere near real explanations. It's mostly biographies of people and historic facts surrounding the evolution of computing. You will not learn anything about quantum computation from it.
+
+  - title: "Anything You Want"
+    author: "Derek Sivers"
+    isbn: "9781501265082"
+    comment: |
+      A good book for someone who isn't interested in the obnoxious startup craze, but rather wants to build something they care about. Short, interesting, extremely non-boring.
+
+  - title: "The City & the City"
+    author: "China Miéville"
+    isbn: "9788490186756"
+    comment: |
+      What a delightful, unique experience that was! Fresh and original, "fantasy science fiction". Not a big fan of detective stories and noir, but this is something else.
+
   - title: "Writing for Computer Science"
     author: "Justin Zobel"
     isbn: "9781447166405"

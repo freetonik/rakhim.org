@@ -938,6 +938,7 @@ The workflow looks like this:
 
 1. Run =./sync.sh=
 2. That's it :-) Just edit files and save them as usual. It takes about a second to sync.
+
 * Uncool                                                            :@uncool:
 ** DONE I no longer care about og tags, twitter cards, etc.
 CLOSED: [2018-09-04 Tue 15:44]
@@ -978,12 +979,6 @@ I decided not to care about this for my personal projects anymore. If someone wo
 :END:
 
 This week creators of Sublime Text released a GUI client for Git.
-** TODO Why I stopped daily journalling after 5+ years
-:PROPERTIES:
-:EXPORT_FILE_NAME: why-i-stopped-daily-journalling-after-5-years
-:END:
-
-I've been writing a daily journal for more than five years.
 ** TODO Web Development From The First Principles
 :PROPERTIES:
 :EXPORT_FILE_NAME: web-development-from-the-first-principles
