@@ -96,3 +96,9 @@ CLOSED: [2018-11-07 Wed 13:27]
 :EXPORT_FILE_NAME: ultimate_ai.jpg
 :EXPORT_HUGO_SLUG: 14
 :END:
+** DONE Evolution of Frontend vs. Backend
+CLOSED: [2018-11-16 Fri 16:20]
+:PROPERTIES:
+:EXPORT_FILE_NAME: frontend_vs_backend.jpg
+:EXPORT_HUGO_SLUG: 15
+:END:
