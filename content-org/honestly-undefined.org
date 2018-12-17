@@ -12,42 +12,36 @@ CLOSED: [2018-08-19 Sun 23:19]
 :EXPORT_FILE_NAME: spaceship_money
 :EXPORT_HUGO_SLUG: 1
 :END:
-
 ** DONE Reactive solution
 CLOSED: [2018-08-24 Fri 21:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: react_js
 :EXPORT_HUGO_SLUG: 2
 :END:
-
 ** DONE Agile Food Truck
 CLOSED: [2018-08-24 Fri 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: agile_food_truck
 :EXPORT_HUGO_SLUG: 3
 :END:
-
 ** DONE Product manager's bedtime story
 CLOSED: [2018-09-26 Wed 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: night_user_story_time
 :EXPORT_HUGO_SLUG: 4
 :END:
-
 ** DONE A company sells your data
 CLOSED: [2018-09-27 Thu 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: company_sells_data
 :EXPORT_HUGO_SLUG: 5
 :END:
-
 ** DONE I can't believe this happened again
 CLOSED: [2018-09-28 Fri 23:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: google_shutdowns_product
 :EXPORT_HUGO_SLUG: 6
 :END:
-
 ** DONE React Expectation vs Reality
 CLOSED: [2018-10-05 Fri 14:01]
 :PROPERTIES:
@@ -107,4 +101,10 @@ CLOSED: [2018-11-30 Fri 22:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: buggy_ketchup.jpg
 :EXPORT_HUGO_SLUG: 16
+:END:
+** DONE Christmas Wish
+CLOSED: [2018-12-17 Mon 17:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: christmas_wish.png
+:EXPORT_HUGO_SLUG: 17
 :END:
