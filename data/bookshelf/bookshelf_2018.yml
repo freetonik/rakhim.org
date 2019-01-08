@@ -1,5 +1,44 @@
 year: 2018
 books:
+  - title: "Clojure Programming"
+    author: "Chas Emerick"
+    isbn: "9781449335359"
+    comment: |
+      Expansive Clojure primer and a deep dive. I have skipped a few chapters due to cheer overload of information. Will have to come back to this book later in 2019, I think.
+
+  - title: "Clojure for the Brave and True"
+    author: "Daniel Higginbotham"
+    isbn: "9781593277246"
+    featured: yes
+    comment: |
+      One of the best programming books I've read, and the best one about Clojure. The only issue I have with books like that is the nature of examples and exercises: they never have anything to do with the reality. This feels natural to a playful and fun book, but still, I would've loved something more realistic and maybe practical than hobbit vampires battle systems. Oh, and it has a good chapter on Emacs, which motivated me to explore and eventually fall in love with it.
+
+  - title: "The Wandering Earth"
+    author: "Liu Cixin"
+    isbn: "9781784978495"
+    featured: yes
+    comment: |
+      Short sci-fi stories that bring me back into the magic state of limitless exploration and childhood wonder.
+
+  - title: "The Rise of Endymion"
+    author: "Dan Simmons"
+    isbn: "9789985310922"
+    featured: yes
+    comment: |
+      Oh. My. God. This is the fourth book in the Hyperion Cantos series and it's as deep, as engaging, as colorful and as majestic as the first three. As of 2018, this series is my favorite fiction book.
+
+  - title: "Pushing Ice"
+    author: "Alastair Reynolds"
+    isbn: "9781400179602"
+    comment: |
+      Re-reading this after two years. Maybe a bit too long, but a fantastic book nevertheless. Scope, story, ideas and overall atmosphere are just great. Characters and the third quarter of the story aren't too engaging to be honest.
+
+  - title: "What I Wish I Knew When I Was 20"
+    author: "Tina Seelig"
+    isbn: "9780061872471"
+    comment: |
+      It's a nicely written book with nicely formulated ideas, but I expected a deeper exploration. I think I'd have more to say to 20-years-old-me after decades of experience.
+
   - title: "The Three-Body Problem"
     author: "Liu Cixin"
     isbn: "9788075771926"
@@ -67,14 +106,13 @@ books:
 
   - title: "Endymion"
     author: "Dan Simmons"
-    features: yes
+    featured: yes
     isbn: "0747205256"
     comment: |
       It's one of those books that I actually hope won't be made into a movie any time soon, since it's so good and the universe is so humongous, I can't imagine a non-disappointing movie adaptation. (another one of those is the Chronicles of Amber series by Roger Zelazny). Endymion is 3rd in the Hyperion Cantos, and because the story is so much further in time from the original 2 parts of Hyperion, I hesitated before starting it. I just didn't expect it to be as good. I thought "well, all the good parts are over now, and the civilisation has ended". Deeper religious connotations didn't attract me either. But oh man was I wrong! Endymion is on par with the first two books. It feels extremely natural and authentic. I guess the whole cantos should be considered as one huge book, that's it. It's different, though. Unlike the first two books, there aren't that many characters to keep track of. The story is simpler indeed, but it's still intriguing in its complexity. If you like space operas, I highly recommend it.
 
   - title: "12 Rules for Life"
     author: "Jordan B. Peterson"
-    features: yes
     isbn: 9780241351659
     comment: "One of the most important books for me as far as non-fiction goes. Philosophy, religion and psychology under the mask of a self-help book."
 

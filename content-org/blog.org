@@ -939,6 +939,12 @@ The workflow looks like this:
 1. Run =./sync.sh=
 2. That's it :-) Just edit files and save them as usual. It takes about a second to sync.
 
+** TODO Why Bother With Emacs
+:PROPERTIES:
+:EXPORT_FILE_NAME: why-bother-with-emacs
+:END:
+
+Yeah!
 * Uncool                                                            :@uncool:
 ** DONE I no longer care about og tags, twitter cards, etc.
 CLOSED: [2018-09-04 Tue 15:44]
