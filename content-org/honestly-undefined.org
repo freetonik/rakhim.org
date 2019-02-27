@@ -108,3 +108,9 @@ CLOSED: [2018-12-17 Mon 17:43]
 :EXPORT_FILE_NAME: christmas_wish.png
 :EXPORT_HUGO_SLUG: 17
 :END:
+** DONE Frontend vs. Functional Programming Conferences
+CLOSED: [2019-02-27 Wed 14:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: frontend_vs_fp_conferences
+:EXPORT_HUGO_SLUG: 18
+:END:
