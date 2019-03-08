@@ -1,0 +1,34 @@
+year: 2019
+books:
+  - title: "On Writing Well: The Classic Guide to Writing Nonfiction"
+    author: "William Zinsser"
+    isbn: "9780965647625"
+    featured: yes
+    comment: |
+      If I could incorporate 10% of the ideas and recommendations from this book, I'd be 400% happier about my writing. Read this book if you write anything, even if it's limited to twitter. If you blog, then there's no excuse not to pick this up and always have it on your desk.
+
+  - title: "Armada"
+    author: "Ernest Cline"
+    isbn: "9780804149112"
+    comment: |
+      I've enjoyed it, in the same way I've enjoyed silly teen movies. I really wanted to love this, several years after reading "Ready Player One", but alas, Armada was too shallow, too predictable and too... basic? It felt so much like a recipe: a nerd outcast protagonist, a father figure, nerd and non-mainstream culture, everyone is always in on the jokes, mix-tapes and old movies... There is no depth about anything: characters, plot, ideas, twist. Several anti-climaxes along the way and extremely predictable ending. In general, this feels exactly how it tries not to feel: pop-culture-y, cheap, youtube-attention-seeker-y and clickbait-y. Ernest Cline has to expand, or he will become "that guy who writes about geeks", while his intended target audience grows disappointed.
+
+  - title: "How to Design Programs: An Introduction to Programming and Computing "
+    author: "Matthias Felleisen,  Robert Bruce Findler, Matthew Flatt"
+    isbn: "9780262332866"
+    featured: yes
+    comment: |
+      Solid, comprehensive introduction to programming. I'm not sure I'd recommend this book freely, since I'd need to know a little bit about the person first. This is not for everybody, just like SICP (even more so). I think HTDP's primary use case is being a textbook with a good, passionate teacher. If only CS departments could replace useless "software engineering" and "Java OOP" courses with a multi-course series based on HTDP and/or SICP, we'd live in a better place.
+
+  - title: "The Nordic Theory of Everything"
+    author: "Anu Partanen"
+    isbn: "9780062316554"
+    comment: |
+      Didn't finish this book, but only because I'm very much not the target audience. It's one of those "Hey, Americans, check out this not American thing, can you believe that, crazy, right?" reads.
+
+  - title: "Diamond Dogs, Turquoise Days"
+    author: "Alastair Reynolds"
+    isbn: "9780575087705"
+    featured: yes
+    comment: |
+      Two wonderful novellas, filled with the spirit of adventurous and mysterious science fiction. Turquoise Days is my favorite.
