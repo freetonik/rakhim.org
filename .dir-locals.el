@@ -1,2 +1,2 @@
 (("content-org/"
-  . ((org-mode . ((org-hugo-auto-export-on-save . t))))))
+  . ((org-mode . ((eval . (org-hugo-auto-export-mode)))))))
