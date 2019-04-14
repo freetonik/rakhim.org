@@ -1,5 +1,12 @@
 year: 2019
 books:
+  - title: "Bird by Bird: Some Instructions on Writing and Life"
+    author: "Anne Lamott"
+    isbn: "9780385480017"
+    featured: yes
+    comment: |
+      Wonderful, delightful, warm and intimate read. Even though I'm not a fan of the writing style often used in this book, I can honestly appreciate its simplicity, clarity and robustness. It's a no-nonsense, straight writing guide with a person's face.
+
   - title: "On Writing Well: The Classic Guide to Writing Nonfiction"
     author: "William Zinsser"
     isbn: "9780965647625"
