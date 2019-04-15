@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 <div class="container-hu">
+  {{ partial "nav.html" . }}
   <div class="article-meta-hu">
     <h1 class="h3">Honestly Undefined</h1>
     <p>{{ .Site.Params.descriptionhu }}</p>
@@ -33,7 +34,7 @@
   </nav>
 
   {{ range first 1 (where .Data.Pages "Section" "=" "honestly-undefined") }}
-  <img src="/images/honestly-undefined/{{ .File }}.jpg" title="{{ .Title }}" alt="{{ .Title }}">
+  <img src="/images/honestly-undefined/{{ .File.TranslationBaseName }}.jpg" title="{{ .Title }}" alt="{{ .Title }}">
   {{ .Content }}
   {{ end }}
 
