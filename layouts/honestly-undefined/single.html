@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 <main class="container-hu">
+  {{ partial "nav.html" . }}
   <div class="article-meta-hu">
     <h1 class="h3"><a href="/honestly-undefined">Honestly Undefined</a></h1>
     <p>{{ .Site.Params.descriptionhu }}</p>
@@ -39,7 +40,7 @@
     </a>
   </nav>
 
-  <img src="/images/honestly-undefined/{{ .File }}.jpg">
+  <img src="/images/honestly-undefined/{{ .File.TranslationBaseName  }}.jpg">
   {{ .Content }}
 
 </main>
