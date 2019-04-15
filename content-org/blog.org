@@ -964,7 +964,8 @@ The sheer amount of resources the industry pours into made up problems like that
 I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
 
 * Blog
-** TODO How to podcast
+** DONE How to podcast
+CLOSED: [2019-04-15 Mon 16:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: how-to-podcast
 :END:

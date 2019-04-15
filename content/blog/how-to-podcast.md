@@ -1,7 +1,8 @@
 +++
 title = "How to podcast"
 author = ["Rakhim Davletkaliyev"]
-draft = true
+date = 2019-04-15T16:23:00+03:00
+draft = false
 creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
 +++
 
