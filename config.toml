@@ -15,7 +15,7 @@ pygmentsStyle = "manni"
     honestly-undefined = "/:section/:slug/"
 
 [[menu.main]]
-    name = "Home"
+    name = "Blog"
     url = "/"
     weight = 1
 
