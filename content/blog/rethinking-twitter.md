@@ -39,7 +39,7 @@ Yeah. It's like switching TV channels every 5 seconds.
 >
 > ...it can be a huge mental lease we're signing when we invite a few hundred people into our Twitter life. To some degree, it is choosing to subject ourselves to thousands of ads throughout the day, but ones that come from trusted sources we care about, so they're actually impactful.
 
-Yes! And especially since, thanks to both natural and artificial (algorithmic) selection, these short ads are hyper-optimized for stickiness and virality.
+Yes! And especially today, thanks to both natural and artificial (algorithmic) selection, these short ads are hyper-optimized for stickiness and virality.
 
 > We've surrendered a massive amount of mental and emotional energy without making the explicit choice to do so--it's simply imposed on us by subscribing to the channel and checking it.
 
