@@ -2,12 +2,27 @@
     <footer>
        {{if not .IsHome }}
        <p class="container-about container-center">
-        Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos on computer science. <a href="/about">Learn more</a>.
-      You can <a href="https://www.patreon.com/rakhim">support me via Patreon</a>.
+        Hi, I'm Rakhim. I teach, program, make podcasts, comics and videos on computer science. <a href="/about">Learn more</a>. Or <a href="https://www.patreon.com/rakhim">become my patron</a>.
        </p>
 
+       <div class="mt2 mb2">
+           <form
+             action="https://buttondown.email/api/emails/embed-subscribe/rakhim"
+             method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/rakhim', 'popupwindow')"
+             class="embeddable-buttondown-form" >
+           <label for="bd-email">Subscribe to my monthly non-spammy personal newsletter: </label><br>
+           <input type="email" name="email" id="bd-email">
+           <input type="hidden" value="1" name="embed"/>
+           <input type="submit" value="Subscribe" />
+         </form>
+       </div>
+
        {{ partial "nav.html" . }}
-       <div class="mt4"></div>
+
+       <div class="mt4">
+
+
+       </div>
        {{ end }}
 
        <p class="small credits text-muted">
