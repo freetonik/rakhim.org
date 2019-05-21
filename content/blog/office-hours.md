@@ -50,4 +50,4 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
     -   blogging
     -   ... and almost anything else :)
 
-Book your meeting at [calendly.com/rakhim](https://calendly.com/rakhim). Email me at [contact@rakhim.org](mailto:contact@rakhim.org) if you have any questions.
+Book your meeting at [calendly.com/rakhim](https://calendly.com/rakhim). Payment is processed there, along with the booking. Email me at [contact@rakhim.org](mailto:contact@rakhim.org) if you have any questions.

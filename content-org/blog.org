@@ -1246,4 +1246,4 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
    - blogging
    - ... and almost anything else :)
 
-Book your meeting at [[https://calendly.com/rakhim][calendly.com/rakhim]]. Email me at [[mailto:contact@rakhim.org][contact@rakhim.org]] if you have any questions.
+Book your meeting at [[https://calendly.com/rakhim][calendly.com/rakhim]]. Payment is processed there, along with the booking. Email me at [[mailto:contact@rakhim.org][contact@rakhim.org]] if you have any questions.
