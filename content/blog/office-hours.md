@@ -25,18 +25,23 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
     -   English exams
     -   Preparation, process, first steps after landing.
 
-4.  **Education and/or immigration**.
+4.  **Entrepreneurship and startups**.
+    -   Starting your own business.
+    -   Raising funds.
+    -   Growth, goals and metrics.
+
+5.  **Education and/or immigration**.
     -   Learning English.
     -   What to study in college.
     -   How to study abroad. Scholarships, immigration, work after graduation.
 
-5.  **Self management**.
+6.  **Self management**.
     -   Getting things done
     -   Focusing on hard tasks
     -   Managing distractions
     -   Reducing mindless browsing, social media influence, digital addictions
 
-6.  Other:
+7.  Other:
     -   simplifying life
     -   digital essentialism
     -   managing complexity in life
