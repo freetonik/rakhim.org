@@ -6,7 +6,7 @@ draft = false
 creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
 +++
 
-As an experiment, I am holding paid office hours for several weeks. I'd love to share whatever limited experience I've gained so far. You can schedule a 30 or 60 minute audio call with me to talk (in English or Russian) about any of the following topics:
+As an experiment, I am holding paid office hours for several weeks. I'd love to share whatever limited experience I've gained so far. You can schedule a 30 or 60 minute audio call to talk (in English or Russian) about any of the following topics:
 
 1.  **Computer science and programming**.
     -   Discuss a fascinating idea.
