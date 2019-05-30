@@ -19,6 +19,11 @@ pygmentsStyle = "manni"
     url = "/"
     weight = 1
 
+[[menu.main]]
+    name = "Office hours"
+    url = "/2019/05/office-hours/"
+    weight = 2
+
 # [[menu.main]]
 #     name = "About"
 #     url = "/about"
