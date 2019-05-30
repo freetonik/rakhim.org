@@ -1247,10 +1247,10 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
    - ... and almost anything else :)
 
 Book your meeting at [[https://calendly.com/rakhim][calendly.com/rakhim]]. Payment is processed there, along with the booking. Email me at [[mailto:contact@rakhim.org][contact@rakhim.org]] if you have any questions.
-** DONE A case against 80 characters
+** DONE 80-characters limit for text is wrong
 CLOSED: [2019-05-30 Thu 12:27]
 :PROPERTIES:
-:EXPORT_FILE_NAME: a-case-against-80-characters
+:EXPORT_FILE_NAME: 80-char-is-wrong
 :END:
 
 I believe the 80-characters (or any other number) line limit for text to be wrong. Not archaic or irrelevant, but wrong. It violates a fundamental idea of computer science: separating layers of abstraction.

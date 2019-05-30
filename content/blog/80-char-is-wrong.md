@@ -1,5 +1,5 @@
 +++
-title = "A case against 80 characters"
+title = "80-characters limit for text is wrong"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-05-30T12:27:00+03:00
 draft = false
