@@ -1,5 +1,33 @@
 year: 2019
 books:
+
+  - title: "The Bullet Journal Method"
+    author: "Ryder Carroll"
+    isbn: "9783499633409"
+    comment: |
+      The Bullet Journal method had helped me make sense of a very complicated period of my life, but I haven't used it in years since. This book re-ignited my interest and provided with some inspiration. It's a self-help book, alright, but not too typical. Ryder seems to be a genuinely good person.
+
+
+  - title: "Programming the Universe"
+    author: "Seth Lloyd"
+    isbn: "9788959090310"
+    comment: |
+      It's a very interesting book, and you should try it. But... I can't recommend it to someone who doesn't know a little bit about quantum mechanics or computing or programming already. It covers a lot of topics and never goes into real explanation. And those time that it does, the metaphors and analogies are the same that other authors and even journalists use. In an attempt to make an approachable book, the author delivers a lot of starting points, but not a lot of meat. Oh, and there are a few illustrations that serve zero purpose, like a full page picture of three balls with arrows, trying to convey the idea of electron spin. But a few pages later there's a complex explanation with multiple changing variables that's impossible to track without re-reading multiple times or taking notes — a great place to actually illustrate!
+
+  - title: "World War Z"
+    author: "Max Brooks"
+    isbn: "9782702139738"
+    comment: |
+      So cool! The book has nothing to do with the movie though, thank god. It's such a great format, delivered masterfully. The audio book features the author himself, interviewing the zombie war survivors! If you like this one, check out the last chapters of "Lock In" by John Scalzi. It's a similar pseudo-documentary about another kinds of apocalypse.
+
+
+  - title: "The War of Art"
+    author: "Steven Pressfield"
+    isbn: "9781936891047"
+    comment: |
+      An interesting idea with good potential — resistance as a somewhat material force that manifests itself as procrastination and other phenomena — leading to nowhere. This book was so promising in the beginning, and utterly underwhelming throughout.
+
+
   - title: "Bird by Bird: Some Instructions on Writing and Life"
     author: "Anne Lamott"
     isbn: "9780385480017"
