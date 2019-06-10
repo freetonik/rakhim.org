@@ -51,3 +51,12 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
     -   ... and almost anything else :)
 
 Book your meeting at [calendly.com/rakhim](https://calendly.com/rakhim). Payment is processed there, along with the booking. Email me at [contact@rakhim.org](mailto:contact@rakhim.org) if you have any questions.
+
+
+## Testimonials {#testimonials}
+
+_I had a chat with Rakhim about education and mindfulness. His broad vision and aspiration to immerse in the asked questions helped me validate my current knowledge and gave me the direction for further growth. I recommend office hours if you feel kind of lost in a topic and want to know where to move on._ — **Andrew R**.
+
+_One hour Q&A session had helped me to better determine my career goals and new ways to fulfill my interests in different areas of software engineering. Thanks to Rakhim, I've found new opportunities and ideas on how to improve my computer science knowledge, English, and other things. Thank you bro!_ — **Rustem Z.**
+
+_Me and Rakhim were talking about doing business in Finland. We had just 30 minutes, but we managed to discuss visa, tax and legal aspects of working in Finland. Rakhim also sent me a bunch of useful links after the chat. It was a nice experience overall, can totally recommend._ — **Dmitry N.**
