@@ -20,9 +20,15 @@ pygmentsStyle = "manni"
     weight = 1
 
 [[menu.main]]
+    name = "Talks"
+    url = "/talks"
+    weight = 2
+
+[[menu.main]]
     name = "Office hours"
     url = "/2019/05/office-hours/"
-    weight = 2
+    weight = 3
+
 
 # [[menu.main]]
 #     name = "About"
@@ -40,10 +46,10 @@ pygmentsStyle = "manni"
     weight = 6
 
 
-[[menu.main]]
-    name = "Comics"
-    url = "/honestly-undefined"
-    weight = 6
+# [[menu.main]]
+#     name = "Comics"
+#     url = "/honestly-undefined"
+#     weight = 6
 
 [[menu.main]]
     name = "EmacsCast"

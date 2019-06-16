@@ -2,9 +2,9 @@
 title: About
 ---
 
-Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos on computer science.
+Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos about computer science. I live in Helsinki, Finland 🇫🇮
 
-I live in Helsinki, Finland 🇫🇮
+Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 
 ### Current projects
 - __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
@@ -34,3 +34,4 @@ Special thanks to my [Patrons](https://www.patreon.com/rakhim "support Rakhim on
 
 - Baidaly
 - Anton Yakutovich
+- Shmavon Gazanchyan
