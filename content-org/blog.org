@@ -1248,6 +1248,8 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
 
 Book your meeting at [[https://calendly.com/rakhim][calendly.com/rakhim]]. Payment is processed there, along with the booking. Email me at [[mailto:contact@rakhim.org][contact@rakhim.org]] if you have any questions.
 
+UPD (2.7.2019): the office hours experiments is concluded. Thank you!
+
 **** Testimonials
 
 /I had a chat with Rakhim about education and mindfulness. His broad vision and aspiration to immerse in the asked questions helped me validate my current knowledge and gave me the direction for further growth. I recommend office hours if you feel kind of lost in a topic and want to know where to move on./ — *Andrew R*.

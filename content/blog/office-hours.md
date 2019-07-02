@@ -52,6 +52,8 @@ As an experiment, I am holding paid office hours for several weeks. I'd love to 
 
 Book your meeting at [calendly.com/rakhim](https://calendly.com/rakhim). Payment is processed there, along with the booking. Email me at [contact@rakhim.org](mailto:contact@rakhim.org) if you have any questions.
 
+UPD (2.7.2019): the office hours experiments is concluded. Thank you!
+
 
 ## Testimonials {#testimonials}
 
