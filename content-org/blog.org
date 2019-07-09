@@ -1,3 +1,5 @@
+;; -*- mode: Org; org-download-image-dir: "../static/images/posts"; org-download-heading-lvl: 1; org-download-display-inline-images: nil; org-download-timestamp: "" -*-
+
 #+TITLE: Posts
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: blog
