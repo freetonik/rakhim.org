@@ -1401,7 +1401,6 @@ And then, completely by chance, I had a chance to ride Bombtrack Arise. A single
 
 Yes! It made me smile!
 
-
 #+DOWNLOADED: file:/Users/rakhim/Downloads/bombtrack_arise.jpg @ 2019-07-27 11:30:22
 [[file:/images/posts/Bicycles_and_Love/bombtrack_arise.jpg]]
 
@@ -1478,4 +1477,3 @@ This analogy helps me learn new things. I try to remember the following:
 2. In the middle motivation will decrease. That's okay. Keep getting data and trust the system.
 3. Do not focus on a single picture. Maybe, in order to understand it you need another picture first.
 4. At some point, notice the diminishing returns of new data. Consider increasing the area of study.
->>>>>>> process of learning
