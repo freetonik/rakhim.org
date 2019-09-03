@@ -41,7 +41,7 @@ pygmentsStyle = "manni"
 
 [[menu.main]]
     name = "YouTube"
-    url = "https://www.youtube.com/channel/UCBmKU1FHwhAoljWDORWgcRA"
+    url = "https://www.youtube.com/c/codexpanse"
     weight = 6
 
 
