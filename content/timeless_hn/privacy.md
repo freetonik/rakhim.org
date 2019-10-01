@@ -1,4 +1,4 @@
-### Timeless HN iOS app: Privacy Policy
+### Timeless HN: Privacy Policy
 
 This policy applies to all information collected or submitted on our apps for iPhone and any other devices and platforms.
 
