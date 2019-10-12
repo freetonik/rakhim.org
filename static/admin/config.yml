@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "static/images/posts"
-public_folder: "img"
+public_folder: "/images/posts"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
