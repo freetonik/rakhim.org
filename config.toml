@@ -20,14 +20,14 @@ pygmentsStyle = "manni"
     weight = 1
 
 [[menu.main]]
-    name = "Talks"
-    url = "/talks"
+    name = "Courses"
+    url = "https://learn.codexpanse.com/collections"
     weight = 2
 
-# [[menu.main]]
-#     name = "Office hours"
-#     url = "/2019/05/office-hours/"
-#     weight = 3
+[[menu.main]]
+    name = "Talks"
+    url = "/talks"
+    weight = 3
 
 # [[menu.main]]
 #     name = "About"
@@ -43,7 +43,6 @@ pygmentsStyle = "manni"
     name = "YouTube"
     url = "https://www.youtube.com/c/codexpanse"
     weight = 6
-
 
 # [[menu.main]]
 #     name = "Comics"
@@ -64,7 +63,6 @@ pygmentsStyle = "manni"
 #     name = "Github"
 #     url = "https://github.com/freetonik"
 #     weight = 5
-
 
 [[menu.feed]]
     name = "Subscribe"

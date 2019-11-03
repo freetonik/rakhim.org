@@ -6,10 +6,16 @@ Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos about comp
 
 Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 
+### Main project
+
+- __[Codexpanse](https://codexpanse.com)__. Online courses and books on programming and computer science. [Read more about motivation and values](https://blog.codexpanse.com/why-codexpanse/).
+- __[Codexpanse Podcast](https://podcast.codexpanse.com/)__. Exploring the computing nature of reality, ideas of programming and math, and our role in this exciting world.
+- __[Codexpanse YouTube](https://www.youtube.com/codexpanse)__. Animated lessons on fundamentals of programming.
+
 ### Current projects
-- __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
-- __[Codexpanse](https://www.youtube.com/channel/UCBmKU1FHwhAoljWDORWgcRA)__. Videos on computer science and programming.
+- __[Underblog](https://github.com/freetonik/underblog/)__. Extremely simple and fast static blog generator written in Go.
 - __[EmacsCast](http://emacscast.rakhim.org/)__. Podcast about Emacs.
+- __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
 - __[Honestly Undefined](/honestly-undefined/)__. Webcomic about computers and uncertainty.
 
 ### Also involved
@@ -22,7 +28,6 @@ Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 ### Retired (in Russian)
 - __Metasalt__. [Podcast](https://metasalt.pinecast.co/) about life and mindfulness.
 - __Code Basics__. Free [programming lessons in Russian](https://code-basics.ru).
-- __Hexlet Podcast__. [Podcast](https://ru.hexlet.io/blog/categories/podcast) about computer science, math and the universe.
 - __Hexlet__. Programming courses in [Russian](https://ru.hexlet.io) and [English](https://en.hexlet.io). I co-founded the company, run its daily operations and teach a couple of courses.
 
 
@@ -35,3 +40,5 @@ Special thanks to my [Patrons](https://www.patreon.com/rakhim "support Rakhim on
 - Baidaly
 - Anton Yakutovich
 - Shmavon Gazanchyan
+- Babur Duisenov
+- Denis
