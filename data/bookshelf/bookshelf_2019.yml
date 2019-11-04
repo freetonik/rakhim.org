@@ -1,6 +1,58 @@
 year: 2019
 books:
 
+  - title: "The Antidote"
+    author: "Oliver Burkeman"
+    featured: yes
+    isbn: "9781480527843"
+    comment: |
+      I really enjoyed the book, but have to admit, it's mostly preaching to the choir. Regardless, it's a very well written and easy to read book which manages to incorporate stories and anecdotes into serious discussions in a non-obnoxious way.
+
+  - title: "The End of Eternity"
+    author: "Isaac Asimov"
+    featured: yes
+    isbn: "9782207250655"
+    comment: |
+      Re-reading this for the Nth time. One of my all time science fiction favorites. It's pretty simple, compared to some mind-bending scifi of modern time, but hell, the story, the flow, the scale, it's just great. I'm actually not a fan of Asimov, couldn't ever finish any of the Foundation books. So, if you had tried Asimov and it didn't stick, try "The End of Eternity".
+
+  - title: "Bullshit Jobs: A Theory"
+    author: "David Graeber"
+    isbn: "9781508264668"
+    comment: |
+      You know what this is about. No surprises here. The book itself is fun and quirky.
+
+  - title: "21 Lessons for the 21st Century"
+    author: "Yuval Noah Harari"
+    featured: yes
+    isbn: "9789400404960"
+    comment: |
+      A very well written bird's eye view of the humanity landscape. Empathetic and neutral at the same time. I want to Yuval's other books now.
+
+  - title: "Astrophysics for People in a Hurry"
+    author: "Neil deGrasse Tyson"
+    featured: yes
+    isbn: "9789462987043"
+    comment: |
+      Neil is great, as always. Entertaining and inspiring overview of astrophysics. His audiobook version is fantastic, too.
+
+  - title: "The Sleep Revolution: Transforming Your Life, One Night at a Time"
+    author: "Arianna Huffington"
+    isbn: "9780753557198"
+    comment: |
+      A terrible way to learn about sleep. Just watch some lectures on YouTube.
+
+  - title: "Money: Know More, Make More, Give More"
+    author: "Rob Moore"
+    isbn: "9781473671027"
+    comment: |
+      Ouch, that was cringy and boring. Wow, I've read some bad books in 2019 for some reason...
+
+  - title: "Artificial Intelligence: The Basics"
+    author: "Kevin Warwick"
+    isbn: "9781283459563"
+    comment: |
+      An okay overview, nicely written, but make no mistake, this is truly the basics.
+
   - title: "The Bullet Journal Method"
     author: "Ryder Carroll"
     isbn: "9783499633409"
