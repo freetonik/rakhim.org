@@ -4,7 +4,7 @@ author = ["Rakhim Davletkaliyev"]
 date = 2018-09-26T14:24:00+03:00
 categories = ["humane computing"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 In light of recent changes to Google Chrome, many forums have filled with bitter discussions. Here are just a few:
@@ -32,7 +32,7 @@ What does it mean to be a data point?
 
 1.  Your personal issues don't matter.
 2.  You, alone, are not valuable.
-3.  You are can be easily replaced.
+3.  You can be easily replaced.
 
 While this is a gloomy oversimplification, I believe it's important to recognize the general idea.
 
