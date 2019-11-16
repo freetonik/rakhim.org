@@ -12,7 +12,8 @@ Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 - __[Codexpanse Podcast](https://podcast.codexpanse.com/)__. Exploring the computing nature of reality, ideas of programming and math, and our role in this exciting world.
 - __[Codexpanse YouTube](https://www.youtube.com/codexpanse)__. Animated lessons on fundamentals of programming.
 
-### Current projects
+### Side projects
+- __[Geostreaks](https://apps.apple.com/us/app/geostreaks/id1482655198)__. iOS app for those who work from home and forget to go outside.
 - __[Underblog](https://github.com/freetonik/underblog/)__. Extremely simple and fast static blog generator written in Go.
 - __[EmacsCast](http://emacscast.rakhim.org/)__. Podcast about Emacs.
 - __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
@@ -22,14 +23,12 @@ Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 - __[Grumpy Website](http://grumpy.website/)__. Co-author. Writing about bad UX.
 
 ### Retired
-
 - __[Repodig](https://repodig.com/)__. Github projects analyzer.
 
 ### Retired (in Russian)
 - __Metasalt__. [Podcast](https://metasalt.pinecast.co/) about life and mindfulness.
 - __Code Basics__. Free [programming lessons in Russian](https://code-basics.ru).
 - __Hexlet__. Programming courses in [Russian](https://ru.hexlet.io) and [English](https://en.hexlet.io). I co-founded the company, run its daily operations and teach a couple of courses.
-
 
 <hr>
 
