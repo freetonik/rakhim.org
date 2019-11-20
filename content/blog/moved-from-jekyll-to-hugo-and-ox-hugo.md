@@ -2,9 +2,8 @@
 title = "Moved from Jekyll to Hugo and ox-hugo"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-03T17:13:00+03:00
-categories = ["software and tools"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I have changed the setup for this blog from Jekyll + Github to Hugo + ox-hugo + Netlify. The main goal was to be able to write blog posts from within Emacs and reduce as much traction as possible. Also, Org mode is much more comfortable to write in compared to any Markdown editor I've tried.

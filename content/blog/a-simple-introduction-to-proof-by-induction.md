@@ -2,9 +2,9 @@
 title = "A Simple Introduction to Proof by Induction"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-20T17:18:00+03:00
-categories = ["mathematics"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Now that you're familiar with [direct proof and proof by contradiction](/2018/09/a-simple-introduction-to-proof-by-contradiction/), it's time to discover a powerful technique of proof by induction.

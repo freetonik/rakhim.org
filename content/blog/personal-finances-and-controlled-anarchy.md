@@ -2,9 +2,9 @@
 title = "Personal finances and controlled anarchy"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-07T12:31:00+03:00
-categories = ["life"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Most of my life, I didn't have much money. I was born in the 90s in a tiny Kazakh town, and nobody had a job there, it seemed. USSR just collapsed and my parents were trying to make ends meet in a constant hustle.

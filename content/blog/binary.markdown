@@ -3,7 +3,7 @@ date: "2016-12-02T00:00:00Z"
 title: What is binary?
 slug: binary
 categories: ["mathematics"]
-tags: ["featured"]
+tags: ["good"]
 ---
 
 My attempt to explain binary numbers.

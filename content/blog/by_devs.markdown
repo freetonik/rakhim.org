@@ -6,7 +6,7 @@ summary: In the past programmers were building products for programmers. Today p
 title: Products aren't for people yet
 slug: by_devs
 categories: ["humane computing"]
-tags: ["featured"]
+tags: ["good"]
 ---
 
 Remember how your parents would try to use Windows 95 or something like Norton Commander. They'd copy an app shortcut to a floppy disk and be amazed how much stuff they were able to put inside. All the games, and lots of space left! And you'd think *they don't understand anything at all*, they are just clicking pretty much randomly, hoping this magic machine would at some point understand them and do the right thing. That was the time when **programmers were building products for programmers**.

@@ -2,9 +2,8 @@
 title = "I no longer care about og tags, twitter cards, etc."
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-04T15:44:00+03:00
-categories = ["uncool"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Enough.

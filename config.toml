@@ -5,7 +5,7 @@ theme = "ra"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
-paginate = 25
+paginate = 20
 
 pygmentsCodeFences = true
 pygmentsStyle = "manni"
@@ -15,24 +15,24 @@ pygmentsStyle = "manni"
     honestly-undefined = "/:section/:slug/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 
 [[menu.main]]
+    name = "Archive"
+    url = "/archive"
+    weight = 2
+
+[[menu.main]]
     name = "Courses"
     url = "https://learn.codexpanse.com/collections"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Talks"
     url = "/talks"
-    weight = 3
-
-# [[menu.main]]
-#     name = "About"
-#     url = "/about"
-#     weight = 2
+    weight = 4
 
 [[menu.main]]
     name = "Bookshelf"
@@ -58,11 +58,6 @@ pygmentsStyle = "manni"
     name = "Twitter"
     url = "https://twitter.com/freetonik"
     weight = 10
-
-# [[menu.main]]
-#     name = "Github"
-#     url = "https://github.com/freetonik"
-#     weight = 5
 
 [[menu.feed]]
     name = "Subscribe"

@@ -2,13 +2,12 @@
 title = "User Is Dead"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-10-22T10:51:00+03:00
+tags = ["good"]
 draft = false
 creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
-User is dead. User remains dead. And we have killed him. How shall we comfort ourselves, the developers, the designers, the growth hackers? What was holiest and the final judge of all that the world has yet owned has bled to death under our a/b-tests and new features. Who will wipe this blood off us? What garbage collector is there for us to clean ourselves? What conference of atonement, what disruptive technology, what sacred meeting shall we have to invent? Is not the greatness of this deed too great for us? Must we ourselves not become users simply to appear worthy of it?
-
----
+_User is dead. User remains dead. And we have killed him. How shall we comfort ourselves, the developers, the designers, the growth hackers? What was holiest and the final judge of all that the world has yet owned has bled to death under our a/b-tests and new features. Who will wipe this blood off us? What garbage collector is there for us to clean ourselves? What conference of atonement, what disruptive technology, what sacred meeting shall we have to invent? Is not the greatness of this deed too great for us? Must we ourselves not become users simply to appear worthy of it?_
 
 By saying "God is dead" Friedrich Nietzsche tried to express the fear that the decline of religion and the rise of nihilism would plunge the world into chaos.
 

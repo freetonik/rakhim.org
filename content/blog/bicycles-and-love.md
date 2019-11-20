@@ -2,8 +2,9 @@
 title = "Bicycles and Love"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-07-27T11:47:00+03:00
+tags = ["good"]
 draft = false
-creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I love bicycles.

@@ -5,7 +5,7 @@ summary: I believe that computer scientists and software engineers have the mora
   how the things are supposed to be.
 title: Podcasting is not walled (yet)
 slug: podcasting-is-not-walled
-tags: ["featured"]
+tags: ["good"]
 ---
 
 I've launched a podcast recently ([EmacsCast](http://emacscast.rakhim.org/)) and received lots of feedback. One of the perplexing things people said was "*that's great, but how do I subscribe, it's not on iTunes/Google Podcasts?*"

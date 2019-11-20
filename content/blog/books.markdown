@@ -6,7 +6,7 @@ summary: In the past I spent hours asking people in both real life and on the in
 title: Please, recommend me a book about X
 categories: ["life"]
 slug: books
-tags: ["featured"]
+tags: ["good"]
 ---
 
 In the past I spent hours asking people to recommend me some books, in both real life and on the internet. I was starting to learn programming, so obviously I wanted to find **The Bible**, the best book for each of the aspects of coding. *What is the best book about algorithms? Can you please recommend a book about Java? I'm looking for a good book that'll teach me Django. Any suggestions?*

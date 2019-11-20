@@ -2,9 +2,8 @@
 title = "Make Firefox faster and nicer on macOS"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-10-01T13:53:00+03:00
-categories = ["software and tools"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I'm trying Firefox as my primary browser on all devices. It has some great features like [Multi-Account containers](https://support.mozilla.org/en-US/kb/containers) in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.

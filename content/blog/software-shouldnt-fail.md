@@ -6,7 +6,7 @@ summary: I believe that computer scientists and software engineers have the mora
 title: We shouldn't let people get used to the idea that software fails
 categories: ["humane computing"]
 slug: software-shouldnt-fail
-tags: ["featured"]
+tags: ["good"]
 ---
 
 Society has certain expectations when it comes to engineering and technology. We expect buildings and bridges to basically never fail. We expect cars to be extremely safe and fool-proof, as much as explosions-based metal boxes moving at hundred miles per hour can be safe and fool-proof. Home appliances are supposed to work for years without any serious maintenance. Electricity is just there, always. And when it goes out, we are incredibly frustrated and surprised.

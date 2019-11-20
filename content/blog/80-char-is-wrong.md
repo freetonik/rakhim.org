@@ -2,8 +2,9 @@
 title = "80-characters limit for text is wrong"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-05-30T12:27:00+03:00
+tags = ["good"]
 draft = false
-creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I believe the 80-characters (or any other number) line limit for text to be wrong. Not archaic or irrelevant, but wrong. It violates a fundamental idea of computer science: separating layers of abstraction.

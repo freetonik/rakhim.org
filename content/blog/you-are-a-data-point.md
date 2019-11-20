@@ -2,7 +2,7 @@
 title = "For Google, you're neither the consumer nor the product. You're a data point."
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-26T14:24:00+03:00
-categories = ["humane computing"]
+tags = ["good"]
 draft = false
 creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++

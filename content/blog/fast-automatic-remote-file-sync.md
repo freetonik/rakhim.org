@@ -2,9 +2,8 @@
 title = "Fast automatic remote file sync"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-10-17T11:11:00+03:00
-categories = ["software and tools"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Our dev machines at Hexlet are remote, since the project is too big and resource-heavy for laptops. This good decision made by our CTO also means that the dev environment is freed from additional layers of complexity like managing Vagrant and Vbox.

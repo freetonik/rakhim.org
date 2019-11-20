@@ -2,9 +2,9 @@
 title = "Keyboard fanaticism"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-10T16:54:00+03:00
-categories = ["humane computing"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I've been reading [an article about Emacs](https://sites.google.com/site/steveyegge2/effective-emacs), and this paragraph had nailed me right into the soul:

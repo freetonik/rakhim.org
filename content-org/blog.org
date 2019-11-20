@@ -3,12 +3,514 @@
 #+TITLE: Posts
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: blog
-#+SEQ_TODO: TODO DRAFT DONE
+#+SEQ_TODO: TODO DONE
 #+PROPERTY: header-args :eval never-export
 #+OPTIONS: creator:t toc:nil
 
-* Humane computing                                       :@humane__computing:
-** DONE For Google, you're neither the consumer nor the product. You're a data point.
+* Blog
+** DONE How to podcast :good:
+CLOSED: [2019-04-15 Mon 16:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: how-to-podcast
+:END:
+
+Here is a TL;DR version:
+
+1. Record using whatever. Even smartphones produce decent sound nowadays. Just make sure to have a consistent volume, i.e. maintain constant distance between your mouth and the phone.
+2. Compress to 96kbps mp3 constant bitrate. Or use an online encoder like [[https://pinecoder.pinecast.com/][Pinecoder]].
+3. Pick a podcast hosting provider:
+   1. [[https://pinecast.com][pinecast.com]]: starts at $5/month with unlimited storage, unlimited shows, basic analytics and website generator.
+   2. [[https://simplecast.com/][simplecast.com]]: starts at $15/month per show. Cool player, website generator.
+   3. [[https://transistor.fm/][transistor.fm]]: starts at $19/month with unlimited storage, unlimited shows. Limited at 5k downloads per month.
+   4. Or one of many others, including [[https://www.podbean.com/][podbean]], [[https://www.libsyn.com/][libsyn]], [[https://fireside.fm/][fireside]] or even [[https://soundcloud.com/for/podcasting][soundcloud]] (probably not the best idea, since the company's finances aren't great)
+4. Add your podcast to public catalogs:
+   1. [[https://podcastsconnect.apple.com/][Apple Podcasts (iTunes)]]
+   2. [[https://podcasters.spotify.com/][Spotify]]
+   3. [[https://pocketcasts.com/submit][PocketCasts]]
+   4. [[https://play.google.com/music/podcasts/portal/][Google Podcasts]]
+   5. [[https://player.fm/importer/feed][Player FM]]
+   6. [[https://help.tunein.com/contact/add-podcast-S19TR3Sdf][TuneIn]]
+
+   Some podcast hosting providers can submit your feed to those catalogs on your behalf, but I suggest you do everything manually to keep 100% control over your content.
+
+*** Preparation
+
+This part is very subjective, so I'll just describe my own process.
+
+Since each of my episodes follows a specific topic, I start thinking about it weeks before, just allowing ideas, thoughts and just random pieces of info simmer in my head for hours. I do my best to write down these things, but often just forget them. It's okay. I have learned to let go of "obviously genius" ideas.
+
+I never hesitate to write down whatever comes to mind though. It could be an analogy, a funny phrase, a weird comparison.
+
+At some point I feel ready to jot down the structure. I've been using a large notepad and iPad pro with Apple Pencil, but lately have been enjoying [[https://mindnode.com/][MindNode]] on the desktop. Having a large, tree-like structure fits my way of thinking very well. I just "walk" the tree during recording, trying to visit all the nodes.
+
+*** Recording
+
+There are different levels here.
+
+**** Level 1: Just use whatever.
+
+Your phone or internal microphone of your laptop are /okay/. Not great by any means, but keep these in mind and you'll be fine:
+- Pick a quiet spot. Humming noises are the worst (loud fridge, AC, etc.)
+- Maintain constant distance between your mouth and the mic
+- If possible, record in a smaller room with lots of soft objects to minimize echo. Books, blankets, pillows, curtains reduce echo significantly.
+
+**** Level 2: USB headset
+
+A good and cheap way to improve your sound significantly is using almost any good USB headset. But it /must/ be USB. Those headsets that connect via jack cables are simply using your computer's audio card and the sound might not be much better than with an internal mic.
+
+**** Level 3: USB microphone
+
+USB mics are the combination of "real" microphones and the convenience of USB. You usually don't need anything else, just plug and play.
+
+There are several good choices in this category:
+
+1. [[http://www.rode.com/microphones/podcaster][Rode Podcaster]] (my only mic for 10+ years, produced hundreds of podcasts and videos with it)
+2. [[https://www.bluedesigns.com/products/yeti/][Blue Yeti]]
+3. Audio-Technica ATR2100-USB
+4. Shure PG42-USB
+5. Audio-Technica AT2020USB+
+
+**** Level 4: XLR microphone
+
+When you're ready to go "full podcaster", go read [[https://marco.org/podcasting-microphones][Marco Arment's Podcasting Microphones Mega-Review]]. There are audio samples, too.
+
+*** Editing
+
+I edit my podcasts heavily. 60 minutes of recording usually result in about 35-45 minutes of end result. Marco Arment wrote about this in [[https://marco.org/2014/11/29/easy-listening][Easy listening]] and I agree: "you just need to care".
+
+Free and open source [[https://www.audacityteam.org/download/][Audacity]] is more than capable for both recording and editing, but, to be honest, I find it extremely cumbersome and ugly. Once you're serious, I think it's worth to invest into buying and learning a tool like Adobe Audition (my choice) or Apple Logic Pro X.
+
+*** Publishing
+
+Podcast is basically an RSS feed with media files. You can generate it yourself and host mp3 files wherever. If you already have a blog running on Wordpress, it makes sense to just continue using it. On wordpress.com they have a [[https://en.support.wordpress.com/audio/podcasting/][special feature for podcasting]], and if you run your own wordpress instance, [[https://wordpress.org/plugins/seriously-simple-podcasting/][this plugin]] will help you.
+
+It is much easier to use one of the specialized hosting providers:
+
+1. [[https://pinecast.com][pinecast.com]]: starts at $5/month with unlimited storage, unlimited shows, basic analytics and website generator.
+2. [[https://simplecast.com/][simplecast.com]]: starts at $15/month per show. Cool player, website generator.
+3. [[https://transistor.fm/][transistor.fm]]: starts at $19/month with unlimited storage, unlimited shows. Limited at 5k downloads per month.
+4. Or one of many others, including [[https://www.podbean.com/][podbean]], [[https://www.libsyn.com/][libsyn]], [[https://fireside.fm/][fireside]] or even [[https://soundcloud.com/for/podcasting][soundcloud]] (probably not the best idea, since the company's finances aren't great)
+
+Most of them can even generate websites for your shows, although, their design choices are questionable at times.
+
+All of my shows are hosted by pinecast: it's a fantastic value for the money and everything works perfectly fine. Here is my referral coupon code for 40% off for 4 months: =r-a6562b=. Use it at checkout.
+
+*** Questions?
+
+Feel free to email me at contact@rakhim.org, and I'll try to add more info to this guide.
+** DONE Easy slides (for me)
+CLOSED: [2019-04-21 Sun 14:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: easy-slides-for-me
+:END:
+
+As a software developer, at some point you discover simple slides and presentation generators: Markdown-to-PDF/HTML converters, Emacs extensions, LaTeX exporters, VIM plugins, etc. The idea makes perfect sense, because:
+
+1. I don't want to use PowerPoint or Keynote.
+2. I don't want to use the mouse.
+3. I want plain text.
+4. I want simplicity.
+
+You can create presentations without leaving your favourite editor or command line. But unfortunately, the majority of the results are just text with an occasional poorly positioned funny GIF (that didn't load because wifi is down).
+
+I completely understand the desire to make things as simple as possible and forget about clunky GUI-based presentation software. I don't like them either, and yeah, I'd love to be able to do things from the comfort of my text editor. You might say that text is mostly enough, animations and other flashy effects don't contribute to the value.
+
+But I argue that animations, visualizations and transitions are tools, and like any other tool, they add value when used correctly. By sticking to text-only slide generators, you disregard a whole set of tools and potentially a whole set of problems they might help solve.
+
+A title flying out from the corner probably doesn't do any good, the effect has no meaning. But if you want to explain something non-trivial (not to you, but to your audience), consider using /something/ to illustrate your point or even just to focus viewer's attention. It's not about animation or burning flames effect, it's about /anything/ above the typewriter in the pyramid of technology.
+
+Dimming. Colors. Shapes. Transparency.
+
+Computer science is full of complex ideas, multiple levels of abstraction, non-obvious connections and relations. It pains me to see whole presentations, thick books and long manuals with essentially zero visuals, zero attempt to convey an idea with something other than text.
+
+Your slim Markdown-to-PDF converter serves one purpose: make /your/ life easier. Nothing wrong with that. But there are also viewers who might benefit from a more detailed visual presentation. Of course, not all viewers would. For many, text and your speech are more than enough, after all, many of us became programmers because of the ability to understand complex, abstract, non-visual ideas to begin with. This is where lack of diversity starts from, I believe. We filter out people by their adaptability to certain styles and formats of explanations. We filter out people by their learning medium.
+
+/You need a cartoon to understand closures? Good luck. Maybe, programming isn't for you?../
+
+Now, I understand that it takes time, and you might just not have enough of it. I am not bashing these wonderful tools and not saying you /must/ produce visuals and animations. I just wanted to remind you that plain-text presentations are compromises. It's absolutely fine to mindfully and intentionally make compromises.
+** DONE Rethinking Twitter :good:
+CLOSED: [2019-05-15 Wed 17:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: rethinking-twitter
+:END:
+
+*** Good old days
+
+Twitter is the only social media I've ever used. Sure, I had accounts on other sites, but was never really engaged elsewhere. I couldn't understand all those "facebook addiction" stories, honestly. Facebook was always extremely boring, while Twitter was always exciting.
+
+From the beginning, it was a perfect, geeky, simple thing that is kind of hard to explain. Just a stream of short thoughts. Cool links. One liners. A public chat room.
+
+I joined Twitter in 2007. Woah, 12 years ago! I was studying in a university, and smartphones weren't really a thing yet. This is totally a "back in my days" kind of rhetoric, but hell, that Twitter was nice.
+
+Most people didn't have a Twitter account. Because it's weird, what's the point? So, like other internet communities, Twitter started as a selected group of weirdos, acting constantly amazed about the fact that they're all here. Tweeting.
+
+The timeline was chronological, and the world seemed ordered. It was more like RSS than like Facebook or TV: you could only see the people you explicitly subscribed to. Never an unknown face in your timeline. Retweets weren't a feature, it was just a thing people did: copying a tweet and putting "RT" in front of it. I think it's a better strategy overall: if you retweet something this way, you put your face on the message, you own it now. So, the value of retweets was higher, nobody wanted to copy every mildly interesting thing.
+
+There were no likes, this added sugar of engagement and interaction. You like something? Well, say it. Tell it to the author, do a retweet with an encouraging comment. Do something you'd do in real life.
+
+Twitter was allowing people to communicate via a digital medium. Not communicate in a new digital way.
+
+And Twitter wasn't like TV.
+
+*** Outsourced schizophrenia
+
+A HackerNews user had [[https://news.ycombinator.com/item?id=16292024][put]] it nicely:
+
+#+BEGIN_QUOTE
+I think the problem is that Twitter is a platform for evolutionary selection of slogan-based-dialog. I kind of imagine two armies standing across a battlefield from one another carefully deciding which volley of pithy digs to throw at one another.
+#+END_QUOTE
+
+Yeah. It's like switching TV channels every 5 seconds.
+
+[[https://adambrault.com/blog/i-quit-twitter-for-a-month][This article]] had hit home hard for me. I'll just include a few quotes:
+
+#+BEGIN_QUOTE
+There are people you know whose voice you can hear in your head [...], or people who you even consult with in your head for wisdom ("What advice would my dad give here?") [...]
+
+...it can be a huge mental lease we're signing when we invite a few hundred people into our Twitter life. To some degree, it is choosing to subject ourselves to thousands of ads throughout the day, but ones that come from trusted sources we care about, so they're actually impactful.
+#+END_QUOTE
+
+Yes! And especially today, thanks to both natural and artificial (algorithmic) selection, these short ads are hyper-optimized for stickiness and virality.
+
+#+BEGIN_QUOTE
+We've surrendered a massive amount of mental and emotional energy without making the explicit choice to do so--it's simply imposed on us by subscribing to the channel and checking it.
+#+END_QUOTE
+
+The worst part is that nowadays you see a chaotic stream from people you /haven't/ explicitly subscribed to: retweets, liked and promoted tweets, ads, etc.
+
+#+BEGIN_QUOTE
+Mentally, we just aren't capable of simultaneously empathizing with hundreds of people--let alone thousands or millions. The result is we either build up a calloused, jaded, or cynical defense against empathy or find a way to block out more.
+#+END_QUOTE
+
+I can hardly manage interacting with a single person for more than a few hours, let alone with hundreds, even via virtual channels.
+
+This one describes me very well too:
+
+#+BEGIN_QUOTE
+I'll admit: I'm an annoyingly oversensitive person. I do believe this is both a strength and a weakeness. [...] I also have a tendency to listen carefully to any criticism or disagreement I hear, internalize it, reflect on it, and evaluate it, then conclude some thought on it. Until I do that, it just sort of hangs there in my head. The degree to which it dominates my headspace is largely a question of how much it impacts me.
+#+END_QUOTE
+
+If nothing else, I want you to consider this quote:
+
+#+BEGIN_QUOTE
+[...] Twitter is outsourced schizophrenia. I have a couple hundred voices I have consensually agreed to allow residence inside my brain.
+#+END_QUOTE
+
+I assume not everyone is like that, and not everyone experiences social media this way. But Adam, the author of that post, does. I do too.
+
+His essay is fantastic, really:
+
+#+BEGIN_QUOTE
+I've realized how Twitter has made me break up my thoughts into tiny, incomplete, pieces--lots of hanging ideas, lots of incomplete relationships, punctuated by all manner of hanging threads and half-forked paths.
+#+END_QUOTE
+
+*** Change
+
+But Twitter has been very beneficial to my career. With a few thousand followers, links to my projects had consistently brought me hundreds of hits, readers, clients. This is my strategic failure: I haven't been working on maintaining an independent outlet for my audience, a newsletter or a consistent blog. For more than a decade, Twitter has been the main channel of distributing my work.
+
+So, I decided to make a few changes and conduct an experiment.
+
+1. Unfollow everybody. No more timeline.
+2. Tweet via an app like Buffer, without opening Twitter itself.
+3. Open Twitter and reply to mentions only on weekends.
+4. Invest energy into maintaining a consistent blog and a personal newsletter. You can subscribe to the newsletter [[https://buttondown.email/rakhim][here]] or with a form below:
+
+#+BEGIN_export html
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/rakhim"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/rakhim', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email">
+  <input type="hidden" value="1" name="embed"/>
+  <input type="submit" value="Subscribe" />
+</form>
+#+END_export
+
+I will maintain this system at least until the end of 2019 and we'll see how it goes.
+
+TWEET THIS NOW!
+** DONE 80-characters limit for text is wrong :good:
+CLOSED: [2019-05-30 Thu 12:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 80-char-is-wrong
+:END:
+
+I believe the 80-characters (or any other number) line limit for text to be wrong. Not archaic or irrelevant, but wrong. It violates a fundamental idea of computer science: separating layers of abstraction.
+
+Not talking about code today, although, I don't think a strict limit is a good thing there either, for other reasons. I'm talking about human text.
+
+Many programmers stick to the 80-characters line length limit while writing documentation, emails, etc. Emacs and other editors even have special modes or plugins for automatic hard wrapping.
+
+Often, results look like so:
+
+[[/images/posts/email.png]]
+
+Without hard-wrapping, this email had a chance to look normal everywhere. Any app can interpret and present it in any way. With hard-wrapping though, this email can only look normal in certain conditions. Namely, a certain lower limit for window width.
+
+Imagine joining a web project and seeing a =users= database table with values like =<strong>Jason Norwig</strong>=. Your reaction might include profanity, because mixing data and presentation is wrong. Person's name (data) and its presentation (HTML) are different layers of abstraction.
+
+Hard-wrapping lines by inserting =\n= symbols where they don't have any semantic meaning is the same sin. The whole character return thing was relevant in a context where data was inseparable from presentation: typewriters and paper.
+
+A key argument for hard-wrapping goes something like this: "modern screens are too wide, it's uncomfortable to read long lines". But modern screens come with modern apps, which can handle presentation to your preference. By modern I mean "developed after the '70s". Text editors (including vim and Emacs) have been able to soft-wrap lines at arbitrary comfortable column for decades.
+
+If your text presentation tool can't present text to your preference, consider replacing it. Moving this responsibility into data itself is not a solution.
+
+#+BEGIN_export html
+So can we please<br>
+stop doing this<br>
+to each other.<br>
+#+END_export
+** DONE Bicycles and Love :good:
+CLOSED: [2019-07-27 Sat 11:47]
+:PROPERTIES:
+:EXPORT_FILE_NAME: bicycles-and-love
+:END:
+
+I love bicycles.
+
+The first memories I have are bike-related. The best ones are, too.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/my_first_bicycle.jpg @ 2019-07-06 15:45:39
+[[file:/images/posts/Bicycles_and_Love/my_first_bicycle.jpg]]
+/My first bicycle was a tricycle/
+
+I don't remember a time I didn't bike. Bicycle means freedom.
+
+My first serious bicycles, the ones that let me explore the city, were old, steel soviet tanks. They were simultaneously indestructible and always broken.
+
+My friend Eugene and I spent summers biking around town, forests and river valleys. It was awesome.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/bikes_river.jpg @ 2019-07-06 15:47:48
+[[file:/images/posts/Bicycles_and_Love/bikes_river.jpg]]
+/Eugene riding away, my bike in front/
+
+Those bikes were all-purpose vehicles. Well, at least for us they were. Pavement, gravel, sand, water, whatever. They go where we go. They were simple and stupid, and I loved that. No speeds, no hand brakes.
+
+I used to live with my grandma until I was 13. Her apartment had a narrow corridor connecting the entrance to the room, and I can't imagine it without a bicycle. It was always there, and when it wasn't, I wasn't home. Out biking god knows where.
+
+I had a dream of driving a city bus, so quite often I spent hours biking along the bus routes, stopping at bus stops, emulating a bus. An old pen was diligently placed inside the handlebar, sticking about 2 inches outwards: it was my fake turn signal lever. I had to make the turn signal clicking sound myself, of course.
+
+Then I moved to Canada. My next bike was a pretty cool steel Schwinn I got as a gift from my host family in Ottawa. Bicycle freedom had suddenly expanded. Now I could ride to another province where people speak a different language and traffic lights are horizontal. I could bring my bike on the train and get further than ever. I could disappear into the city and nobody could find me.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/schwinn.jpg @ 2019-07-06 15:53:12
+[[file:/images/posts/Bicycles_and_Love/schwinn.jpg]]
+/I didn't appreciate this bike enough. I wish I could get that frame back.../
+
+Several random used bikes later I decided I'm ready to spend serious bucks and try road biking. With 1000 Canadian dollars in hand, I walked into a bike shop in western Ottawa and got myself a beautiful aluminium Trek 1.1.
+
+Freedom was reinvented once more. With this light, fast bike I could go further than ever before. First 100 km ride was a revelation. Then 350km in 2-day group event. Then 500km in three days. Then more than a 1000 km in a week across multiple provinces to see the ocean.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/trek.jpg @ 2019-07-06 17:42:58
+[[file:/images/posts/Bicycles_and_Love/trek.jpg]]
+/At the end of my long trip to see the Atlantic Ocean, New Brunswick, Canada/
+
+I was in love again.
+
+I was about to finish my computer science degree and was feeling somewhat [[https://rakhim.org/2018/10/dazed-depressed-defunct/][down]] at times. That bike was the best thing in my life.
+
+Biking and computer science made perfect sense to me. Both are about efficiency. Both are tools, but at the same time fun in and of themselves. Both let you be alone.
+
+They let you disappear into a vast domain and get lost.
+
+After moving from Canada to Kazakhstan, I stopped biking. It took me almost 5 years to re-ignite the passion.
+
+After moving to Finland, I decided to try a single-speed and got a pretty Swedish Stålhästen Sport fixed gear bike with a flip-flop hub. Fixed gear is not my cup of tea, so I flipped the wheel and started discovering the Helsinki area.
+
+It was pretty sexy.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/fixie.jpeg @ 2019-07-06 17:51:08
+[[file:/images/posts/Bicycles_and_Love/fixie.jpeg]]
+
+But alas, we weren't for each other. We just didn't click. A bicycle is an intimate object for me, along with backpacks and computers. I can't just have one, I must love it. So I sold it to someone who, hopefully, loved it.
+
+And got myself a cyclocross Kona Rove Al 2015.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/kona_rove_al.jpeg @ 2019-07-06 18:05:59
+[[file:/images/posts/Bicycles_and_Love/kona_rove_al.jpeg]]
+
+The relationship with this one was complicated. I loved it and sometimes hated it.
+
+I loved my Kona because it was very comfortable, fast and looked very cool. Its brownish color was a perfect fit for the forests and fields I took it to. Disc brakes — first for me — made me more confident on narrow descents and uneven terrain.
+
+But I didn't love the maintenance. It was equipped with the cheapest components. Decent, but not awesome. Shimano Claris groupset and mechanic disc brakes were never perfect. The bike was never perfectly tuned, never perfectly silent. And I'm ashamed to admit, but I'm a crappy handyman when it comes to bikes. Actually, I'm a crappy handyman in all areas where "undo" is not an option, but I'm particularly bad with bicycles. Derailleur adjustment and disc brake calibration are black magic to me. Hours of sweat and profanity and I end up with a subpar configuration. It works and it's fine, but it's just not very good. Then I say "screw this!" and bring the bike to a mechanic.
+
+By the way, good bike mechanics are pretty expensive in Finland.
+
+I've later learned that better groupsets and hydraulic brakes (or at least the hybrid dual-piston ones) are so much better, and I honestly almost convinced myself to spend two grand on a /very good bicycle/. Because then I will ride more, right?
+
+Kona Rove Al was my bike for three good seasons, but the furthest I took it was a 120 km one day ride. It never saw other regions of the country even. We weren't too adventurous together.
+
+This summer, after another failed attempt to eliminate 100% of the disc brakes noise, I decided to say goodbye to Kona and look for something new.
+
+A romanticized and, perhaps, irrational desire to simplify struck me again. What is the simplest bicycle possible? Single speed with coaster brake. I love handbrakes, so, rim brakes then. But I wasn't sure I could do single-speed again. I love my knees.
+
+Then I discovered internal hubs. They look and feel like single-speed from the outside: no derailleur, no cable slack. My girlfriend and I got ourselves small folding bikes with Shimano Nexus 3-speed hubs and they are very nice. Simple, reliable, solid.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/nexus.jpg @ 2019-07-06 18:32:03
+[[file:/images/posts/Bicycles_and_Love/nexus.jpg]]
+
+There also exist 7-speed Nexus hubs, but I haven't tried one. They are pretty heavy and it's a pain to install them with dropbars.
+
+Turns out, there are also automatic hubs! Woah! Extremely curious, I got myself an old Fixie Inc. Floater with Sram Automatix 2-speed automatic hub.
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/fixie_floater_sram.jpg @ 2019-07-06 18:37:20
+[[file:/images/posts/Bicycles_and_Love/fixie_floater_sram.jpg]]
+
+The experience is... interesting. You just start pedaling and at about 15 km/h the gear changes automatically. It's pretty solid, no wobble or anything. It's like you're suddenly teleported into higher gear. This shift point it ridiculously low though. It was pretty easy to disassemble the hub and change the shift point by unwinding a tiny metallic spring ([[https://bikesfornoreason.blogspot.com/2014/01/sram-automatix-2-speed-hack.html?m=1][here's a good description]]).
+
+At first, it seemed like a good compromise. Almost as simple as a single-speed, but the second gear allows to keep a sane cadence at higher speeds. Unfortunately, the hub is not as isolated from the outside world as other internal gear hubs, so it will require some maintenance.
+
+I took it on multiple rides and just didn't love it. What a picky, delicate flower I am.
+
+And then, completely by chance, I had a chance to ride Bombtrack Arise. A single-speed, steel gravel bike.
+
+Yes! It made me smile!
+
+#+DOWNLOADED: file:/Users/rakhim/Downloads/bombtrack_arise.jpg @ 2019-07-27 11:30:22
+[[file:/images/posts/Bicycles_and_Love/bombtrack_arise.jpg]]
+
+I'm not a fast rider, so when it comes to gearing, comfortable climbing is more important to me than going fast. Finding the perfect ratio for a single-speed takes time and lots of cogs, but this bike came with what seems to be the perfect ratio for me: 42 teeth chain ring and 17 teeth rear sprocket. With 28" tires, it yields 69 gear inches, which works very well for the steepest hills in my area and is good enough for descents.
+
+This [[https://www.bikecalc.com/fixed][handy bike calculator]] helps to figure out the good ratio for a given cadence and speed. For my new bike, 90 rpm produces 28.4 km/h, and the high cadence of 130 rpm yields 41 km/h.
+
+Single speed forces me to be more disciplined and think ahead. I can't just attack a hill on a granny gear anymore, I have to save as much momentum as possible. At the same time, this creates ultimate freedom. I don't think about optimal gearing, I am always in the +wrong+ right gear.
+
+Steel frame is lovely and comfortable, it feels softer, yet more confident. The simplicity of not having so many extra things inspires almost a zen-like feeling. Oh, and it's quiet. No chain slap.
+
+I am yet to take the Bombtrack on a truly long ride, and it might not be as peachy as I describe. But so far, with about 250km behind, I remain in love.
+
+Find a bike you enjoy, it will make you happier.
+** DONE Process of Learning :good:
+CLOSED: [2019-07-29 Mon 17:24]
+:PROPERTIES:
+:EXPORT_FILE_NAME: process-of-learning
+:END:
+
+A process of learning is analogous to an attempt of building a three-dimensional model from two-dimensional photos.
+
+You approach a new area of knowledge. You know nothing at all. You stumble upon a first piece:
+
+#+DOWNLOADED: https://rakh.im/images/posts/lm_1.jpg @ 2019-07-29 16:37:33
+[[file:/images/posts/Process_of_Learning/lm_1.jpg]]
+
+That's more than nothing, but still very little. You don't understand it. At best, you're able to make a few uncertain assumptions.
+
+Beginners often seek good book recommendations. They would google a top-10 list and then ask "which one should I start with?". The answer is almost always "it doesn't matter". Start with /any/ non-shitty book. One book alone would not provide enough data to build a good model anyway. If you want to really understand something, you'll have to read several books, listen to different people, try various approaches. Nobody knows what's going to work best for a particular person. Each model building machine is unique. The starting order of feeding it data is not very important, unless that information is truly harmful.
+
+("What is harmful" is a topic for another discussion, and I by no means argue that finding non-harmful books is an easy task. In fact, I'd call many popular programming books harmful, especially when it comes to teaching the basics of programming with Java. So, at least minimize the potential harm by not focusing on a single book.)
+
+Another basic book will provide a different view:
+
+#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_2.jpg @ 2019-07-29 17:03:04
+[[file:/images/posts/Process_of_Learning/lm_2.jpg]]
+
+You still can't understand it. But keep going, and at some point you'll arrive at a single complete picture.
+
+#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_3.jpg @ 2019-07-29 17:04:04
+[[file:/images/posts/Process_of_Learning/lm_3.jpg]]
+
+This tells you more than before, you can even make some conclusions or reason about certain aspects of the object. But you don't have a complete model yet, one 2D picture is not enough. Your brain haven't met such objects in the past, there's nothing to cling on to. This is why it's essential to have various sources of information: other books, people, lessons, different mediums.
+
+New pieces keep emerging, and it's disconcerting. They don't seem to make any sense, this puzzle feels broken.
+
+#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_4.jpg @ 2019-07-29 17:06:53
+[[file:/images/posts/Process_of_Learning/lm_4.jpg]]
+
+This is the toughest stage of the learning journey. Often, any hope is lost. Disconnected pieces provoke the feeling of meaninglessness. You can't see the big picture.
+
+> I think I understand each individual topic, but have no idea how they are connected. And why did I learn all that. Nothing makes sense...
+
+But if you keep going, soon you'll get to another full picture:
+
+
+#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_5.jpg @ 2019-07-29 17:08:57
+[[file:/images/posts/Process_of_Learning/lm_5.jpg]]
+
+Interesting! A completely different point of view. Same object, new aspects. A complete 3D model is still impossible to deduce, but there's more space for assumptions. Having multiple pictures increases the chances of seeing /something/ familiar. It's a new topic alright, but topics are rarely completely isolated from the universe.
+
+A few more pictures and you get a pretty accurate model.
+
+#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_6.jpg @ 2019-07-29 17:11:00
+[[file:/images/posts/Process_of_Learning/lm_6.jpg]]
+
+The first picture was extremely valuable, but each new picture brings less and less valuable data. At some point you have a decent model in your head, so that new pictures don't give you anything new.
+
+This analogy helps me learn new things. I try to remember the following:
+
+1. At first, everything is interesting and easy. The first picture gives a lot of data at once. This is the pleasant stage.
+2. In the middle motivation will decrease. That's okay. Keep getting data and trust the system.
+3. Do not focus on a single picture. Maybe, in order to understand it you need another picture first.
+4. At some point, notice the diminishing returns of new data. Consider increasing the area of study.
+** DONE Be Wary of Self Described Benefits
+CLOSED: [2019-09-03 Tue 18:06]
+:PROPERTIES:
+:EXPORT_FILE_NAME: be-wary-of-self-described-benefits
+:END:
+
+Picking a university was one of the main tasks in the last year of high school. That and exams. I wasn't sure what to study and which place to pick. I had no idea /how/ one can make these choices. There weren't too many resources available at the time. So, a lot of us relied on promotional info provided by universities themselves.
+
+The one I ended up in was called SDU. Its official description says: "SDU is a secular higher educational institution located in Kaskelen, near Almaty."
+
+It was the only university that actually claimed to be secular. That's good, right? I had no interest in studying at a religious institution. Secular is good.
+
+Turned out, it wasn't very secular. No, we didn't study Holy Texts. Officially, nothing religious was going on. But the Islamic values did indeed feel affecting the policies and decisions everywhere. The dormitories for males and females were separate buildings in different neighborhoods. I had actually never seen the women's dormitory, nor had any male student around. The girls just went to a mysterious place every evening. A large proportion of students held a religious fast (Ramadan). Several instructors gave bonuses to fasting students. So I had to work harder to get the same grade because I was being secular at a secular university.
+
+I dropped out after 4 months. Thank /God/.
+
+Later, I started to notice this pattern. Often, people, communities, companies and even countries seem to blindly put positive descriptions out. As if they /wanted/ others to notice.
+
+It becomes very clear in case of countries. Here are some famous authoritarian regimes:
+
+- Democratic People's Republic of Korea
+- Democratic Republic of the Congo
+- People's Republic of China
+- People’s Democratic Republic of Algeria
+- Federal Democratic Republic of Ethiopia
+
+Right.
+
+So I learned to be wary of self described benefits. It's kind of obvious and silly once you think about it.
+
+Yours truly,
+not passive aggressive at all, Rakhim.
+** DONE User Is Dead :good:
+CLOSED: [2019-10-22 Tue 10:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: user-is-dead
+:END:
+
+/User is dead. User remains dead. And we have killed him. How shall we comfort ourselves, the developers, the designers, the growth hackers? What was holiest and the final judge of all that the world has yet owned has bled to death under our a/b-tests and new features. Who will wipe this blood off us? What garbage collector is there for us to clean ourselves? What conference of atonement, what disruptive technology, what sacred meeting shall we have to invent? Is not the greatness of this deed too great for us? Must we ourselves not become users simply to appear worthy of it?/
+
+By saying "God is dead" Friedrich Nietzsche tried to express the fear that the decline of religion and the rise of nihilism would plunge the world into chaos.
+
+Whether you believe that people /require/ an external source of morality, or you accept the numerous philosophical and scientific arguments for intrinsic morality in behavior of complex animals, the fear remains relevant. The fear is not necessarily about God or religion, but about a moral compass, or lack thereof.
+
+My arguably tasteless rewrite of Nietzsche's passage expresses another fear, which, I sincerely hope many software developers share. For a long time, we had an external source of morality in software development. *User.* Simultaneously ephemeral stick figure of UML diagrams and a very real human, a friend, a colleague. The goal, the point, the final judge of success. Your product either satisfied the user or failed. Your software may occasionally have charmed User, but don't be fooled, you are but a servant.
+
+"Move fast and break things", "disruption" and "growth" have killed User. No more do we try to offer invisible quality. Instead of software that blends into background by virtue of its non-obtrusive robustness and simplicity, we aspire to create The Product Experience. The first pleases User. The latter pleases Shareholder.
+
+The Holy Texts are forgotten or, worse, perverted. Apple's famous Human Interface Guidelines ironically describe the many ways in which modern Apple products /do not behave/. The Agile manifesto became The Certified Agile Coach Training Program and a cargo cult. The very first principle of the Agile Manifesto states:
+
+>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+How many of us feel this during another a/b-test-driven, metric-based sprint?
+
+The 7th principle is:
+
+>Working software is the primary measure of progress.
+
+An honest, but naive assumption that we all share a similar criterion for "working". Turns out, the height of the bar is inversely proportional to the proximity of another funding round. By the 90s standards, a lot of today's software is just defunct.
+
+When User dies, only Beta Tester remains. Beta Tester is not human. It's an expendable tool, a lab rat, a database record.
+
+What can we do as developers? Honestly, I don't know. Coming up with a manifesto, a set of principles, another guideline — it all seems futile now. The problem isn't that we forgot about User. We just collectively adapted to the new definition of normal. Breaking changes are normal. Updates for the sake of updates are normal. The house is on fire, but this is normal.
+
+What can we do?.. /"Must we ourselves not become users?"/
+** DONE For Google, you're neither the consumer nor the product. You're a data point. :good:
 CLOSED: [2018-09-26 Wed 14:24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: you-are-a-data-point
@@ -176,7 +678,7 @@ Extremely relevant ads and extremely personalized user experiences sound pretty 
 Legislation will never catch up in time, so we have to take things into our own hands and learn to live in this brave new world.
 
 [fn:1] Rather, a generator of myriads of data points, but "data point" sounds more inhumane and humiliating, so I'll stick to this term for dramatic purposes.
-** DONE RE: Software disenchantment
+** DONE RE: Software disenchantment :good:
 CLOSED: [2018-09-17 Mon 23:57]
 :PROPERTIES:
 :EXPORT_FILE_NAME: re-software-disenchantment
@@ -306,7 +808,7 @@ It seems, individual users don't matter anymore. As long as the final majority o
 I'm all for your "Better world manifesto", sign me up. But I think that developers are not the bottleneck, the users are. We do have the responsibility, but this is an industry change we're talking about, and only markets seem to be able to effectively change industries.
 
 Until we all live in some perfect society, there will be huge markets full of users with "other problems than your stupid app". And as long as it makes economical sense to produce cheap crap, it will be produced.
-** DONE Dumb Down the Context Until the Problem Goes Away
+** DONE Dumb Down the Context Until the Problem Goes Away :good:
 CLOSED: [2018-09-14 Fri 21:10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: dumb-down-the-context-until-the-problem-goes-away
@@ -369,7 +871,7 @@ If playing with lots of inter operating tools is fun, by all means go for it. As
 [fn:1] https://www.w3.org/TR/css3-mediaqueries/
 [fn:2] https://robots.thoughtbot.com/sass-source-maps-chrome-magic
 [fn:3] https://github.com/goll
-** DONE Keyboard fanaticism
+** DONE Keyboard fanaticism :good:
 CLOSED: [2018-09-10 Mon 16:54]
 :PROPERTIES:
 :EXPORT_FILE_NAME: keyboard-fanaticism
@@ -411,9 +913,7 @@ Also, Emacs packages like [[https://github.com/abo-abo/avy][avy]] or [[https://g
 The vast sea of discussions and advice about programming tools and especially text editing is full of opinions, approaches and cult-like repeated revelations. Often, the loud sounds of the echo chamber make it difficult to stop for a moment and evaluate something yourself. But please do try.
 
 It's easy to be indoctrinated.
-
-* Life :@life:
-** DONE Personal finances and controlled anarchy
+** DONE Personal finances and controlled anarchy :good:
 CLOSED: [2018-09-07 Fri 12:31]
 :PROPERTIES:
 :EXPORT_FILE_NAME: personal-finances-and-controlled-anarchy
@@ -493,7 +993,7 @@ The "controlled anarchy" system lacks the precision of the previous one, but req
 This is what I call simplification: less decision-making means more energy for the truly important things.
 
 Now, if you don't do any sort of budgeting and don't really control your money, I'm not sure going into "controlled anarchy" right away is a good idea. It seems like it's alright, but maybe you should try real detailed budgeting first, maybe for a year or so, just so that you understand what's going on, where money goes to.
-** DONE Dazed, depressed, defunct
+** DONE Dazed, depressed, defunct :good:
 CLOSED: [2018-10-31 Wed 14:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: dazed-depressed-defunct
@@ -566,9 +1066,7 @@ There are things that definitely contribute positively: I started working out an
 I don't know why I'm writing all this. It promised to be cathartic, but maybe I should stop listening to external promises...
 
 [[/images/posts/dazed.png]]
-
-* Math :@mathematics:
-** DONE A Simple Introduction to Proof by Induction
+** DONE A Simple Introduction to Proof by Induction :good:
 CLOSED: [2018-09-20 Thu 17:18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-induction
@@ -660,7 +1158,7 @@ It clicked after I understood that we don't have to prove $P(n)$, we just take t
 Well, if $P(1+1)$ is true, then, using the same idea, $P(1+1+1)$ is true, and so forth.
 
 The basis was the cheat-code to kick-start the process by avoiding the need to prove the assumption \ref{eq:2}.
-** DONE A Simple Introduction to Proof by Contradiction
+** DONE A Simple Introduction to Proof by Contradiction :good:
 CLOSED: [2018-09-12 Wed 17:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-simple-introduction-to-proof-by-contradiction
@@ -781,9 +1279,6 @@ Therefore, $\sqrt{2}$ is irrational.■
 [fn:1] https://en.wikipedia.org/wiki/Irrational_number
 [fn:2] https://en.wikipedia.org/wiki/Rational_number
 [fn:3] https://en.wikipedia.org/wiki/Integer
-
-
-* Software and Tools                                      :@software__and__tools:
 ** DONE Moved from Jekyll to Hugo and ox-hugo
 CLOSED: [2018-09-03 Mon 17:13]
 :PROPERTIES:
@@ -843,361 +1338,6 @@ While this transition was mainly performed due to workcrastination, I'm pretty h
 Writing in Org is arguably a more pleasant experience compared to Markdown. Being able to integrate blogging into the same program that is used for planning, programming and long-form writing is very nice.
 
 The whole blog setup, including this custom theme is available on [[https://github.com/freetonik/rakhim.org][Github]].
-** DONE Make Firefox faster and nicer on macOS
-CLOSED: [2018-10-01 Mon 13:53]
-:PROPERTIES:
-:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
-:END:
-
-I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
-
-Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
-
-Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
-
-*** Download Firefox 63 or higher
-
-As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
-
-You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
-
-*** Disable animations
-
-By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
-
-Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
-
-Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
-
-- =full-screen-api.transition-duration.enter=
-- =full-screen-api.transition-duration.leave=
-
-*** Disable Pocket
-
-Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
-
-*** Other stuff
-
-These are not related to performance, but can make your Firefox experience a bit nicer.
-
-Set to true:
-
-- =modalHighlight= highlight all the search results.
-- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
-- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
-- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
-
-Minor things:
-
-- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
-- =geo.enabled= set to =false= to disable geolocation.
-- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
-** DONE Fast automatic remote file sync
-CLOSED: [2018-10-17 Wed 11:11]
-:PROPERTIES:
-:EXPORT_FILE_NAME: fast-automatic-remote-file-sync
-:END:
-
-Our dev machines at Hexlet are remote, since the project is too big and resource-heavy for laptops. This good decision made by our CTO also means that the dev environment is freed from additional layers of complexity like managing Vagrant and Vbox.
-
-Most of the devs work directly on the remote machines using vim. I used Sublime before Emacs, and seamlessly synced all changes using an excellent [[https://wbond.net/sublime_packages/sftp][SFTP package]]. There's a similar (and free) package for [[https://marketplace.visualstudio.com/items?itemName=liximomo.sftp][VS Code]].
-
-The canonical solution for Emacs is [[https://www.gnu.org/software/tramp/][TRAMP]]. It's pretty cool, but not suitable for my workflow. I want instant feedback when navigating the project with Projectile and searching all files using =ag=. TRAMP is slow as hell for these.
-
-A possible solution is to sync files from local to remote using rsync and do it automatically when files change. Doing full folder sync is slow. Luckily, rsync has =--files-from= option. You can specify a list of files to sync. So, use [[https://github.com/emcrisostomo/fswatch][fswatch]] to watch changes, and run =rsync= for each changed file.
-
-Thanks to [[https://www.alistairphillips.com/2018/09/05/file-sync-with-fswatch-and-rsync/][Alistair Phillips]], I didn't have to write the whole script myself. Here is what I got in =sync.sh=:
-
-#+BEGIN_SRC bash
-#!/usr/bin/env bash
-rm --force /tmp/remote-server-rsync.txt
-rm --force /tmp/remote-server-rsync-relative.txt
-
-echo "Starting initial sync..."
-rsync --verbose -azP --delete --exclude='.git/' --exclude='.DS_Store' --exclude='tmp/' . remote_user@XXX.XXX.XXX.XXX:/home/remote_user/hexlet
-echo ""
-
-echo "Watching..."
-
-fswatch --exclude=".git" --batch-marker=EOF -xn . | while read file event; do
-    if [ $file = "EOF" ]; then
-       printf "%s\n"  "${list[@]}" > /tmp/remote-server-rsync.txt
-       sed -e "s,/Users/rakhim/code/hexlet/,," /tmp/remote-server-rsync.txt > /tmp/remote-server-rsync-relative.txt
-       echo "Beginning sync..."
-       rsync --verbose --files-from=/tmp/remote-server-rsync-relative.txt . remote_user@XXX.XXX.XXX.XXX:/home/remote_user/hexlet
-       echo "sync completed"
-       echo "Watching..."
-       list=()
-    else
-       list+=($file)
-    fi
-done
-#+END_SRC
-
-The workflow looks like this:
-
-1. Run =./sync.sh=
-2. That's it :-) Just edit files and save them as usual. It takes about a second to sync.
-
-
-* Uncool                                                            :@uncool:
-** DONE I no longer care about og tags, twitter cards, etc.
-CLOSED: [2018-09-04 Tue 15:44]
-:PROPERTIES:
-:EXPORT_FILE_NAME: i-no-longer-care-about-og-tags-twitter-cards-etc
-:END:
-
-Enough.
-
-Facebook, Twitter and other social networks have their own markup formats that "enable any web page to become a rich object in a social graph". For the most part it means that if you want to make your link look nice when people share it, you have to set some meta tags.
-
-#+BEGIN_SRC html
-<meta property="og:title" content="The Wonderful" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="/images/cover.jpg" />
-#+END_SRC
-
-This is a noble idea in the abstract, and one more attempt at creating semantic web, since you can not only specify titles and cover images for shared links, but detailed meta information as well, like the type of content, authors, dates, etc. Facebook is a for-profit company that just made all the decisions and created their own protocol. It's not open - there is no way for the public to participate in its development, unlike W3C's work. The only reason people are using this protocol is because often their livelihood depends on the amount of traffic that comes from Facebook. Of course they'd like to make their links look good in Facebook posts!
-
-Some other social media sites support og tags with certain quirks. Like, you provide a cover image, but different sites crop them differently because they want consistent media proportions on their side. So, now your content looks link still looks like garbage and #webdesign Medium blog posts are full of "how to make your link look awesome in LinkedIn in 2018" tutorials.
-
-The sheer amount of resources the industry pours into made up problems like that...
-
-I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
-
-* Blog
-** DONE How to podcast
-CLOSED: [2019-04-15 Mon 16:23]
-:PROPERTIES:
-:EXPORT_FILE_NAME: how-to-podcast
-:END:
-
-Here is a TL;DR version:
-
-1. Record using whatever. Even smartphones produce decent sound nowadays. Just make sure to have a consistent volume, i.e. maintain constant distance between your mouth and the phone.
-2. Compress to 96kbps mp3 constant bitrate. Or use an online encoder like [[https://pinecoder.pinecast.com/][Pinecoder]].
-3. Pick a podcast hosting provider:
-   1. [[https://pinecast.com][pinecast.com]]: starts at $5/month with unlimited storage, unlimited shows, basic analytics and website generator.
-   2. [[https://simplecast.com/][simplecast.com]]: starts at $15/month per show. Cool player, website generator.
-   3. [[https://transistor.fm/][transistor.fm]]: starts at $19/month with unlimited storage, unlimited shows. Limited at 5k downloads per month.
-   4. Or one of many others, including [[https://www.podbean.com/][podbean]], [[https://www.libsyn.com/][libsyn]], [[https://fireside.fm/][fireside]] or even [[https://soundcloud.com/for/podcasting][soundcloud]] (probably not the best idea, since the company's finances aren't great)
-4. Add your podcast to public catalogs:
-   1. [[https://podcastsconnect.apple.com/][Apple Podcasts (iTunes)]]
-   2. [[https://podcasters.spotify.com/][Spotify]]
-   3. [[https://pocketcasts.com/submit][PocketCasts]]
-   4. [[https://play.google.com/music/podcasts/portal/][Google Podcasts]]
-   5. [[https://player.fm/importer/feed][Player FM]]
-   6. [[https://help.tunein.com/contact/add-podcast-S19TR3Sdf][TuneIn]]
-
-   Some podcast hosting providers can submit your feed to those catalogs on your behalf, but I suggest you do everything manually to keep 100% control over your content.
-
-*** Preparation
-
-This part is very subjective, so I'll just describe my own process.
-
-Since each of my episodes follows a specific topic, I start thinking about it weeks before, just allowing ideas, thoughts and just random pieces of info simmer in my head for hours. I do my best to write down these things, but often just forget them. It's okay. I have learned to let go of "obviously genius" ideas.
-
-I never hesitate to write down whatever comes to mind though. It could be an analogy, a funny phrase, a weird comparison.
-
-At some point I feel ready to jot down the structure. I've been using a large notepad and iPad pro with Apple Pencil, but lately have been enjoying [[https://mindnode.com/][MindNode]] on the desktop. Having a large, tree-like structure fits my way of thinking very well. I just "walk" the tree during recording, trying to visit all the nodes.
-
-*** Recording
-
-There are different levels here.
-
-**** Level 1: Just use whatever.
-
-Your phone or internal microphone of your laptop are /okay/. Not great by any means, but keep these in mind and you'll be fine:
-- Pick a quiet spot. Humming noises are the worst (loud fridge, AC, etc.)
-- Maintain constant distance between your mouth and the mic
-- If possible, record in a smaller room with lots of soft objects to minimize echo. Books, blankets, pillows, curtains reduce echo significantly.
-
-**** Level 2: USB headset
-
-A good and cheap way to improve your sound significantly is using almost any good USB headset. But it /must/ be USB. Those headsets that connect via jack cables are simply using your computer's audio card and the sound might not be much better than with an internal mic.
-
-**** Level 3: USB microphone
-
-USB mics are the combination of "real" microphones and the convenience of USB. You usually don't need anything else, just plug and play.
-
-There are several good choices in this category:
-
-1. [[http://www.rode.com/microphones/podcaster][Rode Podcaster]] (my only mic for 10+ years, produced hundreds of podcasts and videos with it)
-2. [[https://www.bluedesigns.com/products/yeti/][Blue Yeti]]
-3. Audio-Technica ATR2100-USB
-4. Shure PG42-USB
-5. Audio-Technica AT2020USB+
-
-**** Level 4: XLR microphone
-
-When you're ready to go "full podcaster", go read [[https://marco.org/podcasting-microphones][Marco Arment's Podcasting Microphones Mega-Review]]. There are audio samples, too.
-
-*** Editing
-
-I edit my podcasts heavily. 60 minutes of recording usually result in about 35-45 minutes of end result. Marco Arment wrote about this in [[https://marco.org/2014/11/29/easy-listening][Easy listening]] and I agree: "you just need to care".
-
-Free and open source [[https://www.audacityteam.org/download/][Audacity]] is more than capable for both recording and editing, but, to be honest, I find it extremely cumbersome and ugly. Once you're serious, I think it's worth to invest into buying and learning a tool like Adobe Audition (my choice) or Apple Logic Pro X.
-
-*** Publishing
-
-Podcast is basically an RSS feed with media files. You can generate it yourself and host mp3 files wherever. If you already have a blog running on Wordpress, it makes sense to just continue using it. On wordpress.com they have a [[https://en.support.wordpress.com/audio/podcasting/][special feature for podcasting]], and if you run your own wordpress instance, [[https://wordpress.org/plugins/seriously-simple-podcasting/][this plugin]] will help you.
-
-It is much easier to use one of the specialized hosting providers:
-
-1. [[https://pinecast.com][pinecast.com]]: starts at $5/month with unlimited storage, unlimited shows, basic analytics and website generator.
-2. [[https://simplecast.com/][simplecast.com]]: starts at $15/month per show. Cool player, website generator.
-3. [[https://transistor.fm/][transistor.fm]]: starts at $19/month with unlimited storage, unlimited shows. Limited at 5k downloads per month.
-4. Or one of many others, including [[https://www.podbean.com/][podbean]], [[https://www.libsyn.com/][libsyn]], [[https://fireside.fm/][fireside]] or even [[https://soundcloud.com/for/podcasting][soundcloud]] (probably not the best idea, since the company's finances aren't great)
-
-Most of them can even generate websites for your shows, although, their design choices are questionable at times.
-
-All of my shows are hosted by pinecast: it's a fantastic value for the money and everything works perfectly fine. Here is my referral coupon code for 40% off for 4 months: =r-a6562b=. Use it at checkout.
-
-*** Questions?
-
-Feel free to email me at contact@rakhim.org, and I'll try to add more info to this guide.
-** DONE Easy slides (for me)
-CLOSED: [2019-04-21 Sun 14:16]
-:PROPERTIES:
-:EXPORT_FILE_NAME: easy-slides-for-me
-:END:
-
-As a software developer, at some point you discover simple slides and presentation generators: Markdown-to-PDF/HTML converters, Emacs extensions, LaTeX exporters, VIM plugins, etc. The idea makes perfect sense, because:
-
-1. I don't want to use PowerPoint or Keynote.
-2. I don't want to use the mouse.
-3. I want plain text.
-4. I want simplicity.
-
-You can create presentations without leaving your favourite editor or command line. But unfortunately, the majority of the results are just text with an occasional poorly positioned funny GIF (that didn't load because wifi is down).
-
-I completely understand the desire to make things as simple as possible and forget about clunky GUI-based presentation software. I don't like them either, and yeah, I'd love to be able to do things from the comfort of my text editor. You might say that text is mostly enough, animations and other flashy effects don't contribute to the value.
-
-But I argue that animations, visualizations and transitions are tools, and like any other tool, they add value when used correctly. By sticking to text-only slide generators, you disregard a whole set of tools and potentially a whole set of problems they might help solve.
-
-A title flying out from the corner probably doesn't do any good, the effect has no meaning. But if you want to explain something non-trivial (not to you, but to your audience), consider using /something/ to illustrate your point or even just to focus viewer's attention. It's not about animation or burning flames effect, it's about /anything/ above the typewriter in the pyramid of technology.
-
-Dimming. Colors. Shapes. Transparency.
-
-Computer science is full of complex ideas, multiple levels of abstraction, non-obvious connections and relations. It pains me to see whole presentations, thick books and long manuals with essentially zero visuals, zero attempt to convey an idea with something other than text.
-
-Your slim Markdown-to-PDF converter serves one purpose: make /your/ life easier. Nothing wrong with that. But there are also viewers who might benefit from a more detailed visual presentation. Of course, not all viewers would. For many, text and your speech are more than enough, after all, many of us became programmers because of the ability to understand complex, abstract, non-visual ideas to begin with. This is where lack of diversity starts from, I believe. We filter out people by their adaptability to certain styles and formats of explanations. We filter out people by their learning medium.
-
-/You need a cartoon to understand closures? Good luck. Maybe, programming isn't for you?../
-
-Now, I understand that it takes time, and you might just not have enough of it. I am not bashing these wonderful tools and not saying you /must/ produce visuals and animations. I just wanted to remind you that plain-text presentations are compromises. It's absolutely fine to mindfully and intentionally make compromises.
-** TODO Productive Ignorance
-:PROPERTIES:
-:EXPORT_FILE_NAME: productive-ignorance
-:END:
-- great people (rich hickey, joe armstrong, big names) often don't bother to learn things many people consider simple and "have to know"
-- keynote features, grunt, google whatever
--
-** DONE Rethinking Twitter
-CLOSED: [2019-05-15 Wed 17:51]
-:PROPERTIES:
-:EXPORT_FILE_NAME: rethinking-twitter
-:END:
-
-*** Good old days
-
-Twitter is the only social media I've ever used. Sure, I had accounts on other sites, but was never really engaged elsewhere. I couldn't understand all those "facebook addiction" stories, honestly. Facebook was always extremely boring, while Twitter was always exciting.
-
-From the beginning, it was a perfect, geeky, simple thing that is kind of hard to explain. Just a stream of short thoughts. Cool links. One liners. A public chat room.
-
-I joined Twitter in 2007. Woah, 12 years ago! I was studying in a university, and smartphones weren't really a thing yet. This is totally a "back in my days" kind of rhetoric, but hell, that Twitter was nice.
-
-Most people didn't have a Twitter account. Because it's weird, what's the point? So, like other internet communities, Twitter started as a selected group of weirdos, acting constantly amazed about the fact that they're all here. Tweeting.
-
-The timeline was chronological, and the world seemed ordered. It was more like RSS than like Facebook or TV: you could only see the people you explicitly subscribed to. Never an unknown face in your timeline. Retweets weren't a feature, it was just a thing people did: copying a tweet and putting "RT" in front of it. I think it's a better strategy overall: if you retweet something this way, you put your face on the message, you own it now. So, the value of retweets was higher, nobody wanted to copy every mildly interesting thing.
-
-There were no likes, this added sugar of engagement and interaction. You like something? Well, say it. Tell it to the author, do a retweet with an encouraging comment. Do something you'd do in real life.
-
-Twitter was allowing people to communicate via a digital medium. Not communicate in a new digital way.
-
-And Twitter wasn't like TV.
-
-*** Outsourced schizophrenia
-
-A HackerNews user had [[https://news.ycombinator.com/item?id=16292024][put]] it nicely:
-
-#+BEGIN_QUOTE
-I think the problem is that Twitter is a platform for evolutionary selection of slogan-based-dialog. I kind of imagine two armies standing across a battlefield from one another carefully deciding which volley of pithy digs to throw at one another.
-#+END_QUOTE
-
-Yeah. It's like switching TV channels every 5 seconds.
-
-[[https://adambrault.com/blog/i-quit-twitter-for-a-month][This article]] had hit home hard for me. I'll just include a few quotes:
-
-#+BEGIN_QUOTE
-There are people you know whose voice you can hear in your head [...], or people who you even consult with in your head for wisdom ("What advice would my dad give here?") [...]
-
-...it can be a huge mental lease we're signing when we invite a few hundred people into our Twitter life. To some degree, it is choosing to subject ourselves to thousands of ads throughout the day, but ones that come from trusted sources we care about, so they're actually impactful.
-#+END_QUOTE
-
-Yes! And especially today, thanks to both natural and artificial (algorithmic) selection, these short ads are hyper-optimized for stickiness and virality.
-
-#+BEGIN_QUOTE
-We've surrendered a massive amount of mental and emotional energy without making the explicit choice to do so--it's simply imposed on us by subscribing to the channel and checking it.
-#+END_QUOTE
-
-The worst part is that nowadays you see a chaotic stream from people you /haven't/ explicitly subscribed to: retweets, liked and promoted tweets, ads, etc.
-
-#+BEGIN_QUOTE
-Mentally, we just aren't capable of simultaneously empathizing with hundreds of people--let alone thousands or millions. The result is we either build up a calloused, jaded, or cynical defense against empathy or find a way to block out more.
-#+END_QUOTE
-
-I can hardly manage interacting with a single person for more than a few hours, let alone with hundreds, even via virtual channels.
-
-This one describes me very well too:
-
-#+BEGIN_QUOTE
-I'll admit: I'm an annoyingly oversensitive person. I do believe this is both a strength and a weakeness. [...] I also have a tendency to listen carefully to any criticism or disagreement I hear, internalize it, reflect on it, and evaluate it, then conclude some thought on it. Until I do that, it just sort of hangs there in my head. The degree to which it dominates my headspace is largely a question of how much it impacts me.
-#+END_QUOTE
-
-If nothing else, I want you to consider this quote:
-
-#+BEGIN_QUOTE
-[...] Twitter is outsourced schizophrenia. I have a couple hundred voices I have consensually agreed to allow residence inside my brain.
-#+END_QUOTE
-
-I assume not everyone is like that, and not everyone experiences social media this way. But Adam, the author of that post, does. I do too.
-
-His essay is fantastic, really:
-
-#+BEGIN_QUOTE
-I've realized how Twitter has made me break up my thoughts into tiny, incomplete, pieces--lots of hanging ideas, lots of incomplete relationships, punctuated by all manner of hanging threads and half-forked paths.
-#+END_QUOTE
-
-*** Change
-
-But Twitter has been very beneficial to my career. With a few thousand followers, links to my projects had consistently brought me hundreds of hits, readers, clients. This is my strategic failure: I haven't been working on maintaining an independent outlet for my audience, a newsletter or a consistent blog. For more than a decade, Twitter has been the main channel of distributing my work.
-
-So, I decided to make a few changes and conduct an experiment.
-
-1. Unfollow everybody. No more timeline.
-2. Tweet via an app like Buffer, without opening Twitter itself.
-3. Open Twitter and reply to mentions only on weekends.
-4. Invest energy into maintaining a consistent blog and a personal newsletter. You can subscribe to the newsletter [[https://buttondown.email/rakhim][here]] or with a form below:
-
-#+BEGIN_export html
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/rakhim"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/rakhim', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Enter your email</label>
-  <input type="email" name="email" id="bd-email">
-  <input type="hidden" value="1" name="embed"/>
-  <input type="submit" value="Subscribe" />
-</form>
-#+END_export
-
-I will maintain this system at least until the end of 2019 and we'll see how it goes.
-
-TWEET THIS NOW!
 ** DONE Office hours
 CLOSED: [2019-05-21 Tue 12:45]
 :PROPERTIES:
@@ -1259,288 +1399,143 @@ UPD (2.7.2019): the office hours experiments is concluded. Thank you!
 /One hour Q&A session had helped me to better determine my career goals and new ways to fulfill my interests in different areas of software engineering. Thanks to Rakhim, I've found new opportunities and ideas on how to improve my computer science knowledge, English, and other things. Thank you bro!/ — *Rustem Z.*
 
 /Me and Rakhim were talking about doing business in Finland. We had just 30 minutes, but we managed to discuss visa, tax and legal aspects of working in Finland. Rakhim also sent me a bunch of useful links after the chat. It was a nice experience overall, can totally recommend./ — *Dmitry N.*
-
-
-
-
-
-** DONE 80-characters limit for text is wrong
-CLOSED: [2019-05-30 Thu 12:27]
+** DONE I no longer care about og tags, twitter cards, etc.
+CLOSED: [2018-09-04 Tue 15:44]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 80-char-is-wrong
+:EXPORT_FILE_NAME: i-no-longer-care-about-og-tags-twitter-cards-etc
 :END:
 
-I believe the 80-characters (or any other number) line limit for text to be wrong. Not archaic or irrelevant, but wrong. It violates a fundamental idea of computer science: separating layers of abstraction.
+Enough.
 
-Not talking about code today, although, I don't think a strict limit is a good thing there either, for other reasons. I'm talking about human text.
+Facebook, Twitter and other social networks have their own markup formats that "enable any web page to become a rich object in a social graph". For the most part it means that if you want to make your link look nice when people share it, you have to set some meta tags.
 
-Many programmers stick to the 80-characters line length limit while writing documentation, emails, etc. Emacs and other editors even have special modes or plugins for automatic hard wrapping.
+#+BEGIN_SRC html
+<meta property="og:title" content="The Wonderful" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="/images/cover.jpg" />
+#+END_SRC
 
-Often, results look like so:
+This is a noble idea in the abstract, and one more attempt at creating semantic web, since you can not only specify titles and cover images for shared links, but detailed meta information as well, like the type of content, authors, dates, etc. Facebook is a for-profit company that just made all the decisions and created their own protocol. It's not open - there is no way for the public to participate in its development, unlike W3C's work. The only reason people are using this protocol is because often their livelihood depends on the amount of traffic that comes from Facebook. Of course they'd like to make their links look good in Facebook posts!
 
-[[/images/posts/email.png]]
+Some other social media sites support og tags with certain quirks. Like, you provide a cover image, but different sites crop them differently because they want consistent media proportions on their side. So, now your content looks link still looks like garbage and #webdesign Medium blog posts are full of "how to make your link look awesome in LinkedIn in 2018" tutorials.
 
-Without hard-wrapping, this email had a chance to look normal everywhere. Any app can interpret and present it in any way. With hard-wrapping though, this email can only look normal in certain conditions. Namely, a certain lower limit for window width.
+The sheer amount of resources the industry pours into made up problems like that...
 
-Imagine joining a web project and seeing a =users= database table with values like =<strong>Jason Norwig</strong>=. Your reaction might include profanity, because mixing data and presentation is wrong. Person's name (data) and its presentation (HTML) are different layers of abstraction.
-
-Hard-wrapping lines by inserting =\n= symbols where they don't have any semantic meaning is the same sin. The whole character return thing was relevant in a context where data was inseparable from presentation: typewriters and paper.
-
-A key argument for hard-wrapping goes something like this: "modern screens are too wide, it's uncomfortable to read long lines". But modern screens come with modern apps, which can handle presentation to your preference. By modern I mean "developed after the '70s". Text editors (including vim and Emacs) have been able to soft-wrap lines at arbitrary comfortable column for decades.
-
-If your text presentation tool can't present text to your preference, consider replacing it. Moving this responsibility into data itself is not a solution.
-
-#+BEGIN_export html
-So can we please<br>
-stop doing this<br>
-to each other.<br>
-#+END_export
-** DONE Bicycles and Love
-CLOSED: [2019-07-27 Sat 11:47]
+I decided not to care about this for my personal projects anymore. If someone wouldn't click on a link to my site because the link looks less attractive than a flashy colorful image, so be it.
+** DONE Fast automatic remote file sync
+CLOSED: [2018-10-17 Wed 11:11]
 :PROPERTIES:
-:EXPORT_FILE_NAME: bicycles-and-love
+:EXPORT_FILE_NAME: fast-automatic-remote-file-sync
 :END:
 
-I love bicycles.
+Our dev machines at Hexlet are remote, since the project is too big and resource-heavy for laptops. This good decision made by our CTO also means that the dev environment is freed from additional layers of complexity like managing Vagrant and Vbox.
 
-The first memories I have are bike-related. The best ones are, too.
+Most of the devs work directly on the remote machines using vim. I used Sublime before Emacs, and seamlessly synced all changes using an excellent [[https://wbond.net/sublime_packages/sftp][SFTP package]]. There's a similar (and free) package for [[https://marketplace.visualstudio.com/items?itemName=liximomo.sftp][VS Code]].
 
-#+DOWNLOADED: file:/Users/rakhim/Downloads/my_first_bicycle.jpg @ 2019-07-06 15:45:39
-[[file:/images/posts/Bicycles_and_Love/my_first_bicycle.jpg]]
-/My first bicycle was a tricycle/
+The canonical solution for Emacs is [[https://www.gnu.org/software/tramp/][TRAMP]]. It's pretty cool, but not suitable for my workflow. I want instant feedback when navigating the project with Projectile and searching all files using =ag=. TRAMP is slow as hell for these.
 
-I don't remember a time I didn't bike. Bicycle means freedom.
+A possible solution is to sync files from local to remote using rsync and do it automatically when files change. Doing full folder sync is slow. Luckily, rsync has =--files-from= option. You can specify a list of files to sync. So, use [[https://github.com/emcrisostomo/fswatch][fswatch]] to watch changes, and run =rsync= for each changed file.
 
-My first serious bicycles, the ones that let me explore the city, were old, steel soviet tanks. They were simultaneously indestructible and always broken.
+Thanks to [[https://www.alistairphillips.com/2018/09/05/file-sync-with-fswatch-and-rsync/][Alistair Phillips]], I didn't have to write the whole script myself. Here is what I got in =sync.sh=:
 
-My friend Eugene and I spent summers biking around town, forests and river valleys. It was awesome.
+#+BEGIN_SRC bash
+#!/usr/bin/env bash
+rm --force /tmp/remote-server-rsync.txt
+rm --force /tmp/remote-server-rsync-relative.txt
 
-#+DOWNLOADED: file:/Users/rakhim/Downloads/bikes_river.jpg @ 2019-07-06 15:47:48
-[[file:/images/posts/Bicycles_and_Love/bikes_river.jpg]]
-/Eugene riding away, my bike in front/
+echo "Starting initial sync..."
+rsync --verbose -azP --delete --exclude='.git/' --exclude='.DS_Store' --exclude='tmp/' . remote_user@XXX.XXX.XXX.XXX:/home/remote_user/hexlet
+echo ""
 
-Those bikes were all-purpose vehicles. Well, at least for us they were. Pavement, gravel, sand, water, whatever. They go where we go. They were simple and stupid, and I loved that. No speeds, no hand brakes.
+echo "Watching..."
 
-I used to live with my grandma until I was 13. Her apartment had a narrow corridor connecting the entrance to the room, and I can't imagine it without a bicycle. It was always there, and when it wasn't, I wasn't home. Out biking god knows where.
+fswatch --exclude=".git" --batch-marker=EOF -xn . | while read file event; do
+    if [ $file = "EOF" ]; then
+       printf "%s\n"  "${list[@]}" > /tmp/remote-server-rsync.txt
+       sed -e "s,/Users/rakhim/code/hexlet/,," /tmp/remote-server-rsync.txt > /tmp/remote-server-rsync-relative.txt
+       echo "Beginning sync..."
+       rsync --verbose --files-from=/tmp/remote-server-rsync-relative.txt . remote_user@XXX.XXX.XXX.XXX:/home/remote_user/hexlet
+       echo "sync completed"
+       echo "Watching..."
+       list=()
+    else
+       list+=($file)
+    fi
+done
+#+END_SRC
 
-I had a dream of driving a city bus, so quite often I spent hours biking along the bus routes, stopping at bus stops, emulating a bus. An old pen was diligently placed inside the handlebar, sticking about 2 inches outwards: it was my fake turn signal lever. I had to make the turn signal clicking sound myself, of course.
+The workflow looks like this:
 
-Then I moved to Canada. My next bike was a pretty cool steel Schwinn I got as a gift from my host family in Ottawa. Bicycle freedom had suddenly expanded. Now I could ride to another province where people speak a different language and traffic lights are horizontal. I could bring my bike on the train and get further than ever. I could disappear into the city and nobody could find me.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/schwinn.jpg @ 2019-07-06 15:53:12
-[[file:/images/posts/Bicycles_and_Love/schwinn.jpg]]
-/I didn't appreciate this bike enough. I wish I could get that frame back.../
-
-Several random used bikes later I decided I'm ready to spend serious bucks and try road biking. With 1000 Canadian dollars in hand, I walked into a bike shop in western Ottawa and got myself a beautiful aluminium Trek 1.1.
-
-Freedom was reinvented once more. With this light, fast bike I could go further than ever before. First 100 km ride was a revelation. Then 350km in 2-day group event. Then 500km in three days. Then more than a 1000 km in a week across multiple provinces to see the ocean.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/trek.jpg @ 2019-07-06 17:42:58
-[[file:/images/posts/Bicycles_and_Love/trek.jpg]]
-/At the end of my long trip to see the Atlantic Ocean, New Brunswick, Canada/
-
-I was in love again.
-
-I was about to finish my computer science degree and was feeling somewhat [[https://rakhim.org/2018/10/dazed-depressed-defunct/][down]] at times. That bike was the best thing in my life.
-
-Biking and computer science made perfect sense to me. Both are about efficiency. Both are tools, but at the same time fun in and of themselves. Both let you be alone.
-
-They let you disappear into a vast domain and get lost.
-
-After moving from Canada to Kazakhstan, I stopped biking. It took me almost 5 years to re-ignite the passion.
-
-After moving to Finland, I decided to try a single-speed and got a pretty Swedish Stålhästen Sport fixed gear bike with a flip-flop hub. Fixed gear is not my cup of tea, so I flipped the wheel and started discovering the Helsinki area.
-
-It was pretty sexy.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/fixie.jpeg @ 2019-07-06 17:51:08
-[[file:/images/posts/Bicycles_and_Love/fixie.jpeg]]
-
-But alas, we weren't for each other. We just didn't click. A bicycle is an intimate object for me, along with backpacks and computers. I can't just have one, I must love it. So I sold it to someone who, hopefully, loved it.
-
-And got myself a cyclocross Kona Rove Al 2015.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/kona_rove_al.jpeg @ 2019-07-06 18:05:59
-[[file:/images/posts/Bicycles_and_Love/kona_rove_al.jpeg]]
-
-The relationship with this one was complicated. I loved it and sometimes hated it.
-
-I loved my Kona because it was very comfortable, fast and looked very cool. Its brownish color was a perfect fit for the forests and fields I took it to. Disc brakes — first for me — made me more confident on narrow descents and uneven terrain.
-
-But I didn't love the maintenance. It was equipped with the cheapest components. Decent, but not awesome. Shimano Claris groupset and mechanic disc brakes were never perfect. The bike was never perfectly tuned, never perfectly silent. And I'm ashamed to admit, but I'm a crappy handyman when it comes to bikes. Actually, I'm a crappy handyman in all areas where "undo" is not an option, but I'm particularly bad with bicycles. Derailleur adjustment and disc brake calibration are black magic to me. Hours of sweat and profanity and I end up with a subpar configuration. It works and it's fine, but it's just not very good. Then I say "screw this!" and bring the bike to a mechanic.
-
-By the way, good bike mechanics are pretty expensive in Finland.
-
-I've later learned that better groupsets and hydraulic brakes (or at least the hybrid dual-piston ones) are so much better, and I honestly almost convinced myself to spend two grand on a /very good bicycle/. Because then I will ride more, right?
-
-Kona Rove Al was my bike for three good seasons, but the furthest I took it was a 120 km one day ride. It never saw other regions of the country even. We weren't too adventurous together.
-
-This summer, after another failed attempt to eliminate 100% of the disc brakes noise, I decided to say goodbye to Kona and look for something new.
-
-A romanticized and, perhaps, irrational desire to simplify struck me again. What is the simplest bicycle possible? Single speed with coaster brake. I love handbrakes, so, rim brakes then. But I wasn't sure I could do single-speed again. I love my knees.
-
-Then I discovered internal hubs. They look and feel like single-speed from the outside: no derailleur, no cable slack. My girlfriend and I got ourselves small folding bikes with Shimano Nexus 3-speed hubs and they are very nice. Simple, reliable, solid.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/nexus.jpg @ 2019-07-06 18:32:03
-[[file:/images/posts/Bicycles_and_Love/nexus.jpg]]
-
-There also exist 7-speed Nexus hubs, but I haven't tried one. They are pretty heavy and it's a pain to install them with dropbars.
-
-Turns out, there are also automatic hubs! Woah! Extremely curious, I got myself an old Fixie Inc. Floater with Sram Automatix 2-speed automatic hub.
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/fixie_floater_sram.jpg @ 2019-07-06 18:37:20
-[[file:/images/posts/Bicycles_and_Love/fixie_floater_sram.jpg]]
-
-The experience is... interesting. You just start pedaling and at about 15 km/h the gear changes automatically. It's pretty solid, no wobble or anything. It's like you're suddenly teleported into higher gear. This shift point it ridiculously low though. It was pretty easy to disassemble the hub and change the shift point by unwinding a tiny metallic spring ([[https://bikesfornoreason.blogspot.com/2014/01/sram-automatix-2-speed-hack.html?m=1][here's a good description]]).
-
-At first, it seemed like a good compromise. Almost as simple as a single-speed, but the second gear allows to keep a sane cadence at higher speeds. Unfortunately, the hub is not as isolated from the outside world as other internal gear hubs, so it will require some maintenance.
-
-I took it on multiple rides and just didn't love it. What a picky, delicate flower I am.
-
-And then, completely by chance, I had a chance to ride Bombtrack Arise. A single-speed, steel gravel bike.
-
-Yes! It made me smile!
-
-#+DOWNLOADED: file:/Users/rakhim/Downloads/bombtrack_arise.jpg @ 2019-07-27 11:30:22
-[[file:/images/posts/Bicycles_and_Love/bombtrack_arise.jpg]]
-
-I'm not a fast rider, so when it comes to gearing, comfortable climbing is more important to me than going fast. Finding the perfect ratio for a single-speed takes time and lots of cogs, but this bike came with what seems to be the perfect ratio for me: 42 teeth chain ring and 17 teeth rear sprocket. With 28" tires, it yields 69 gear inches, which works very well for the steepest hills in my area and is good enough for descents.
-
-This [[https://www.bikecalc.com/fixed][handy bike calculator]] helps to figure out the good ratio for a given cadence and speed. For my new bike, 90 rpm produces 28.4 km/h, and the high cadence of 130 rpm yields 41 km/h.
-
-Single speed forces me to be more disciplined and think ahead. I can't just attack a hill on a granny gear anymore, I have to save as much momentum as possible. At the same time, this creates ultimate freedom. I don't think about optimal gearing, I am always in the +wrong+ right gear.
-
-Steel frame is lovely and comfortable, it feels softer, yet more confident. The simplicity of not having so many extra things inspires almost a zen-like feeling. Oh, and it's quiet. No chain slap.
-
-I am yet to take the Bombtrack on a truly long ride, and it might not be as peachy as I describe. But so far, with about 250km behind, I remain in love.
-
-Find a bike you enjoy, it will make you happier.
-
-** DONE Process of Learning
-CLOSED: [2019-07-29 Mon 17:24]
+1. Run =./sync.sh=
+2. That's it :-) Just edit files and save them as usual. It takes about a second to sync.
+** DONE Make Firefox faster and nicer on macOS
+CLOSED: [2018-10-01 Mon 13:53]
 :PROPERTIES:
-:EXPORT_FILE_NAME: process-of-learning
+:EXPORT_FILE_NAME: improve-performance-of-firefox-on-macos
 :END:
 
-A process of learning is analogous to an attempt of building a three-dimensional model from two-dimensional photos.
+I'm trying Firefox as my primary browser on all devices. It has some great features like [[https://support.mozilla.org/en-US/kb/containers][Multi-Account containers]] in addition to being a non-Google product, which is an increasingly rare feature on the web nowadays.
 
-You approach a new area of knowledge. You know nothing at all. You stumble upon a first piece:
+Firefox on macOS is somewhat sluggish at the moment. If you try the current stable version 62 or current beta version 63, you'll notice some lags and general slow response time for even the simplest tasks like changing tabs.
 
-#+DOWNLOADED: https://rakh.im/images/posts/lm_1.jpg @ 2019-07-29 16:37:33
-[[file:/images/posts/Process_of_Learning/lm_1.jpg]]
+Mozilla will probably fix these issues in the upcoming releases. Meanwhile, I found the following steps improve the performance significantly.
 
-That's more than nothing, but still very little. You don't understand it. At best, you're able to make a few uncertain assumptions.
+*** Download Firefox 63 or higher
 
-Beginners often seek good book recommendations. They would google a top-10 list and then ask "which one should I start with?". The answer is almost always "it doesn't matter". Start with /any/ non-shitty book. One book alone would not provide enough data to build a good model anyway. If you want to really understand something, you'll have to read several books, listen to different people, try various approaches. Nobody knows what's going to work best for a particular person. Each model building machine is unique. The starting order of feeding it data is not very important, unless that information is truly harmful.
+As of today (October 1, 2018), stable release version is 62. Version 63 is currently in beta, and I recommend using it today. It's very robust, I haven't had any problems with it. There are some important [[https://www.mozilla.org/en-US/firefox/63.0beta/releasenotes/][performance improvements in it]].
 
-("What is harmful" is a topic for another discussion, and I by no means argue that finding non-harmful books is an easy task. In fact, I'd call many popular programming books harmful, especially when it comes to teaching the basics of programming with Java. So, at least minimize the potential harm by not focusing on a single book.)
+You can also try Firefox Nightly, it is currently version 64 on the dark side. Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes their partners. There are some rough edges, I wouldn't recommend it for daily browsing.
 
-Another basic book will provide a different view:
+*** Disable animations
 
-#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_2.jpg @ 2019-07-29 17:03:04
-[[file:/images/posts/Process_of_Learning/lm_2.jpg]]
+By default Firefox has lots of animations. I find them unnecessary and distracting, but more importantly, they contribute to the general sluggishness.
 
-You still can't understand it. But keep going, and at some point you'll arrive at a single complete picture.
+Go to =about:config= in the address bar. Search for =animate= and set at least  =cosmeticAnimations= to =false=.
 
-#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_3.jpg @ 2019-07-29 17:04:04
-[[file:/images/posts/Process_of_Learning/lm_3.jpg]]
+Fullscreen transition takes 0.2 seconds both ways. Make them instant by setting the following to =0 0=:
 
-This tells you more than before, you can even make some conclusions or reason about certain aspects of the object. But you don't have a complete model yet, one 2D picture is not enough. Your brain haven't met such objects in the past, there's nothing to cling on to. This is why it's essential to have various sources of information: other books, people, lessons, different mediums.
+- =full-screen-api.transition-duration.enter=
+- =full-screen-api.transition-duration.leave=
 
-New pieces keep emerging, and it's disconcerting. They don't seem to make any sense, this puzzle feels broken.
+*** Disable Pocket
 
-#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_4.jpg @ 2019-07-29 17:06:53
-[[file:/images/posts/Process_of_Learning/lm_4.jpg]]
+Firefox embedded Pocket into the browser. A questionable move, but it's easy to disable (unless you use it, of course). Set =extensions.pocket.enabled= to =false=.
 
-This is the toughest stage of the learning journey. Often, any hope is lost. Disconnected pieces provoke the feeling of meaninglessness. You can't see the big picture.
+*** Other stuff
 
-> I think I understand each individual topic, but have no idea how they are connected. And why did I learn all that. Nothing makes sense...
+These are not related to performance, but can make your Firefox experience a bit nicer.
 
-But if you keep going, soon you'll get to another full picture:
+Set to true:
 
+- =modalHighlight= highlight all the search results.
+- =browser.tabs.closeTabByDblclick= close tab by double-clicking on it.
+- =abs.multiselect= shift-click on tabs to select a group of tabs and do something with them (for example, detach from window).
+- =insecure_connection_text.enabled= write "Not Secure" in the address bar of non-https pages (like Chrome does). Additionally, enable a broken padlock icon with =security.insecure_connection_icon.enabled=.
 
-#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_5.jpg @ 2019-07-29 17:08:57
-[[file:/images/posts/Process_of_Learning/lm_5.jpg]]
+Minor things:
 
-Interesting! A completely different point of view. Same object, new aspects. A complete 3D model is still impossible to deduce, but there's more space for assumptions. Having multiple pictures increases the chances of seeing /something/ familiar. It's a new topic alright, but topics are rarely completely isolated from the universe.
-
-A few more pictures and you get a pretty accurate model.
-
-#+DOWNLOADED: file:///Users/rakhim/Downloads/lm_6.jpg @ 2019-07-29 17:11:00
-[[file:/images/posts/Process_of_Learning/lm_6.jpg]]
-
-The first picture was extremely valuable, but each new picture brings less and less valuable data. At some point you have a decent model in your head, so that new pictures don't give you anything new.
-
-This analogy helps me learn new things. I try to remember the following:
-
-1. At first, everything is interesting and easy. The first picture gives a lot of data at once. This is the pleasant stage.
-2. In the middle motivation will decrease. That's okay. Keep getting data and trust the system.
-3. Do not focus on a single picture. Maybe, in order to understand it you need another picture first.
-4. At some point, notice the diminishing returns of new data. Consider increasing the area of study.
-** DONE Be Wary of Self Described Benefits
-CLOSED: [2019-09-03 Tue 18:06]
+- =general.smoothScroll.mouseWheel.durationMaxMS= set =200= to make scrolling speed similar to Chrome.
+- =geo.enabled= set to =false= to disable geolocation.
+- =extensions.screenshots.disabled= set to =true= to disable the screenshot extension. It's actually pretty handy, check it out before disabling.
+** DONE The price of complexity
+   CLOSED: [2019-11-20 Wed 12:48]
 :PROPERTIES:
-:EXPORT_FILE_NAME: be-wary-of-self-described-benefits
+:EXPORT_FILE_NAME: the-price-of-complexity
 :END:
+Computer programmers often talk about tackling complexity, yet they thrive on complexity. I believe tech people experience a constant dilemma: on one hand, we want things to be simple and straightforward; on the other hand we love complex structures and engineering marvels.
 
-Picking a university was one of the main tasks in the last year of high school. That and exams. I wasn't sure what to study and which place to pick. I had no idea /how/ one can make these choices. There weren't too many resources available at the time. So, a lot of us relied on promotional info provided by universities themselves.
+I think about this today as I'm performing some cleanup work on my blog. It runs on Hugo, content is written in Org mode, code is published on Github and the final website is deployed to Netlify. That's a lot of moving parts, and, honestly, it feels excessive. Yet I love this setup.
 
-The one I ended up in was called SDU. Its official description says: "SDU is a secular higher educational institution located in Kaskelen, near Almaty."
+Lately I've been trying to be conscious and mindful about the price my mind pays for all this complexity. I'm not a good programmer by any means, so your mileage may vary, but it takes an enormous amount of mental energy for me to re-understand something I already figured out before. Take Hugo for example, a flexible and powerful static website generator. Jekyll, which I used before Hugo, is complex, too, but Hugo drives me crazy sometimes. It's a multi-layered system of interconnected logic and it took me a whole day to [[/2018/09/moved-from-jekyll-to-hugo-and-ox-hugo/][move from Jekyll]].
 
-It was the only university that actually claimed to be secular. That's good, right? I had no interest in studying at a religious institution. Secular is good.
+/*Intermission*: I just spent 5 minutes trying to create a relative hyperlink to that other blog post, and couldn't. It took me a while to realize I'm in Org mode now, not in Markdown, my syntax was wrong. You know what a Wordpress or Ghost user would've done? Clicked a link button in their rich WYSIWYG editor and had finished the blog post by this time already./
 
-Turned out, it wasn't very secular. No, we didn't study Holy Texts. Officially, nothing religious was going on. But the Islamic values did indeed feel affecting the policies and decisions everywhere. The dormitories for males and females were separate buildings in different neighborhoods. I had actually never seen the women's dormitory, nor had any male student around. The girls just went to a mysterious place every evening. A large proportion of students held a religious fast (Ramadan). Several instructors gave bonuses to fasting students. So I had to work harder to get the same grade because I was being secular at a secular university.
+Every time I need to make some changes to the setup — fix layouts, add pages, refactor templates — I feel completely lost. It happens rare enough for my brain to forget the structure and conventions. And this is the case for a dozen of software projects I touch throughout the year.
 
-I dropped out after 4 months. Thank /God/.
+This feeling of being lost is similar to un-pausing a video game that was on pause for 6 months. I know I've been into this, but right now I don't even know what buttons to press.
 
-Later, I started to notice this pattern. Often, people, communities, companies and even countries seem to blindly put positive descriptions out. As if they /wanted/ others to notice.
+There are ways to fight this. One is to dramatically reduce complexity in the first place, maybe even sacrifice some of the features. My setup can be technically replaced by a bunch of HTML files, for example. Or switch to a "normal" thing like Ghost or Wordpress. Oh, and don't host them yourself, but pay someone to take care of it.
 
-It becomes very clear in case of countries. Here are some famous authoritarian regimes:
+Another way is to somehow capture the knowledge for easy retrieval. My problem with Hugo is that I rarely touch it, so I forget. I should at least add a README file for myself, explaining the current setup and structure. Keeping documentation in sync with code is another problem, sigh...
 
-- Democratic People's Republic of Korea
-- Democratic Republic of the Congo
-- People's Republic of China
-- People’s Democratic Republic of Algeria
-- Federal Democratic Republic of Ethiopia
-
-Right.
-
-So I learned to be wary of self described benefits. It's kind of obvious and silly once you think about it.
-
-Yours truly,
-not passive aggressive at all, Rakhim.
-** DONE User Is Dead
-CLOSED: [2019-10-22 Tue 10:51]
-:PROPERTIES:
-:EXPORT_FILE_NAME: user-is-dead
-:END:
-
-User is dead. User remains dead. And we have killed him. How shall we comfort ourselves, the developers, the designers, the growth hackers? What was holiest and the final judge of all that the world has yet owned has bled to death under our a/b-tests and new features. Who will wipe this blood off us? What garbage collector is there for us to clean ourselves? What conference of atonement, what disruptive technology, what sacred meeting shall we have to invent? Is not the greatness of this deed too great for us? Must we ourselves not become users simply to appear worthy of it?
-
----
-
-By saying "God is dead" Friedrich Nietzsche tried to express the fear that the decline of religion and the rise of nihilism would plunge the world into chaos.
-
-Whether you believe that people /require/ an external source of morality, or you accept the numerous philosophical and scientific arguments for intrinsic morality in behavior of complex animals, the fear remains relevant. The fear is not necessarily about God or religion, but about a moral compass, or lack thereof.
-
-My arguably tasteless rewrite of Nietzsche's passage expresses another fear, which, I sincerely hope many software developers share. For a long time, we had an external source of morality in software development. *User.* Simultaneously ephemeral stick figure of UML diagrams and a very real human, a friend, a colleague. The goal, the point, the final judge of success. Your product either satisfied the user or failed. Your software may occasionally have charmed User, but don't be fooled, you are but a servant.
-
-"Move fast and break things", "disruption" and "growth" have killed User. No more do we try to offer invisible quality. Instead of software that blends into background by virtue of its non-obtrusive robustness and simplicity, we aspire to create The Product Experience. The first pleases User. The latter pleases Shareholder.
-
-The Holy Texts are forgotten or, worse, perverted. Apple's famous Human Interface Guidelines ironically describe the many ways in which modern Apple products /do not behave/. The Agile manifesto became The Certified Agile Coach Training Program and a cargo cult. The very first principle of the Agile Manifesto states:
-
->Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-
-How many of us feel this during another a/b-test-driven, metric-based sprint?
-
-The 7th principle is:
-
->Working software is the primary measure of progress.
-
-An honest, but naive assumption that we all share a similar criterion for "working". Turns out, the height of the bar is inversely proportional to the proximity of another funding round. By the 90s standards, a lot of today's software is just defunct.
-
-When User dies, only Beta Tester remains. Beta Tester is not human. It's an expendable tool, a lab rat, a database record.
-
-What can we do as developers? Honestly, I don't know. Coming up with a manifesto, a set of principles, another guideline — it all seems futile now. The problem isn't that we forgot about User. We just collectively adapted to the new definition of normal. Breaking changes are normal. Updates for the sake of updates are normal. The house is on fire, but this is normal.
-
-What can we do?.. /"Must we ourselves not become users?"/
+So far, I only know one good way of solving this: teach. I should just make a course about Hugo on Codexpanse, that'll force me to really understand it and devise a good mental model.

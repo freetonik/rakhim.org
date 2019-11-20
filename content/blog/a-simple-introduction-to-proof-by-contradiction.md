@@ -2,9 +2,9 @@
 title = "A Simple Introduction to Proof by Contradiction"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-12T17:49:00+03:00
-categories = ["mathematics"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 In mathematics, a theorem is a true statement, but the mathematician is expected to be able to prove it rather than take it on faith. The proof is a sequence of mathematical statements, a path from some basic truth to the desired outcome. An impeccable argument, if you will.

@@ -5,8 +5,6 @@
   <h1>{{ .Title }}</h1>
   {{ end }}
 
-  {{ .Content }}
-
   <h1 class="primary-title">Computable Multiverse</h1>
   <p class="container-about">
     Hi, I'm Rakhim. I teach, program, make podcasts, comics and videos on computer science at <a href="https://codexpanse.com">Codexpanse.com</a>. You can learn more about <a href="/about">my work</a> and even <a href="https://www.patreon.com/rakhim">support me</a> via Patreon.
@@ -29,21 +27,22 @@
   <hr>
 
   <section>
-    {{ range (.Site.RegularPages.GroupByPublishDate "2006") }}
-    {{ if ne .Key "0001" }}
-    <h4>{{ .Key }}</h4>
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" (slice "blog" "honestly-undefined")) }}
+    {{ range $paginator.Pages }}
+    <h2><a class="unstyled" href="{{ .RelPermalink }}">{{ .Title }}</a> </h2>
 
-    <ul>
-      {{ range .Pages  }}
-      {{ if ne .Section "honestly-undefined" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <i class="text-muted post-date">{{ .Date.Format "Jan 02"}}</i></li>
+    <div class="homepage-post mb4">
+      {{ if (eq .Section "honestly-undefined") }}
+        <img src="/images/honestly-undefined/{{ .File.TranslationBaseName  }}.jpg">
       {{ end }}
-      {{ end }}
-    </ul>
-    {{ end }}
+        {{ .Content }}
+        <small class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }} | <a href="{{ .RelPermalink }}">permalink</a></small>
+    </div>
+
     {{ end }}
   </section>
+
+  {{ template "_internal/pagination.html" . }}
 </div>
 
 {{ partial "footer.html" . }}

@@ -3,7 +3,7 @@ title = "Easy slides (for me)"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-04-21T14:16:00+03:00
 draft = false
-creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 As a software developer, at some point you discover simple slides and presentation generators: Markdown-to-PDF/HTML converters, Emacs extensions, LaTeX exporters, VIM plugins, etc. The idea makes perfect sense, because:

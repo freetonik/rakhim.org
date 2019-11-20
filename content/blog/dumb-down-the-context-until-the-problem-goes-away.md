@@ -2,9 +2,9 @@
 title = "Dumb Down the Context Until the Problem Goes Away"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-09-14T21:10:00+03:00
-categories = ["humane computing"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.1 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 At work we use SCSS and HAML, so I rarely write pure HTML and CSS there. But for small side projects and my personal blog I tend to stick with the simplest (and dumbest) possible tools. This week I was working on a refreshed look for this blog. Being a good modern man, I tried to stick with `em` or `rem` for sizing and typography.

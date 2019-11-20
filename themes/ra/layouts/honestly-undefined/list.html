@@ -1,17 +1,14 @@
 {{ partial "header.html" . }}
 <div class="container-hu">
   {{ partial "nav.html" . }}
+  <hr>
   <div class="article-meta-hu">
-    <h1 class="h3">Honestly Undefined</h1>
+    <h1>Honestly Undefined</h1>
     <p>{{ .Site.Params.descriptionhu }}</p>
-
-    <hr>
     {{ range first 1 (where .Data.Pages "Section" "=" "honestly-undefined") }}
-    <p><strong>#{{ .Slug }}: {{ .Title }}</strong></p>
+    <p class="mt2"><strong>#{{ .Slug }}: {{ .Title }}</strong></p>
     {{ end }}
   </div>
-
-
 
   <nav class="nav-hu">
     <a href="/honestly-undefined/1">

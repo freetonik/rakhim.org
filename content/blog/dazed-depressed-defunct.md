@@ -2,9 +2,9 @@
 title = "Dazed, depressed, defunct"
 author = ["Rakhim Davletkaliyev"]
 date = 2018-10-31T14:52:00+02:00
-categories = ["life"]
+tags = ["good"]
 draft = false
-creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I've been journaling daily for 6+ years, but stopped this summer. There are many reasons, but one stands out: it makes me sad to read my journal.

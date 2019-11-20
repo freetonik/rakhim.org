@@ -3,7 +3,7 @@ date: "2014-12-23T00:00:00Z"
 title: Dreaming of obsession
 categories: ["life"]
 slug: obsession
-tags: ["featured"]
+tags: ["good"]
 ---
 
 When I was a kid, everyone around me was obsessed with something. For some it was football, for others — cars, video games or some martial art like karate. And I was jealous. I couldn’t get obsessed, I was trying to, but couldn’t.

@@ -3,7 +3,7 @@ title = "Be Wary of Self Described Benefits"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-09-03T18:06:00+03:00
 draft = false
-creator = "Emacs 26.2 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Picking a university was one of the main tasks in the last year of high school. That and exams. I wasn't sure what to study and which place to pick. I had no idea _how_ one can make these choices. There weren't too many resources available at the time. So, a lot of us relied on promotional info provided by universities themselves.
