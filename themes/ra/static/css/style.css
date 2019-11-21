@@ -247,6 +247,10 @@ footer {
   border-top: 1px solid #cbc3af;
 }
 
+p.container-about {
+  max-width: 700px;
+}
+
 /* Bookshelf */
 .book {
   display:flex;
