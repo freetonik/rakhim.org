@@ -1562,7 +1562,8 @@ Pocket also fails (non silently, that is) to process seemingly simple pages. For
 This isn't new: I've been coming back to Pocket roughly every year in the past 10 years, and it's always like that. It's owned my Mozilla now, and even has a paid plan, yet Pocket fails at its main task.
 
 I recommend to avoid Pocket.
-** TODO Quick and dirty git push
+** DONE Quick and dirty git push
+CLOSED: [2019-11-22 Fri 14:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: quick-and-dirty-git-push
 :END:
