@@ -5,7 +5,7 @@ theme = "ra"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
-paginate = 15
+paginate = 10
 
 pygmentsCodeFences = true
 pygmentsStyle = "manni"
