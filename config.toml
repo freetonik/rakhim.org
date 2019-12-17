@@ -5,7 +5,6 @@ theme = "ra"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
-paginate = 10
 
 pygmentsCodeFences = true
 pygmentsStyle = "manni"
@@ -18,11 +17,6 @@ pygmentsStyle = "manni"
     name = "Home"
     url = "/"
     weight = 1
-
-[[menu.main]]
-    name = "Archive"
-    url = "/archive"
-    weight = 2
 
 [[menu.main]]
     name = "Courses"

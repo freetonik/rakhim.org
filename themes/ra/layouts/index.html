@@ -25,24 +25,22 @@
   {{ partial "nav.html" . }}
 
   <hr>
-
   <section>
-    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" (slice "blog" "honestly-undefined")) }}
-    {{ range $paginator.Pages }}
-    <h2><a class="unstyled" href="{{ .RelPermalink }}">{{ .Title }}</a> </h2>
+    {{ range (.Site.RegularPages.GroupByPublishDate "2006") }}
+    {{ if ne .Key "0001" }}
+    <h4>{{ .Key }}</h4>
 
-    <div class="homepage-post mb4">
-      {{ if (eq .Section "honestly-undefined") }}
-        <img src="/images/honestly-undefined/{{ .File.TranslationBaseName  }}.jpg">
+    <ul>
+      {{ range .Pages  }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }} {{if in .Params.tags "good" }} ★ {{ end }}</a>
+        <i class="text-muted post-date">{{ .Date.Format "Jan 02, 2006"}}</i></li>
       {{ end }}
-        {{ .Content }}
-        <small class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }} | <a href="{{ .RelPermalink }}">permalink</a></small>
-    </div>
-
+    </ul>
+    {{ end }}
     {{ end }}
   </section>
 
-  {{ template "_internal/pagination.html" . }}
+
 </div>
 
 {{ partial "footer.html" . }}
