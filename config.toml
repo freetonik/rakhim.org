@@ -13,6 +13,9 @@ pygmentsStyle = "manni"
     blog = "/:year/:month/:filename/"
     honestly-undefined = "/:section/:slug/"
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [[menu.main]]
     name = "Home"
     url = "/"
