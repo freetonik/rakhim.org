@@ -1749,7 +1749,7 @@ But Finland... It's incredible, really. I'm not exaggerating, I literally couldn
 *** Quiet
 
 *** Digital
-** DONE Summary of Concurrency Is Not Parallellism, a talk by Rob Pike
+** DONE Summary of Concurrency Is Not Parallellism, a talk by Rob Pike :good:
 CLOSED: [2019-12-20 Fri 16:25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: summary-of-concurrency-is-not-parallellism-a-talk-by-rob-pike

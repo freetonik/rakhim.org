@@ -2,6 +2,7 @@
 title = "Summary of Concurrency Is Not Parallellism, a talk by Rob Pike"
 author = ["Rakhim Davletkaliyev"]
 date = 2019-12-20T16:25:00+02:00
+tags = ["good"]
 draft = false
 creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
