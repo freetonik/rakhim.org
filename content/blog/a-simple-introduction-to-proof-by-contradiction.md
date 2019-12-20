@@ -7,6 +7,9 @@ draft = false
 creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
+<script src="{{ "js/mathjax-config.js" | absURL }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML"></script>
+
 In mathematics, a theorem is a true statement, but the mathematician is expected to be able to prove it rather than take it on faith. The proof is a sequence of mathematical statements, a path from some basic truth to the desired outcome. An impeccable argument, if you will.
 
 One of the basic techniques is proof by contradiction. Here is the idea:

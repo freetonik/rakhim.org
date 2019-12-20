@@ -7,6 +7,9 @@ draft = false
 creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
+<script src="{{ "js/mathjax-config.js" | absURL }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML"></script>
+
 Now that you're familiar with [direct proof and proof by contradiction](/2018/09/a-simple-introduction-to-proof-by-contradiction/), it's time to discover a powerful technique of proof by induction.
 
 _Aside: do not confuse mathematical induction with inductive or deductive reasoning. Despite the name, mathematical induction is actually a form of deductive reasoning._
