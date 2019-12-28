@@ -12,6 +12,9 @@
     <h3>{{ .year }}</h3>
 
     {{ range .books }}
+    {{ if .separator }}
+    <p class="fancytitle text-light text-muted">last update above on {{ .date }}</p>
+    {{ else }}
       <div class="book">
         <span class="book_cover_container">
           <img class="book_cover" src="/images/book_covers/{{ .isbn }}.jpg" alt="{{ .title }}"/>
@@ -27,6 +30,7 @@
           <p>{{ .comment }}</p>
         </div>
       </div>
+      {{ end }}
       {{ end }}
   {{ end }}
 </main>

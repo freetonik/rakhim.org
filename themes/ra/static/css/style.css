@@ -257,10 +257,6 @@ p.container-about {
   margin-top:2rem
 }
 
-.book .book_descriptuon {
-  padding-left:1.5rem
-}
-
 .book .book_descriptuon h4 {
   margin:0 0 1rem;
   font-style: inherit;
@@ -272,12 +268,43 @@ p.container-about {
 .book .book_cover_container {
   width:100px;
   flex:0 0 100px;
-  padding-top:6px
+  padding-top:6px;
+  padding-right:1.5rem;
 }
 
 .book .book_cover_container .book_cover {
   width:100%;
   height:auto
+}
+
+@media only screen and (max-width: 600px) {
+  .book {
+    flex-direction: column;
+  }
+  .book .book_descriptuon h4 {
+    margin-top: 1rem;
+  }
+}
+
+.fancytitle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+}
+
+.fancytitle:before,
+.fancytitle:after {
+  content: '';
+  border-top: 1px solid #dbd1c3;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.fancytitle:after {
+  margin: 0 0 0 20px;
 }
 
 /* Pagination */

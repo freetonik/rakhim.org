@@ -1,6 +1,59 @@
 year: 2019
 books:
 
+  - title: "Ball Lightning"
+    author: "Liu Cixin"
+    isbn: "9781510088887"
+    comment: |
+      I was so excited to start another Liu Cixin's book after finishing The Three Body Problem. It starts very slowly, and I almost gave up. Then it speeds up and, omg, quantum mechanics, new ideas, so, so promising and fascinating... and then boom, it completely disintegrated in my eyes. It takes the most woo-woo pseudo-quantum-mechanics approach possible and talks about conscious observers affecting the quantum states. Close your eyes or the state is gonna collapse!
+
+  - title: "Atomic Habits"
+    author: "James Clear"
+    isbn: "9781792781483"
+    comment: |
+      I don't know... Neither this nor another popular book about habits (How Habits Work by Charles Duhigg) were particularly interesting to me. There's just isn't that much mechanics involved in habit formation, and, if I may, it's pretty obvious when you try to be mindful. The key insight for me is that mindfulness and self-reflection are the root tools that help in many fields, while books about habits focus on a particular field and attend to replace conclusions and thought process with information. Both books are filled with useful advice. I just don't like the idea of manufacturing habits.
+
+  - title: "Essentialism: The Disciplined Pursuit of Less"
+    author: "Greg McKeown"
+    isbn: "9780753550281"
+    comment: |
+      Make no mistake — as any self-help book, this too could be shortened to a medium-sized blog post. Somewhat ironic. Yet, it's a pleasant read, filled with interesting stories and references. In an ongoing battle with the complexities of systems, life and work, I found this book deeply calming.
+
+  - title: "Digital Minimalism"
+    author: "Cal Newport"
+    isbn: "9783868817256"
+    comment: |
+      Regardless of your level of "readiness" — whether you already think about your digital life a lot or not — this book could be a tremendous motivator and the beginning of a long journey. Cal talks about social media and electronic devices in the same fashion we tend to talk about food or alcohol or vice in general. It's a very good book and I wish more people read it.
+
+  - title: "Will Save the Galaxy for Food"
+    author: "Yahtzee Croshaw"
+    isbn: "9781543601374"
+    comment: |
+      Funny and quirky, feels like a nice TV show, and I mean this in the best possible sense. Yahtzee's narration in the audiobook version is excellent, and I recommend the audiobook over the traditional book. And if you find his voice familiar, then yeah, it's the same Yahtzee that does Zero Punctuation game reviews.
+
+  - title: "Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime"
+    author: "Sean Carroll"
+    featured: yes
+    isbn: "9781786076342"
+    comment: |
+      Sean Carrol, a physicist, wonderful speaker and author, talks about the Many worlds interpretation of quantum mechanics, describes its difficult history and implications. As with his other books (and a fantastic podcast), it's deeply philosophical, engaging and extremely weird, just like our universe. I highly recommend his books and talks to anyone, even if you're not interested in quantum physics in particular.
+
+  - title: "Stillness Is the Key"
+    author: "Ryan Holiday"
+    isbn: "9781788162050"
+    comment: |
+      Very concise, very well written, beautiful book. But I'd say its goal is to inspire or maybe motivate, but not to teach. Also (and I realize I'm in the minority here), sport and athletes references are extremely non-relatable.
+
+  - title: "No More Mr. Nice Guy"
+    author: "Robert A. Glover"
+    isbn: "9781417597390"
+    comment: |
+      Very self-help-y, with all those obnoxious "exercises" and "mantras", but was very relevant to me. I'm an experienced nice guy and people pleaser, and as I'm trying to change certain aspects of my behavior, I've found this book helpful.
+
+  - separator: yes
+    date: "28.12.2019"
+
+
   - title: "The Antidote"
     author: "Oliver Burkeman"
     featured: yes
