@@ -15,21 +15,19 @@ These are my requirements:
 
 The setup consists of the following parts:
 
-1.  Fastmail IMAP server. This doesn't require any setup other than signing up for Fastmail.
+1.  Fastmail IMAP server. This doesn't require any special configuration.
 2.  **mbsync** — a command-line utility which syncs IMAP server with a local directory in [Maildir](https://en.wikipedia.org/wiki/Maildir) format. This has nothing to do with Emacs. Even if you're not interested in doing email in Emacs, having a full local copy of your mailbox may be a good idea. mbsync does exactly that. In can sync both ways, so if I just move a file (which corresponds to a single message) from folder to folder, and then run mbsync again, this change will propagate to the server.
-3.  **[mu](https://www.djcbsoftware.nl/code/mu/)\*** — a command line email client which works with Maildir storage. It doesn't deal with the server directly, instead, it just read your local file system. It's very fast!
-4.  ****[mu4e](https://www.djcbsoftware.nl/code/mu/mu4e.html)**** — Emacs package that comes with mu. Provides an interface to mu.
+3.  **[mu](https://www.djcbsoftware.nl/code/mu/)** — a command line email client which works with Maildir storage. It doesn't deal with the server directly, instead, it just read your local file system. It's very fast!
+4.  **[mu4e](https://www.djcbsoftware.nl/code/mu/mu4e.html)** — Emacs package that comes with mu. Provides an interface to mu.
 
 
 ## Installing and configuring mbsync {#installing-and-configuring-mbsync}
 
-Install mbsync with homebrew:
+Install mbsync with homebrew (the package is called `isync`, but the binary is called `mbsync`):
 
 ```sh
 brew install isync
 ```
-
-(The package is called `isync`, but the binary is called `mbsync`.)
 
 Mbsync uses `~/.mbsyncrc` for configuration. [This page](https://manpages.debian.org/unstable/isync/mbsync.1.en.html) describes all options. Here's my config, with comments:
 
@@ -39,8 +37,8 @@ IMAPAccount fastmail
 Host imap.fastmail.com
 Port 993
 User myemailaddress@mydomain.com
-# For simplicity, here I just read my password from another file.
-# For better security, you should use GPG https://gnupg.org/
+# For simplicity, this is how to read the password from another file.
+# For better security you should use GPG https://gnupg.org/
 PassCmd "cat ~/.mbsync-fastmail"
 SSLType IMAPS
 SSLVersions TLSv1.2
@@ -48,7 +46,7 @@ SSLVersions TLSv1.2
 IMAPStore fastmail-remote
 Account fastmail
 
-# ---
+
 # This section describes the local storage
 MaildirStore fastmail-local
 Path ~/Maildir/
@@ -57,7 +55,7 @@ Inbox ~/Maildir/INBOX
 # IMAP subfolders as local subfolders
 SubFolders Verbatim
 
-# This section  a "channel", a connection between remote and local
+# This section a "channel", a connection between remote and local
 Channel fastmail
 Master :fastmail-remote:
 Slave :fastmail-local:
@@ -69,10 +67,10 @@ Create Slave
 SyncState *
 ```
 
-Few details about the channel worth mentioning:
+Few details about the channel options worth mentioning:
 
 1.  `Patterns *` — sync all folders. Alternatively, you can select only certain folders to sync.
-2.  `Expunge None` — don't destroy messages neither locally nor remotely. Details later.
+2.  `Expunge None` — don't destroy messages neither locally, nor remotely. Details later.
 3.  `CopyArrivalDate` — makes sure the date of the arrival stays the same when you move messages around. Without this option, moving a message to another folder will reset the date of the message.
 4.  `Create Slave` — when new folders are added on server, create them locally.
 
@@ -81,6 +79,8 @@ Now run `mbsync` and wait for it to download messages:
 ```sh
 mbsync -a
 ```
+
+For me, around 50k messages were synced in a few minutes.
 
 
 ## Installing and configuring mu and mu4e {#installing-and-configuring-mu-and-mu4e}
@@ -111,17 +111,23 @@ Now, install mu:
 brew info mu
 ```
 
+And let it index the Maildir:
+
+```sh
+mu index --maildir=~/Maildir
+```
+
+Now you can check if everything worked by trying a command-line search:
+
+```sh
+mu find hello
+```
+
 mu comes with mu4e by default. To verify, check for presence of elisp files in `/usr/local/share/emacs/site-lisp/mu/mu4e`:
 
 ```sh
 → ls /usr/local/share/emacs/site-lisp/mu/mu4e
-mu4e-actions.el   mu4e-contrib.elc  mu4e-main.el      mu4e-meta.elc	 mu4e-vars.el	org-mu4e.elc
-mu4e-actions.elc  mu4e-draft.el     mu4e-main.elc     mu4e-proc.el	 mu4e-vars.elc	org-old-mu4e.el
-mu4e-compose.el   mu4e-draft.elc    mu4e-mark.el      mu4e-proc.elc	 mu4e-view.el	org-old-mu4e.elc
-mu4e-compose.elc  mu4e-headers.el   mu4e-mark.elc     mu4e-speedbar.el	 mu4e-view.elc
-mu4e-context.el   mu4e-headers.elc  mu4e-message.el   mu4e-speedbar.elc  mu4e.el
-mu4e-context.elc  mu4e-lists.el     mu4e-message.elc  mu4e-utils.el	 mu4e.elc
-mu4e-contrib.el   mu4e-lists.elc    mu4e-meta.el      mu4e-utils.elc	 org-mu4e.el
+mu4e-actions.el   mu4e-contrib.elc  mu4e-main.el  ...
 ```
 
 Now load these files in Emacs and enable mu4e. Put the following in your Emacs config:
@@ -137,7 +143,7 @@ And add some configuration.
 (setq
  mue4e-headers-skip-duplicates  t
  mu4e-view-show-images t
- mu4e-view-show-addresses 't
+ mu4e-view-show-addresses t
  mu4e-compose-format-flowed nil
  mu4e-date-format "%y/%m/%d"
  mu4e-headers-date-format "%Y/%m/%d"
@@ -147,10 +153,10 @@ And add some configuration.
  mu4e-maildir       "~/Maildir"   ;; top-level Maildir
  ;; note that these folders below must start with /
  ;; the paths are relative to maildir root
- mu4e-refile-folder "/Archive"    ;; saved messages
- mu4e-sent-folder   "/Sent"       ;; folder for sent messages
- mu4e-drafts-folder "/Drafts"     ;; unfinished messages
- mu4e-trash-folder  "/Trash")     ;; trashed messages
+ mu4e-refile-folder "/Archive"
+ mu4e-sent-folder   "/Sent"
+ mu4e-drafts-folder "/Drafts"
+ mu4e-trash-folder  "/Trash")
 
 ;; this setting allows to re-sync and re-index mail
 ;; by pressing U
@@ -160,12 +166,19 @@ And add some configuration.
 That's it! Run `M-x mu4e` and after a few final setup questions mu4e should be running. Check out [keybindings](https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html#Keybindings) for it.
 
 
-### Caveat: deletion vs. expunge {#caveat-deletion-vs-dot-expunge}
+### Caveat 1: deletion vs. expunge {#caveat-1-deletion-vs-dot-expunge}
 
-By default, mu4e will
+By default, when you mark a message to be deleted, mu4e will apply the "Trashed" flag. Fastmail automatically destroys the messages flagged this way, as per IMAP standard. Unfortunately, there is no way to disable Fastmail from doing that.
+
+Instead of total deletion, I want to move messages to the "Trash" folder. I can simply use "move" command of mu4e, but it'd be nicer to use `d` button (deletion) for that. The following piece of elisp remaps the `d` button to "move to Trash folder" action. This way, neither mu4e nor Fastmail destroys the message.
 
 ```emacs-lisp
 (fset 'my-move-to-trash "mTrash")
 (define-key mu4e-headers-mode-map (kbd "d") 'my-move-to-trash)
 (define-key mu4e-view-mode-map (kbd "d") 'my-move-to-trash)
 ```
+
+
+### Caveat 2: Spam reporting {#caveat-2-spam-reporting}
+
+I was worried about not being able to report spam messages back to Fastmail. Turns out it wasn't an issue: in Fastmail settings, you can turn on "Spam learning" for a folder. Fastmail will scan a folder daily and learn any new messages as spam. So, I don't need to explicitly report spam, all I need is to move spammy messages to "Spam" folder.
