@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
 pygmentsCodeFences = true
-pygmentsStyle = "manni"
+pygmentsStyle = "emacs"
 
 [permalinks]
     blog = "/:year/:month/:filename/"
