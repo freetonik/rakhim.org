@@ -92,7 +92,7 @@ brew tap railwaycat/emacsmacport
 brew cask install emacs-mac
 ```
 
-Once installed, verify that `which emacs` points to a valid Emacs executable, and `emacs --version=` shows the correct version:
+Once installed, verify that `which emacs` points to a valid Emacs executable, and `emacs --version` shows the correct version:
 
 ```bash
 → which emacs
@@ -108,7 +108,7 @@ GNU Emacs 26.3
 Now, install mu:
 
 ```bash
-brew info mu
+brew install mu
 ```
 
 And let it index the Maildir:
@@ -168,7 +168,7 @@ That's it! Run `M-x mu4e` and after a few final setup questions mu4e should be r
 
 ### Caveat 1: deletion vs. expunge {#caveat-1-deletion-vs-dot-expunge}
 
-By default, when you mark a message to be deleted, mu4e will apply the "Trashed" flag. Fastmail automatically destroys the messages flagged this way, as per IMAP standard. Unfortunately, there is no way to disable Fastmail from doing that.
+By default, when you mark a message to be deleted, mu4e will apply the "Trashed" flag. Fastmail automatically destroys the messages flagged this way, as per IMAP standard. Unfortunately, there is no way to stop Fastmail from doing that.
 
 Instead of total deletion, I want to move messages to the "Trash" folder. I can simply use "move" command of mu4e, but it'd be nicer to use `d` button (deletion) for that. The following piece of elisp remaps the `d` button to "move to Trash folder" action. This way, neither mu4e nor Fastmail destroy the message.
 
