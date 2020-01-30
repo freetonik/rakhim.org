@@ -1,8 +1,9 @@
 +++
 title = "Fastmail setup with Emacs, mu4e and mbsync on macOS"
 author = ["Rakhim Davletkaliyev"]
-draft = true
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
+date = 2020-01-30T13:09:00+02:00
+draft = false
+creator = "Emacs 26.3 (Org mode 9.3.1 + ox-hugo)"
 +++
 
 I guess it was inevitable. Once you embrace Emacs, at some point you gonna want to do email in it. Honestly, I don't think I'll stick with it, but as an experiment, I want to try and see whether it makes sense to use Emacs as an email client.
@@ -25,13 +26,13 @@ The setup consists of the following parts:
 
 Install mbsync with homebrew (the package is called `isync`, but the binary is called `mbsync`):
 
-```sh
+```bash
 brew install isync
 ```
 
 Mbsync uses `~/.mbsyncrc` for configuration. [This page](https://manpages.debian.org/unstable/isync/mbsync.1.en.html) describes all options. Here's my config, with comments:
 
-```sh
+```bash
 # First section: remote IMAP account
 IMAPAccount fastmail
 Host imap.fastmail.com
@@ -45,7 +46,6 @@ SSLVersions TLSv1.2
 
 IMAPStore fastmail-remote
 Account fastmail
-
 
 # This section describes the local storage
 MaildirStore fastmail-local
@@ -76,7 +76,7 @@ Few details about the channel options worth mentioning:
 
 Now run `mbsync` and wait for it to download messages:
 
-```sh
+```bash
 mbsync -a
 ```
 
@@ -87,14 +87,14 @@ For me, around 50k messages were synced in a few minutes.
 
 I use Emacs port for macOS, which you can install like so:
 
-```sh
+```bash
 brew tap railwaycat/emacsmacport
 brew cask install emacs-mac
 ```
 
 Once installed, verify that `which emacs` points to a valid Emacs executable, and `emacs --version=` shows the correct version:
 
-```sh
+```bash
 → which emacs
 /usr/local/bin/emacs
 
@@ -107,25 +107,25 @@ GNU Emacs 26.3
 
 Now, install mu:
 
-```sh
+```bash
 brew info mu
 ```
 
 And let it index the Maildir:
 
-```sh
+```bash
 mu index --maildir=~/Maildir
 ```
 
 Now you can check if everything worked by trying a command-line search:
 
-```sh
+```bash
 mu find hello
 ```
 
 mu comes with mu4e by default. To verify, check for presence of elisp files in `/usr/local/share/emacs/site-lisp/mu/mu4e`:
 
-```sh
+```bash
 → ls /usr/local/share/emacs/site-lisp/mu/mu4e
 mu4e-actions.el   mu4e-contrib.elc  mu4e-main.el  ...
 ```
@@ -170,7 +170,7 @@ That's it! Run `M-x mu4e` and after a few final setup questions mu4e should be r
 
 By default, when you mark a message to be deleted, mu4e will apply the "Trashed" flag. Fastmail automatically destroys the messages flagged this way, as per IMAP standard. Unfortunately, there is no way to disable Fastmail from doing that.
 
-Instead of total deletion, I want to move messages to the "Trash" folder. I can simply use "move" command of mu4e, but it'd be nicer to use `d` button (deletion) for that. The following piece of elisp remaps the `d` button to "move to Trash folder" action. This way, neither mu4e nor Fastmail destroys the message.
+Instead of total deletion, I want to move messages to the "Trash" folder. I can simply use "move" command of mu4e, but it'd be nicer to use `d` button (deletion) for that. The following piece of elisp remaps the `d` button to "move to Trash folder" action. This way, neither mu4e nor Fastmail destroy the message.
 
 ```emacs-lisp
 (fset 'my-move-to-trash "mTrash")
@@ -182,3 +182,24 @@ Instead of total deletion, I want to move messages to the "Trash" folder. I can 
 ### Caveat 2: Spam reporting {#caveat-2-spam-reporting}
 
 I was worried about not being able to report spam messages back to Fastmail. Turns out it wasn't an issue: in Fastmail settings, you can turn on "Spam learning" for a folder. Fastmail will scan a folder daily and learn any new messages as spam. So, I don't need to explicitly report spam, all I need is to move spammy messages to "Spam" folder.
+
+
+## Sending mail {#sending-mail}
+
+mu4e re-uses Gnus’ `message-mode` for writing mail and inherits its configuration. For sending via SMTP, mu4e uses `smtpmail`. Minimal configuration looks like this:
+
+```emacs-lisp
+(setq
+   message-send-mail-function   'smtpmail-send-it
+   smtpmail-default-smtp-server "smtp.fastmail.com"
+   smtpmail-smtp-server         "smtp.fastmail.com")
+```
+
+When using SMTP for the first time, Emacs prompts you for the user name and password to use, and then offers to save the information. By default, Emacs stores authentication information in a file `~/.authinfo`.
+
+
+## Links {#links}
+
+1.  [Emacs SMTP Library (smtpmail) documentation](https://www.gnu.org/software/emacs/manual/html%5Fmono/smtpmail.html)
+2.  [Mu4e user manual](https://www.djcbsoftware.nl/code/mu/mu4e/index.html)
+3.  [List of mu4e tutorials](http://pragmaticemacs.com/mu4e-tutorials/)
