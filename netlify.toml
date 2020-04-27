@@ -24,7 +24,7 @@ HUGO_VERSION = "0.61.0"
 command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.61.9"
+HUGO_VERSION = "0.61.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
