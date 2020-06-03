@@ -2754,7 +2754,6 @@ This is a complete summary of an excellent talk by Rich Hickey [[https://www.you
 <script src="https://gumroad.com/js/gumroad.js"></script>
 <a class="gumroad-button" href="https://gum.co/mASyV?wanted=true" target="_blank" data-gumroad-single-product="true">Get set</a>
 #+END_EXPORT
-
 ** DONE Summary of Truth about Types, a talk by Bartosz Milewski
 CLOSED: [2020-02-10 Mon 18:29]
 :PROPERTIES:

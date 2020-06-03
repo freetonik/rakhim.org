@@ -3,7 +3,7 @@ title = "Summary of Truth about Types, a talk by Bartosz Milewski"
 author = ["Rakhim Davletkaliyev"]
 date = 2020-02-10T18:29:00+02:00
 draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
+creator = "Emacs 26.3 (Org mode 9.3.6 + ox-hugo)"
 +++
 
 <script src="{{ "js/mathjax-config.js" | absURL }}"></script>
@@ -313,7 +313,9 @@ What does it mean? It means **continuations**. Double negation is `(a->Void)->Vo
 
 This \\((a\rightarrow r)\rightarrow r\\) is a continuation. If you extend lambda calculus with continuation (or do CPS transformation), you have a way to embed classical logic into programming.
 
--    Yoneda's Lemma
+<!--list-separator-->
+
+-  Yoneda's Lemma
 
     This is a deeper topic in category theory, and Bartosz mentions it without explanation just to show the importance of continuation in category theory. [Read more about Yoneda's lemma on Wikipedia](https://en.wikipedia.org/wiki/Yoneda%5Flemma).
 
