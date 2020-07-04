@@ -10,56 +10,48 @@ pygmentsCodeFences = true
 pygmentsStyle = "emacs"
 
 [permalinks]
-    blog = "/:year/:month/:filename/"
+    blog = "/:filename/"
     honestly-undefined = "/:section/:slug/"
 
 [markup.goldmark.renderer]
     unsafe= true
 
+[params]
+    description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."
+    descriptionhu = "A webcomic about computers and uncertainty"
+
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
 [[menu.main]]
     name = "Courses"
     url = "https://learn.codexpanse.com/collections"
     weight = 3
-
 [[menu.main]]
     name = "Talks"
     url = "/talks"
     weight = 4
-
 [[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf"
     weight = 9
-
 [[menu.main]]
-    name = "YouTube"
+    name = "YTube"
     url = "https://www.youtube.com/c/codexpanse"
     weight = 6
-
-# [[menu.main]]
-#     name = "Comics"
-#     url = "/honestly-undefined"
-#     weight = 6
-
+[[menu.main]]
+    name = "Comics"
+    url = "/honestly-undefined"
+    weight = 6
 [[menu.main]]
     name = "EmacsCast"
     url = "https://emacscast.org"
     weight = 7
-
 [[menu.main]]
-    name = "Twitter"
+    name = "Twttr"
     url = "https://twitter.com/freetonik"
     weight = 10
-
 [[menu.feed]]
     name = "Subscribe"
     url = "/index.xml"
-
-[params]
-    description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."
-    descriptionhu = "A webcomic about computers and uncertainty"
