@@ -7,11 +7,14 @@
     {{ if .Params.date }}<small class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</small>{{ end }}
   </div>
 
-  {{ if .Params.toc }}
-  {{ .TableOfContents }}
-  {{ end }}
+  <article>
+    {{ if .Params.toc }}
+    {{ .TableOfContents }}
+    {{ end }}
 
-  {{ .Content }}
+    {{ .Content }}
+  </article>
+
 </main>
 
 {{ partial "footer.html" . }}
