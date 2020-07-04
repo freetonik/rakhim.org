@@ -1,7 +1,6 @@
 ---
 title: "Apologies, my lovely RSS readers"
 date: 2020-07-04T21:36:13+03:00
-draft: true
 ---
 
 If you read my blog via RSS, you might've noticed duplicate publications over the last few days. I am sorry about this.
