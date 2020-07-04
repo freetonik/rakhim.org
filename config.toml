@@ -23,35 +23,35 @@ pygmentsStyle = "emacs"
 [[menu.main]]
     name = "Home"
     url = "/"
-    weight = 1
+    weight = 10
 [[menu.main]]
     name = "Courses"
     url = "https://learn.codexpanse.com/collections"
-    weight = 3
+    weight = 20
 [[menu.main]]
     name = "Talks"
     url = "/talks"
-    weight = 4
-[[menu.main]]
-    name = "Bookshelf"
-    url = "/bookshelf"
-    weight = 9
-[[menu.main]]
-    name = "YTube"
-    url = "https://www.youtube.com/c/codexpanse"
-    weight = 6
+    weight = 30
 [[menu.main]]
     name = "Comics"
     url = "/honestly-undefined"
-    weight = 6
+    weight = 40
+[[menu.main]]
+    name = "Bookshelf"
+    url = "/bookshelf"
+    weight = 50
 [[menu.main]]
     name = "EmacsCast"
     url = "https://emacscast.org"
-    weight = 7
+    weight = 60
+[[menu.main]]
+    name = "YTube"
+    url = "https://www.youtube.com/c/codexpanse"
+    weight = 70
 [[menu.main]]
     name = "Twttr"
     url = "https://twitter.com/freetonik"
-    weight = 10
+    weight = 80
 [[menu.feed]]
     name = "Subscribe"
     url = "/index.xml"
