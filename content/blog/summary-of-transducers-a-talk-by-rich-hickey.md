@@ -1,9 +1,6 @@
 +++
 title = "Summary of Transducers, a talk by Rich Hickey"
-author = ["Rakhim Davletkaliyev"]
 date = 2020-01-31T14:39:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 ## Intro {#intro}

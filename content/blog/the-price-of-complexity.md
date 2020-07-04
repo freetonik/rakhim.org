@@ -1,9 +1,6 @@
 +++
 title = "The price of complexity"
-author = ["Rakhim Davletkaliyev"]
 date = 2019-11-20T12:48:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Computer programmers often talk about tackling complexity, yet they thrive on complexity. I believe tech people experience a constant dilemma: on one hand, we want things to be simple and straightforward; on the other hand we love complex structures and engineering marvels.

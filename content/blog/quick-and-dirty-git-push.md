@@ -1,9 +1,6 @@
 +++
 title = "Quick and dirty git push"
-author = ["Rakhim Davletkaliyev"]
 date = 2019-11-22T14:52:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 Very often, all I need from git is to stage all changes, commit them and push to master. I've made two scripts for this. One in bash:

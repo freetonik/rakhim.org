@@ -1,10 +1,6 @@
-+++
-title = "Test"
-author = ["Rakhim Davletkaliyev"]
-draft = true
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
-+++
-
-Test
-
-ss
+---
+title: "Test"
+date: 2020-07-04T15:23:36+03:00
+draft: true
+---
+![](/Users/rakhim/code/rakhim.org/static/images/posts/2020/07/test/AAAAAAAAAAA.png)

@@ -1,9 +1,6 @@
 +++
 title = "Fastmail setup with Emacs, mu4e and mbsync on macOS"
-author = ["Rakhim Davletkaliyev"]
 date = 2020-01-30T13:09:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.3.1 + ox-hugo)"
 +++
 
 I guess it was inevitable. Once you embrace Emacs, at some point you gonna want to do email in it. Honestly, I don't think I'll stick with it, but as an experiment, I want to try and see whether it makes sense to use Emacs as an email client.

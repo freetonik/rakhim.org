@@ -1,10 +1,7 @@
 +++
 title = "A Simple Introduction to Proof by Induction"
-author = ["Rakhim Davletkaliyev"]
 date = 2018-09-20T17:18:00+03:00
 tags = ["good"]
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 <script src="{{ "js/mathjax-config.js" | absURL }}"></script>

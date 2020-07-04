@@ -1,9 +1,6 @@
 +++
 title = "Pocket App fails silently"
-author = ["Rakhim Davletkaliyev"]
 date = 2019-11-21T09:31:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 [Pocket](http://getpocket.com/) is a popular "read later" app. People generally recommend it, and I haven't heard many complains about it. But in my experience, Pocket fails, and does it in the worst possible way.

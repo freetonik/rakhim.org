@@ -1,10 +1,7 @@
 +++
 title = "Summary of Concurrency Is Not Parallellism, a talk by Rob Pike"
-author = ["Rakhim Davletkaliyev"]
 date = 2019-12-20T16:25:00+02:00
 tags = ["good"]
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 This is a complete summary of an excellent talk by Rob Pike ["Concurrency is Not Parallelism"](https://www.youtube.com/watch?v=cN%5FDpYBzKso). Illustrations and diagrams are recreated; source code taken verbatim from the slides, except for comments, which were extended in some places.

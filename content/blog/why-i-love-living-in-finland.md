@@ -1,8 +1,6 @@
 +++
 title = "Why I love living in Finland"
-author = ["Rakhim Davletkaliyev"]
 draft = true
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 I first came to Finland in October 2014, and stayed for one month until mid November. It's arguably the worst time to visit Helsinki: it's dark, windy, rains all the time, there's no snow and the air is super humid. -1C sounds not too bad until you feel it near the Baltic sea. Sun rises around 9am, lazily rolls near the horizon and goes back to sleep at around 3:30pm. You don't see it anyway, as skies are covered with a thick, heavy blanket.

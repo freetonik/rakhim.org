@@ -1,9 +1,6 @@
 +++
 title = "Summary of Truth about Types, a talk by Bartosz Milewski"
-author = ["Rakhim Davletkaliyev"]
 date = 2020-02-10T18:29:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.3.6 + ox-hugo)"
 +++
 
 <script src="{{ "js/mathjax-config.js" | absURL }}"></script>

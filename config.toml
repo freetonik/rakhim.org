@@ -15,6 +15,7 @@ pygmentsStyle = "emacs"
 
 [markup.goldmark.renderer]
     unsafe= true
+    hardWraps = true
 
 [params]
     description = "Blog of Rakhim D., a programmer, teacher, writer and podcaster."

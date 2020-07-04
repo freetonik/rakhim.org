@@ -1,9 +1,6 @@
 +++
 title = "Examples are the best documentation"
-author = ["Rakhim Davletkaliyev"]
 date = 2019-11-26T10:02:00+02:00
-draft = false
-creator = "Emacs 26.3 (Org mode 9.1.9 + ox-hugo)"
 +++
 
 When I'm searching for docs, 95% of the time a single example would suffice. Yet, 95% of the time I can't find one in any official source.
