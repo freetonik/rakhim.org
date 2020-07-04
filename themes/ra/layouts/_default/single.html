@@ -5,7 +5,6 @@
   <div class="article-meta">
     <h1>{{ .Title }}</h1>
     {{ if .Params.date }}<small class="date text-muted text-light">{{ .Date.Format "January 2, 2006" }}</small>{{ end }}
-    {{ if .Params.draft }}<small class="date text-muted text-light">Nevember 42, 1970</small>{{ end }}
   </div>
 
   {{ if .Params.toc }}
