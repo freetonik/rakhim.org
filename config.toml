@@ -38,6 +38,10 @@ pygmentsStyle = "emacs"
     url = "/honestly-undefined"
     weight = 40
 [[menu.main]]
+    name = "Braindump"
+    url = "https://braindump.rakhim.org"
+    weight = 41
+[[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf"
     weight = 50
@@ -46,7 +50,7 @@ pygmentsStyle = "emacs"
     url = "https://emacscast.org"
     weight = 60
 [[menu.main]]
-    name = "YTube"
+    name = "YT"
     url = "https://www.youtube.com/c/codexpanse"
     weight = 70
 [[menu.main]]
