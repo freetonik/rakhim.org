@@ -65,17 +65,17 @@ blockquote {
 p { margin-bottom: 1.3rem; }
 
 a:link, a:visited {
-  color: #2727d9;
+  color: #292998;
   text-decoration: none;
 }
 a:hover {text-decoration: underline;}
 
 article a {
-  border-bottom: 1px solid #2727d970;
+  border-bottom: 1px solid #2929982b;
 }
 
 article a:hover {
-  border-bottom: 1px solid #2727d9;
+  border-bottom: 1px solid #29299887;
   text-decoration: none;
 }
 
