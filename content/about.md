@@ -13,22 +13,23 @@ Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 - __[Codexpanse YouTube](https://www.youtube.com/codexpanse)__. Animated lessons on fundamentals of programming.
 
 ### Side projects
-- __[Geostreaks](https://apps.apple.com/us/app/geostreaks/id1482655198)__. iOS app for those who work from home and forget to go outside.
-- __[Underblog](https://github.com/freetonik/underblog/)__. Extremely simple and fast static blog generator written in Go.
+- __[Quickref.dev](https://quickref.dev)__. Search engine for developers.
 - __[EmacsCast](http://emacscast.rakhim.org/)__. Podcast about Emacs.
-- __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
+- __[Castlemacs](https://github.com/freetonik/castlemacs)__. Modern, minimalist Emacs for macOS.
+- __[Underblog](https://github.com/freetonik/underblog/)__. Extremely simple and fast static blog generator written in Go.
+- __[Geostreaks](https://apps.apple.com/us/app/geostreaks/id1482655198)__. iOS app for those who work from home and forget to go outside.
 - __[Honestly Undefined](/honestly-undefined/)__. Webcomic about computers and uncertainty.
+- __[Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/)__. Free coding workshops in Finland.
+- __[Мысли и Методы](https://soundcloud.com/mimpod)__. Podcast about math and CS (in Russian).
+
+### Retired
+- __Repodig.com__. Github projects analyzer.
+- __Metasalt__. [Podcast](https://metasalt.pinecast.co/) about life and mindfulness (in Russian).
+- __Code Basics__. Free [programming lessons](https://code-basics.ru) (in Russian).
+- __Hexlet__. Programming [courses](https://ru.hexlet.io) (in Russian).
 
 ### Also involved
 - __[Grumpy Website](http://grumpy.website/)__. Co-author. Writing about bad UX.
-
-### Retired
-- __[Repodig](https://repodig.com/)__. Github projects analyzer.
-
-### Retired (in Russian)
-- __Metasalt__. [Podcast](https://metasalt.pinecast.co/) about life and mindfulness.
-- __Code Basics__. Free [programming lessons in Russian](https://code-basics.ru).
-- __Hexlet__. Programming courses in [Russian](https://ru.hexlet.io) and [English](https://en.hexlet.io). I co-founded the company, run its daily operations and teach a couple of courses.
 
 <hr>
 
