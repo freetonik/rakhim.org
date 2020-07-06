@@ -37,8 +37,19 @@ Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 
 Special thanks to my [Patrons](https://www.patreon.com/rakhim "support Rakhim on Patreon"):
 
+- Denis Shkadov
+- Толя Хахалин
+- Mikhail Shustov
+- Kirill Maltsev
+- Anton
+- Quan Nghiem Le
+- Arseny Oguzov
+- Karim Mukashov
+- Kostas Kolomeetz
+- Bella Kodzokova
+- Agnes Pasztor
+- Denis
+- Babur Duisenov
+- Shmavon Gazanchyan
 - Baidaly
 - Anton Yakutovich
-- Shmavon Gazanchyan
-- Babur Duisenov
-- Denis
