@@ -6,7 +6,7 @@ Custom theme for this blog is called `ra`. Contrary to Hugo conventions, I do no
 
 ## Sections
 
-There are two sections on the website:
+There are 2 sections on the website:
 
 1. `blog`
 2. `honestly-undefined`
