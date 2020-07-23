@@ -1,7 +1,6 @@
 ---
 title: "It's okay to walk uphill"
 date: 2020-07-23T12:59:29+03:00
-draft: true
 ---
 
 At first I cycled up the hill with all my force trying to impress the world. My athletic sweat was the only thing that showed the effort. My face was trying to do the opposite, to convince the unseen viewer that the ascent is effortless, easy even. Then I started noticing it. Who is the viewer? Am I in the movie? Sometimes, there aren't even people around. This is madness. I can convince myself that the unseen viewer is a good abstraction, a tool to force better action. Is that naive religion?
