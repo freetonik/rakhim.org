@@ -9,11 +9,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-- type: directory
-  path: content/honestly-undefined
-  label: Honestly undefined
-  create: all
-  match: "**/*"
 upload_dir: static/images/posts
 public_path: "/images/posts"
 front_matter_path: ''
