@@ -8,3 +8,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/blog/my-failing-attempt-to-leave-the-apple-ecosystem.md
