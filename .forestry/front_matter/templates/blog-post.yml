@@ -9,5 +9,7 @@ fields:
   name: date
   label: date
   default: now
+  config:
+    required: true
 pages:
 - content/blog/my-failing-attempt-to-leave-the-apple-ecosystem.md
