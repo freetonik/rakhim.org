@@ -32,3 +32,5 @@ And yeah, it's totally fine... for a transitional period! But we had it already.
 **Simple audio playback**.
 
 **Notetaking**.
+
+**A simple mobile device**.
