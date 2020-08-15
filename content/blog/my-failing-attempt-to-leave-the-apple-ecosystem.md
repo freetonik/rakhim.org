@@ -1,9 +1,8 @@
-+++
-date = ""
-draft = true
-title = "My failing attempt to leave the Apple ecosystem"
-
-+++
+---
+title: My failing attempt to leave the Apple ecosystem
+date: 2020-08-15T10:24:49.954Z
+draft: true
+---
 1. Intro
 2. Android
    1. First impressions
