@@ -1,7 +1,9 @@
 ---
-title: "Eventual Consistency (sci-fi fiction)"
+title: Eventual Consistency (sci-fi short story)
 date: 2020-08-01
-tags: ["good"]
+tags:
+  - good
+draft: false
 ---
 
 <style>article p {text-indent: 1.25em;}</style>
