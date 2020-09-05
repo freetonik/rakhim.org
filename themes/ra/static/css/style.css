@@ -2,7 +2,6 @@
 
 :root {
   --main-bg: rgb(250, 244, 236);
-  /* --main-bg: rgb(255, 251, 245); */
   --main: rgb(47, 46, 43);
   --link: #2727d9;
   --link-bright: #980909;
@@ -11,16 +10,13 @@
   --muted-active: #fcfaf8;
   --dark-bg: #2a3644;
   --bright: #e5eff5;
-
   --border-radius: 5px;
-
   --h1-title: 2.625rem;
   --h1: 2.04rem;
   --h2: 1.625rem;
   --h3: 1.291rem;
   --h4: 1rem;
 }
-
 
 html {
   font-size: 22px;
@@ -79,11 +75,11 @@ article a:hover {
   text-decoration: none;
 }
 
-nav a:link, nav a:visited {
-  color: #980909;
-}
+nav { font-size: smaller; }
 
-.highlight {font-size: 16px;}
+nav a:link, nav a:visited { color: #980909; }
+
+.highlight { font-size: 16px; }
 .highlight pre {padding: 0.5rem; overflow: auto;}
 
 hr {
@@ -102,8 +98,8 @@ p code, li code {
 /* Main container */
 
 .container-fluid {
-  max-width: 1000px;
-  padding: 21px 21px 21px 15%;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .container {

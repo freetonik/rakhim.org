@@ -26,8 +26,12 @@ pygmentsStyle = "emacs"
     url = "/"
     weight = 10
 [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 11
+[[menu.main]]
     name = "Courses"
-    url = "https://learn.codexpanse.com/collections"
+    url = "https://codexpanse.com"
     weight = 20
 [[menu.main]]
     name = "Talks"
@@ -45,10 +49,6 @@ pygmentsStyle = "emacs"
     name = "Bookshelf"
     url = "/bookshelf"
     weight = 50
-[[menu.main]]
-    name = "EmacsCast"
-    url = "https://emacscast.org"
-    weight = 60
 [[menu.main]]
     name = "YT"
     url = "https://www.youtube.com/c/codexpanse"
