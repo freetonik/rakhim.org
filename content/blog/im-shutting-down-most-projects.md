@@ -1,5 +1,5 @@
 ---
-title: I'm shutting down most projects
+title: I'm shutting down most of my projects
 date: 2020-09-16T11:06:38.772Z
 draft: false
 ---
