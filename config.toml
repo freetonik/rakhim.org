@@ -42,10 +42,6 @@ pygmentsStyle = "emacs"
     url = "/honestly-undefined"
     weight = 40
 [[menu.main]]
-    name = "Braindump"
-    url = "https://braindump.rakhim.org"
-    weight = 41
-[[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf"
     weight = 50
