@@ -17,7 +17,7 @@ Their sources are in corresponding org-files in the `content-org` folder. The re
 
 There are 4 lists of content:
 
-1. `themes/ra/layouts/index.html` — front page.
-2. `themes/ra/_default/archive.html` — archive page.
-3. `themes/ra/layouts/honestly-undefined/list.html` — web comic.
-4. `themes/ra/_default/rss.xml` — RSS.
+1. `themes/ra/layouts/index.html` — front page
+2. `themes/ra/_default/archive.html` — archive page
+3. `themes/ra/layouts/honestly-undefined/list.html` — web comic
+4. `themes/ra/_default/rss.xml` — RSS
