@@ -27,7 +27,7 @@
             {{ end }}
             {{ .title }}, <i class="text-light text-muted">by {{ .author }}</i>
           </h4>
-          <p>{{ .comment }}</p>
+          <p>{{ .comment | markdownify }}</p>
         </div>
       </div>
       {{ end }}

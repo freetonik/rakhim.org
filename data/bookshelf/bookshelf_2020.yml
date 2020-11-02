@@ -1,0 +1,31 @@
+year: 2020
+books:
+
+  - title: "The Particle at the End of the Universe"
+    author: "Sean Carroll"
+    featured: yes
+    isbn: "9780142180303"
+    comment: |
+      Captivating story of the discovery of Higg's boson. I'm still devouring all the content produced by Sean Carroll. His talent of explaining modern physics in a humane way is shown in this book as well as his other books, podcasts, youtube videos and lectures. 
+
+  - title: "Range: Why Generalists Triumph in a Specialized World"
+    author: "David Epstein"
+    featured: yes
+    isbn: "9780735214484"
+    comment: |
+      A compelling overview of research concerned with performance of generalists — those people who, despite the common wisdowm, are not trying to become niche specialists. This book is so damn interesting! The author relentlessly describes history, modern research, observations and statistics, while maintaining an aproachable and geniounely curiosity-endusing style. 
+
+  - title: "The Courage to Be Disliked"
+    author: "Ichiro Kishimi, Fumitake Koga"
+    isbn: "9781501197277"
+    comment: |
+      I love books that explore and explain the works of philosophers in fresh, aproachable ways. Especially those works that are meant to liberate oneself. Don't let the self-help-y title of the book distract you: it's a very good read.
+
+  - title: "Absolute OpenBSD: Unix for the Practical Paranoid"
+    author: "Michael W. Lucas"
+    isbn: "1886411999"
+    comment: |
+      THE book if you want to learn OpenBSD. Very detailed, very thorough, doesn't expect much of prior knowledge, yet doesn't dwell on unimportant stuff. 
+
+  - separator: yes
+    date: "02.11.2020"
