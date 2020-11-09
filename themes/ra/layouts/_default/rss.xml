@@ -21,7 +21,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ if eq .Section "honestly-undefined" }}
-        {{ $filepath := (print "/images/honestly-undefined/" .File ".jpg") }}
+        {{ $filepath := (print "/images/honestly-undefined/" .File.TranslationBaseName ".jpg") }}
         {{ printf "<img src=%q>" $filepath  }}
         {{ end }}
         {{ .Content | html }}
