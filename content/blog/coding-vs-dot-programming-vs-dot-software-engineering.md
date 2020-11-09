@@ -1,7 +1,8 @@
-+++
-title = "Coding vs. Programming vs. Software Engineering"
-date = 2019-11-27T15:09:00+02:00
-+++
+---
+title: "Coding vs. Programming vs. Software Engineering"
+date: 2019-11-27T15:09:00+02:00
+tags: ["good"]
+---
 
 I don't think there are formal definitions for either "coding" or "programming" or even "software engineering", even though the latter is used in formal contexts like academia and human resources. They are vague, pliable terms which mean different things to different people. I want to share how I _sometimes_ think of them.
 
