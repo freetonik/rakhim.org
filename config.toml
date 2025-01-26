@@ -27,12 +27,12 @@ pygmentsStyle = "emacs"
     weight = 10
 [[menu.main]]
     name = "Blog"
-    url = "https://blog.rakhim.org"
-    weight = 11
+    url = "https://rakhim.exotext.com/"
+    weight = 12
 [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 12
+    weight = 11
 [[menu.main]]
     name = "Courses"
     url = "https://codexpanse.com"
@@ -54,9 +54,10 @@ pygmentsStyle = "emacs"
     url = "https://www.youtube.com/c/codexpanse"
     weight = 70
 [[menu.main]]
-    name = "TW"
-    url = "https://twitter.com/freetonik"
-    weight = 80
+    name = "Github"
+    url = "https://github.com/freetonik/"
+    weight = 75
 [[menu.feed]]
-    name = "Subscribe"
-    url = "/index.xml"
+    name = "Bluesky"
+    url = "https://bsky.app/profile/rakhim.org"
+    weight = 80

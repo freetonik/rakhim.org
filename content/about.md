@@ -2,15 +2,23 @@
 title: About
 ---
 
-Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos about computer science. I live in Helsinki, Finland 🇫🇮. Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
+Hello, I'm Rakhim. I'm software engineer and architect at IQM Quantum Computers. I live in Helsinki, Finland 🇫🇮. Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 
-### Main project
+### Active side projects
 
-- __[Codexpanse](https://codexpanse.com)__. Online courses and books on programming and computer science. [Read more about motivation and values](https://blog.codexpanse.com/why-codexpanse/).
-- __[Codexpanse YouTube](https://www.youtube.com/codexpanse)__. Animated lessons on fundamentals of programming.
+- [Minifeed](https://minifeed.net/): curated blog discovery and search engine.
+- [Exotext](https://exotext.com): blogging platform for technical blogs.
+- [Textpod](https://github.com/freetonik/textpod): local note-taking app written in Rust.
 
-### Side project
-- __[Мысли и Методы](https://soundcloud.com/mimpod)__. Podcast about math and CS (in Russian).
+Some recent tiny side-projects:
+
+- [skyshelf.app](https://skyshelf.app/): Collect links from your liked posts on Bluesky in one place.
+- [Listen-later text-to-podcast generator](https://github.com/freetonik/linkcast).
+- [Bluesky100](https://bluesky100.rakhim.org/): a hundred most popular words in the last 5 seconds.
+- [That Word](https://word.rakhim.org/): find that word on the tip of your tongue.
+- [Dall-E Web Client](https://dalle.skyshelf.app/): bring your own OpenAI API key.
+- [LobHN](https://lobhn.skyshelf.app/): How many links overlap between Lobste.rs and HN?
+- [EV vs Petrol Cost Calculator](https://ev-vs-petrol.rakhim.org/): Simple calculator for comparing the cost of driving an EV vs. driving a petrol car.
 
 ---
 
@@ -19,31 +27,20 @@ Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos about comp
 #### Apps
 
 - [Geostreaks](https://apps.apple.com/us/app/geostreaks/id1482655198). iOS app for those who work from home and forget to go outside. (Will remain available on the app store for as long as possible.)
-- [Quickref.dev](https://quickref.dev). Search engine for developers. 
+- [Quickref.dev](https://quickref.dev). Search engine for developers.
 - Repodig.com. Github projects analyzer.
 
 #### Podcasts
 
 - [EmacsCast](http://emacscast.rakhim.org/). Podcast about Emacs.
 - [Codexpanse Podcast](https://podcast.codexpanse.com/). Exploring the computing nature of reality, ideas of programming and math, and our role in this exciting world.
-- Metasalt. [Podcast](https://metasalt.pinecast.co/) about life and mindfulness (in Russian).
 
-#### Blogs
+#### Education and events
 
-- [rakh.im](https://rakh.im) (in Russian). 
-- [Habr.com blog](https://habr.com/en/users/freetonik/posts/) (in Russian)
-- [Medium blog](https://medium.com/@rakhim)
-- [Honestly Undefined](/honestly-undefined/). Webcomic about computers and uncertainty.
-- [Ветер дует со стороны гор](https://rakh.im/veter/) (in Russian). 
-
-#### YouTube channels
-
-- [Рахим's channel](https://www.youtube.com/user/freetonik) (in Russian).
+- [Codexpanse](https://codexpanse.com). Online courses and books on programming and computer science.
+- [Codexpanse YouTube](https://www.youtube.com/codexpanse). Animated lessons on fundamentals of programming.
 - [EmacsCast channel](https://www.youtube.com/channel/UCEfFUaIkjbI06PhALdcXNVA)
 - [Objective C Lessons](https://www.youtube.com/user/freetonik2)
-
-#### Offline events
-
 - [Learn to Code Helsinki](https://www.meetup.com/Learn-To-Code-Helsinki/). Free coding workshops in Finland.
 - [Talks on Computing and the Universe](https://www.meetup.com/Talks-on-Computing-and-the-Universe-by-Codexpanse/).
 
@@ -53,33 +50,10 @@ Hello, I'm Rakhim. I teach, program, make podcasts, comics and videos about comp
 - [Castlemacs](https://github.com/freetonik/castlemacs). Modern, minimalist Emacs for macOS.
 - [Kummitus](https://github.com/freetonik/kummitus). Ghost blog theme.
 - [Travertine](https://github.com/freetonik/Travertine). Light theme for Sublime Text and TextMate.
-- [VS Code Day Night Theme Switcher](https://github.com/freetonik/vscode-dnts). 
+- [VS Code Day Night Theme Switcher](https://github.com/freetonik/vscode-dnts).
 
 #### Collaboration
 
 - [Grumpy Website](http://grumpy.website/)
-- [Code Basics](https://code-basics.ru). Free programming lessons (in Russian).
-- [Hexlet](https://ru.hexlet.io/). Programming courses (in Russian).
-
----
-
-## Thank you, Patrons!
-
-Special thanks to my [Patrons](https://www.patreon.com/rakhim "support Rakhim on Patreon"):
-
-- Denis Shkadov
-- Толя Хахалин
-- Mikhail Shustov
-- Kirill Maltsev
-- Anton
-- Quan Nghiem Le
-- Arseny Oguzov
-- Karim Mukashov
-- Kostas Kolomeetz
-- Bella Kodzokova
-- Agnes Pasztor
-- Denis
-- Babur Duisenov
-- Shmavon Gazanchyan
-- Baidaly
-- Anton Yakutovich
+- [Code Basics](https://code-basics.com/). Free programming lessons.
+- [Hexlet](https://hexlet.io/). Programming courses.

@@ -7,7 +7,7 @@
 
   <h1 class="primary-title">Computable Multiverse</h1>
   <p class="container-about">
-    Hi, I'm Rakhim. I teach, program, make podcasts, comics and videos about computer science at <a href="https://codexpanse.com">Codexpanse.com</a>. You can learn more about <a href="/about">my work</a> and even <a href="https://www.patreon.com/rakhim">support me</a> via Patreon.
+    Hi, I'm Rakhim. I'm software engineer and architect at IQM Quantum Computers. You can learn more about my work and side projects <a href="/about">here</a> or on my <a href="https://github.com/freetonik/">Github</a>.
   </p>
 
   <p>
@@ -40,7 +40,7 @@
     <h4>Fiction</h4>
     <ul>
     {{ range .Site.RegularPages }}
-      {{if in .Params.tags "fiction" }} 
+      {{if in .Params.tags "fiction" }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
@@ -56,7 +56,7 @@
     <h5>{{ .Key }}</h5>
     <ul>
       {{ range .Pages  }}
-      {{if not (in .Params.tags "fiction") }} 
+      {{if not (in .Params.tags "fiction") }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>

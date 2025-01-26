@@ -2,6 +2,14 @@
 title: Talks
 ---
 
+#### Full-stack Quantum Programming
+
+PyCon, Tallinn, Estonia, 9.2024
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xgmGK0_KyKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 #### Genetic programming is waiting for better tools
 
 flatMap, Oslo, Norway, 8.5.2019

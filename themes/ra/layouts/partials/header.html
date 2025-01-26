@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      {{if eq .URL "/honestly-undefined/"}}Honestly Undefined - {{ .Site.Title }}
+      {{if eq .RelPermalink "/honestly-undefined/"}}Honestly Undefined - {{ .Site.Title }}
       {{ else }}
       {{ .Title }} - {{ .Site.Title }}
       {{end}}

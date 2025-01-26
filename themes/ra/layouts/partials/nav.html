@@ -6,7 +6,7 @@
     {{ end }}
 
     {{ range .Site.Menus.feed }}
-    <a href="{{ .URL }}">RSS</a>
+    <a href="{{ .URL }}">{{ .Name }}</a>
     {{end}}
   <p>
 </nav>
