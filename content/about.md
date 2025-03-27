@@ -2,7 +2,7 @@
 title: About
 ---
 
-Hello, I'm Rakhim. I'm software engineer and architect at IQM Quantum Computers. I live in Helsinki, Finland 🇫🇮. Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
+Hello, I'm Rakhim, a software engineer and architect at IQM Quantum Computers. I live in Helsinki, Finland 🇫🇮. Reach me at [contact@rakhim.org](mailto:contact@rakhim.org).
 
 ### Active side projects
 

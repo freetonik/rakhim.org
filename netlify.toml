@@ -32,3 +32,7 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
   from = "/feed.xml"
   to = "/index.xml"
+
+[[redirects]]
+  from = "/obsession"
+  to = "https://rakhim.exotext.com/dreaming-of-obsession"
