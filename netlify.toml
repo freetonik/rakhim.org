@@ -35,4 +35,5 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/obsession"
+  force = true
   to = "https://rakhim.exotext.com/dreaming-of-obsession"
