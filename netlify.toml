@@ -47,3 +47,8 @@ HUGO_ENABLEGITINFO = "true"
   from = "/uphill"
   force = true
   to = "https://rakhim.exotext.com/its-okay-to-walk-uphill"
+
+[[redirects]]
+  from = "/books"
+  force = true
+  to = "https://rakhim.exotext.com/please-recommend-me-a-book-about-x"
