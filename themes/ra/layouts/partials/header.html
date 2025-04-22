@@ -11,11 +11,7 @@
     </title>
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
 
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    <script src="//static.getclicky.com/js" type="text/javascript"></script>
-    <script type="text/javascript">try{ clicky.init(101132832); }catch(e){}</script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101132832ns.gif" /></p></noscript>
+    <script defer src="https://analytics.hypergraph.fi/script.js" data-website-id="8a58da73-83b6-48cb-95a2-2bbf024fdc86"></script>
 
     {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
