@@ -1,14 +1,10 @@
 {{ partial "header.html" . }}
-<main class="container-hu">
+<style> body { max-width:850px !important;} </style>
+<main>
   {{ partial "nav.html" . }}
-  <div class="article-meta-hu">
-    <h1 class="h3"><a href="/honestly-undefined">Honestly Undefined</a></h1>
-    <p>{{ .Site.Params.descriptionhu }}</p>
-    <hr>
-    <p><strong>#{{ .Slug }}: {{ .Title }}</strong></p>
+  <h2>#{{ .Slug }}: {{ .Title }}</h2>
 
-    {{ if .Params.draft }}<small class="date text-muted text-light">DRAFT</small>{{ end }}
-  </div>
+
 
   <nav class="nav-hu">
     <a href="/honestly-undefined/1">
@@ -42,6 +38,10 @@
 
   <img src="/images/honestly-undefined/{{ .File.TranslationBaseName  }}.jpg">
   {{ .Content }}
+
+  <small class="muted mt-1">
+    License for this image: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-ND</a>
+  </small>
 
 </main>
 

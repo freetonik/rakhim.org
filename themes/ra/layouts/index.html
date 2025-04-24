@@ -1,59 +1,135 @@
 {{ partial "header.html" . }}
 
-<div class="container-fluid">
-  {{if not .IsHome }}
-  <h1>{{ .Title }}</h1>
-  {{ end }}
-
-  <h1 class="primary-title">Computable Multiverse</h1>
-  <p class="container-about">
-    Hi, I'm Rakhim, a software engineer and architect at IQM Quantum Computers. You can learn more about my work and side projects <a href="/about">here</a> or on my <a href="https://github.com/freetonik/">Github</a>.
-  </p>
-
-  <p>
-    <form
-        action="https://buttondown.email/api/emails/embed-subscribe/rakhim"
-        method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/rakhim', 'popupwindow')"
-        class="embeddable-buttondown-form" >
-      <label for="bd-email">Oh, and I have a semi-regular non-spammy personal newsletter: </label>
-      <input type="email" name="email" id="bd-email">
-      <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value="Subscribe" />
-    </form>
-  </p>
-
+<main>
   {{ partial "nav.html" . }}
+
+  <h2 id="projects">Projects</h2>
+  <section>
+     <h3 class="mt-0">Minifeed</h3>
+     Curated directory, reader, and search engine for personal blogs. <a href="https://minifeed.net">minifeed.net</a>
+  </section>
+  <section>
+     <h3 class="mt-0">Exotext</h3>
+     Minimalistic blogging platform with a focus on simplicity and good typography. <a href="https://exotext.com">exotext.com</a>
+  </section>
+  <section>
+     <h3 class="mt-0">Textpod</h3>
+     Extremely simple note-taking app inspired by "One Big Text File". Written in Rust. <a href="https://github.com/freetonik/textpod">github</a>
+  </section>
+
+  <details>
+    <summary>Other projects</summary>
+    <div class="inner">
+    <h3 class="mt-0">Small things</h3>
+
+    <ul>
+      <li><a href="https://bluesky100.rakhim.org/">Bluesky100</a>: 100 most popular words in the last 5 seconds</li>
+      <li><a href="https://github.com/freetonik/linkcast">Listen-later text-to-podcast generator</a>.</li>
+      <li><a href="https://word.rakhim.org/">That Word</a>: find that word on the tip of your tongue</li>
+      <li><a href="https://skyshelf.app/">skyshelf.app</a>: Links from your liked posts on Bluesky</li>
+      <li><a href="https://lobhn.skyshelf.app/">LobHN</a>: How many links overlap between Lobste.rs and HN?</li>
+      <li><a href="https://dalle.skyshelf.app/">Dall-E Web Client</a>: bring your own OpenAI API key</li>
+      <li><a href="https://ev-vs-petrol.rakhim.org/">ev-vs-petrol</a>: Compare the cost of driving an EV vs. petrol car</li>
+    </ul>
+
+
+    <h3>Retired</h3>
+    <ul>
+      <li><a href="https://github.com/freetonik/geostreaks">Geostreaks</a>. iOS app for those who forget to go outside.</li>
+      <li>Quickref.dev. Search engine for developers.</li>
+      <li>Repodig.com. Github projects analyzer.</li>
+      <li><a href="http://emacscast.rakhim.org/">EmacsCast</a>. Podcast about Emacs.</li>
+      <li><a href="https://podcast.codexpanse.com/">Codexpanse Podcast</a>. Computing nature of reality.</li>
+      <li><a href="https://codexpanse.com">Codexpanse</a>. Online courses and books on programming.</li>
+      <li><a href="https://www.youtube.com/codexpanse">Codexpanse YouTube</a>. Animated lessons on fundamentals of programming.</li>
+      <li><a href="https://github.com/freetonik/underblog/">Underblog</a>. Simple and fast static blog generator written in Go.</li>
+      <li><a href="https://github.com/freetonik/castlemacs">Castlemacs</a>. Modern, minimalist Emacs for macOS.</li>
+      <li><a href="https://github.com/freetonik/Travertine">Travertine</a>. Light theme for Sublime Text and TextMate.</li>
+    </ul>
+    </div>
+    </details>
 
   <hr>
 
-  <section>
-    <h4>Comics</h4>
-    <p>Honestly Undefined: a webcomic about computers and uncertainty. (<a href="/honestly-undefined">archive</a>). Last few:</p>
-    <ul>
-    {{ range first 5 (where .Site.RegularPages "Section" "=" "honestly-undefined") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-    </ul>
-  </section>
+  <h2 id="books">Books</h2>
+  <div class="row-container mb-1">
+     <img src="/images/my_book_covers/foundations_of_clojure.jpg" alt="Foundations of Clojure" class="book">
+     <div>
+        <h3 class="mt-0">Foundations of Clojure</h3>
+        <p>Explore the essence of Clojure. Learn about higher order functions, composition, immutable data structures, macros, iteration, abstractions and other fundamental aspects of Clojure, LISP and functional programming. <a href="https://leanpub.com/foundations-of-clojure-programming">Buy&nbsp;on&nbsp;Leanpub</a>.</p>
+         </p>
+     </div>
+  </div>
 
-  <section>
-    <h4>Fiction</h4>
-    <ul>
-    {{ range .Site.RegularPages }}
-      {{if in .Params.tags "fiction" }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    {{ end }}
-    </ul>
-  </section>
+  <div class="row-container">
+     <img src="/images/my_book_covers/conscious_attention.jpg" alt="Foundations of Clojure" class="book">
+     <div>
+        <h3 class="mt-0">Conscious Attention</h3>
+        <p>This book will not teach you anything you did not know, but may remind you of the things you have forgotten. <a href="https://leanpub.com/conscious-attention">Buy&nbsp;on&nbsp;Leanpub</a>.</p>
+         </p>
+     </div>
+  </div>
 
-  <section>
-    <h4>Essays</h4>
+  <p class="mt-1">See also <a href="https://codexpanse.com">courses I worked on</a> and some <a href="/bookshelf">books I had read</a></p>
+
+  <hr>
+
+  <h2 id="talks">Talks</h2>
+  <div>
+     <h3 class="mt-0">Full-stack Quantum Computing <i class="normal">(Pycon, Tallinn, 2024)</i></h3>
+     <p>
+      We'll cover the basics of quantum physics, debunk common myths, and delve into superconducting quantum computing. We'll discuss the theoretical and practical aspects of quantum algorithms, the unique challenges of building a quantum computer, and conclude with a short demo.
+      <a href="https://www.youtube.com/watch?v=xgmGK0_KyKc">Watch on YouTube 🡵</a></p>
+  </div>
+
+  <div>
+     <h3>Genetic programming is waiting for better tools <i class="normal">(flatMap, Oslo, 2019)</i> </h3>
+     <p>
+      Computer scientists have been thinking about universal modes of communication between computer programs since the 30s. The current state of API-driven communication is a nightmare by their standards. Let's imagine the future of programming (or maybe the forgotten past), functional and homoiconic languages, and better APIs in the next decades. <a href="https://www.youtube.com/watch?v=Z5f1SDv-SCk">Watch on YouTube 🡵</a>
+     </p>
+  </div>
+
+  <div>
+     <h3>Decentralized evolutionary computation <i class="normal">(Clojure Days, Amsterdam, 2019)</i></h3>
+     <p>
+      Let’s get inspired by biological evolution and write a decentralized genetic algorithms framework entirely in Clojure and Cljs. Then let’s use it to casually tackle some NP-complete problems by combining the computing power of all devices of Clojure Day 2019 participants! <a href="https://www.youtube.com/watch?v=Uij-BvG_f58">Watch on YouTube 🡵</a>
+     </p>
+
+  </div>
+
+  <p class="mt-1">See <a href="/talks">older talks</a></p>
+
+  <hr>
+
+  <h2>Writing</h2>
+    <p>
+      <a href="https://rakhim.exotext.com">My blog at rakhim.exotext.com</a>: thoughts on technology, programming, and life. Some popular posts:
+      <ul>
+        <li>
+          <a href="But what if I really want a faster horse?">But what if I really want a faster horse?</a>
+        </li>
+        <li>
+          <a href="https://rakhim.exotext.com/web-developers-a-growing-disconnect/">How do you do, fellow web developers? A growing disconnect</a>
+        </li>
+        <li>
+          <a href="https://rakhim.exotext.com/they-made-computers-behave-like-annoying-salesmen">
+            They made computers behave like annoying salesmen
+          </a>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      <a href="https://buttondown.com/rakhim">Occasional newsletter</a> with updates about my projects, ideas, and thoughts about technology and programming (<a href="https://buttondown.com/rakhim/archive/">archives</a>).
+    </p>
+
+  <details>
+    <summary>Older essays</summary>
+    <div class="inner">
+
     {{ range (where .Site.RegularPages "Section" "ne" "honestly-undefined").GroupByPublishDate "2006" }}
     {{ if ne .Key "0001" }}
-    <h5>{{ .Key }}</h5>
+    <h3>{{ .Key }}</h3>
     <ul>
       {{ range .Pages  }}
       {{if not (in .Params.tags "fiction") }}
@@ -65,9 +141,13 @@
     </ul>
     {{ end }}
     {{ end }}
-  </section>
+  </details>
 
+  <hr>
 
-</div>
+  <h2>Comics</h2>
+  <img style="border: 1px solid var(--color-dark);" src="/images/honestly-undefined/blogging.jpg">
+  <p class="mt-1">See <a href="/honestly-undefined">all comics</a></p>
+</main>
 
 {{ partial "footer.html" . }}

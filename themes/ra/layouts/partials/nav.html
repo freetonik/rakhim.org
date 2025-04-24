@@ -1,12 +1,32 @@
-<nav class="main-nav">
-  <p>
+<h1 class="mt-0">Rakhim's homepage</h1>
+<nav>
+  {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
-    <span class="text-muted"> | </span>
+
+    {{ if $currentPage.IsMenuCurrent .Menu . }}
+    <a class="active" aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
+    {{ else if $currentPage.HasMenuCurrent .Menu . }}
+    <a class="active" aria-current="true" href="{{ .URL }}">{{ .Name }}</a>
+    {{ else }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
 
-    {{ range .Site.Menus.feed }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
+
     {{end}}
-  <p>
 </nav>
+
+<p>
+  Hi! I'm Rakhim, a software engineer and architect at IQM Quantum Computers. Outside of work, I'm always working on various projects and writing about them.
+  I have an occasional non-spammy newsletter with updates about my projects, ideas, and thoughts about technology and programming (<a href="https://buttondown.com/rakhim/archive/">archives</a>):
+
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/rakhim"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/rakhim', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <input type="email" name="email" id="bd-email" placeholder="your@email.com" required/>
+    <input type="submit" value="subscribe" />
+  </form>
+</p>
