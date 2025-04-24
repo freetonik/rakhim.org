@@ -11,8 +11,6 @@ There are 2 sections on the website:
 1. `blog`
 2. `honestly-undefined`
 
-Their sources are in corresponding org-files in the `content-org` folder. The rendered markdown files are stored in the `content` folder. All lists of content explicitly use either both or one of these sections.
-
 ## Lists of content
 
 There are 4 lists of content:

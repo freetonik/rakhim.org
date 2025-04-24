@@ -1,6 +1,6 @@
 baseurl = "https://rakhim.org"
 languageCode = "en-us"
-title = "Rakhim.org"
+title = "Rakhim's homepage"
 theme = "ra"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
@@ -23,41 +23,30 @@ pygmentsStyle = "emacs"
 
 [[menu.main]]
     name = "Home"
+    pageref="/"
     url = "/"
     weight = 10
+
 [[menu.main]]
     name = "Blog"
     url = "https://rakhim.exotext.com/"
     weight = 12
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 11
-[[menu.main]]
-    name = "Courses"
-    url = "https://codexpanse.com"
-    weight = 20
+
 [[menu.main]]
     name = "Talks"
     url = "/talks"
-    weight = 30
-[[menu.main]]
-    name = "Comics"
-    url = "/honestly-undefined"
-    weight = 40
-[[menu.main]]
-    name = "Bookshelf"
-    url = "/bookshelf"
-    weight = 50
-[[menu.main]]
-    name = "YT"
-    url = "https://www.youtube.com/c/codexpanse"
-    weight = 70
+    pageref = "talks"
+    weight = 13
+
 [[menu.main]]
     name = "Github"
     url = "https://github.com/freetonik/"
     weight = 75
-[[menu.feed]]
+[[menu.main]]
     name = "Bluesky"
     url = "https://bsky.app/profile/rakhim.org"
     weight = 80
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/rdavletkaliyev/"
+    weight = 81

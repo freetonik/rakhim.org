@@ -15,7 +15,7 @@ The presentation was held at #BSidesBUD2019 IT Security Conference in Budapest, 
 
 ## Additional links
 
-- "[Quantum computing for the very curious]( https://quantum.country/qcvc)" (interactive essay)
+- "[Quantum computing for the very curious](https://quantum.country/qcvc)" (interactive essay)
 - [Scott Aaronson's blog](https://www.scottaaronson.com/blog/)
 - And his book "[Quantum Computing since Democritus](http://www.amazon.com/Quantum-Computing-since-Democritus-Aaronson/dp/0521199565)"
 

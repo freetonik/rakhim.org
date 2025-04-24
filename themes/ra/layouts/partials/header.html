@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      {{if eq .RelPermalink "/honestly-undefined/"}}Honestly Undefined - {{ .Site.Title }}
+      {{if .IsHome }}
+      {{ .Site.Title }}
       {{ else }}
       {{ .Title }} - {{ .Site.Title }}
       {{end}}
@@ -17,10 +18,8 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
   </head>
-
-
-  <body class="site site-{{ .Section }}">
-    <div class="site-content">
+  <body>

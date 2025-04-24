@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <main class="container">
   {{ partial "nav.html" . }}
-  <hr>
+
   <h1>Bookshelf</h1>
 
   <p>
@@ -9,28 +9,25 @@
   </p>
 
   {{ range sort .Site.Data.bookshelf "year" "desc" }}
-    <h3>{{ .year }}</h3>
+    <h2>{{ .year }}</h2>
 
     {{ range .books }}
-    {{ if .separator }}
-    <p class="fancytitle text-light text-muted">last update above on {{ .date }}</p>
-    {{ else }}
-      <div class="book">
-        <span class="book_cover_container">
-          <img class="book_cover" src="/images/book_covers/{{ .isbn }}.jpg" alt="{{ .title }}"/>
-        </span>
 
-        <div class="book_descriptuon">
-          <h4>
+      <div class="row-container mb-2">
+        <img class="book" src="/images/book_covers/{{ .isbn }}.jpg" alt="{{ .title }}" />
+        <div>
+          <h3 class="mt-0">
             {{ if.featured }}
             <span alt="Great book!" class="bookshelf_featured_mark">★</span>
             {{ end }}
             {{ .title }}, <i class="text-light text-muted">by {{ .author }}</i>
-          </h4>
+          </h3>
           <p>{{ .comment | markdownify }}</p>
+
         </div>
-      </div>
-      {{ end }}
+    </div>
+
+
       {{ end }}
   {{ end }}
 </main>

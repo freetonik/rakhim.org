@@ -33,22 +33,3 @@ HUGO_ENABLEGITINFO = "true"
   from = "/feed.xml"
   to = "/index.xml"
 
-[[redirects]]
-  from = "/obsession"
-  force = true
-  to = "https://rakhim.exotext.com/dreaming-of-obsession"
-
-[[redirects]]
-  from = "/by_devs"
-  force = true
-  to = "https://rakhim.exotext.com/products-arent-for-people-yet"
-
-[[redirects]]
-  from = "/uphill"
-  force = true
-  to = "https://rakhim.exotext.com/its-okay-to-walk-uphill"
-
-[[redirects]]
-  from = "/books"
-  force = true
-  to = "https://rakhim.exotext.com/please-recommend-me-a-book-about-x"
