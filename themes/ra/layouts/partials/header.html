@@ -6,6 +6,8 @@
     <title>
       {{if .IsHome }}
       {{ .Site.Title }}
+      {{ else if eq .Section "honestly-undefined" }}
+      Comics - {{ .Site.Title }}
       {{ else }}
       {{ .Title }} - {{ .Site.Title }}
       {{end}}
