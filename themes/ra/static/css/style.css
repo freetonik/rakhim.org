@@ -65,8 +65,21 @@ svg {
 }
 
 img.book {
-  max-width: 150px;
+  max-width: 190px;
+  border: 1px solid var(--color-dark);
   height: 100%;
+}
+
+@media (max-width: 700px) {
+  img.book {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  img.book {
+    max-width: 120px;
+  }
 }
 
 input,
@@ -276,6 +289,12 @@ nav {
   display: flex;
   gap: 1rem;
   margin-bottom: calc(var(--margin) * 2);
+}
+
+@media (max-width: 500px) {
+  nav {
+    gap: 0.6rem;
+  }
 }
 
 nav.nav-hu a {
