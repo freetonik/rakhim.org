@@ -33,3 +33,7 @@ HUGO_ENABLEGITINFO = "true"
   from = "/feed.xml"
   to = "/index.xml"
 
+[[redirects]]
+  from = "blog"
+  to = "https://rakhim.exotext.com/"
+  force = true
