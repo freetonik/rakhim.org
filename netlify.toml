@@ -34,6 +34,11 @@ HUGO_ENABLEGITINFO = "true"
   to = "/index.xml"
 
 [[redirects]]
-  from = "blog"
+  from = "/blog"
+  to = "https://rakhim.exotext.com/"
+  force = true
+
+[[redirects]]
+  from = "/categories"
   to = "https://rakhim.exotext.com/"
   force = true
