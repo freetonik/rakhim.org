@@ -39,6 +39,6 @@ HUGO_ENABLEGITINFO = "true"
   force = true
 
 [[redirects]]
-  from = "/categories"
+  from = "/categories/*"
   to = "https://rakhim.exotext.com/"
   force = true
