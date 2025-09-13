@@ -42,11 +42,23 @@ pygmentsStyle = "emacs"
     name = "Github"
     url = "https://github.com/freetonik/"
     weight = 75
+    
+[[menu.main]]
+    name = "X"
+    url = "https://x.com/freetonik/"
+    weight = 80
+    
 [[menu.main]]
     name = "Bluesky"
     url = "https://bsky.app/profile/rakhim.org"
-    weight = 80
+    weight = 81
+
+[[menu.main]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@Codexpanse"
+    weight = 82
+    
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/rdavletkaliyev/"
-    weight = 81
+    weight = 83
