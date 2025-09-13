@@ -10,7 +10,7 @@ title: Talks
 
 #### Full-stack Quantum Programming _(PyCon, Tallinn, 2024)_
 
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/xgmGK0_KyKc' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/tT1YLP5T71Y' frameborder='0' allowfullscreen></iframe></div>
 
 #### Genetic programming is waiting for better tools _(flatMap, Oslo, 2019)_
 
