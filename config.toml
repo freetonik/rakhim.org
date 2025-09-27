@@ -49,12 +49,12 @@ pygmentsStyle = "emacs"
     weight = 80
     
 [[menu.main]]
-    name = "Bluesky"
+    name = "Bsky"
     url = "https://bsky.app/profile/rakhim.org"
     weight = 81
 
 [[menu.main]]
-    name = "YouTube"
+    name = "YT"
     url = "https://www.youtube.com/@Codexpanse"
     weight = 82
     
