@@ -22,12 +22,6 @@ pygmentsStyle = "emacs"
     descriptionhu = "A webcomic about computers and uncertainty"
 
 [[menu.main]]
-    name = "Home"
-    pageref="/"
-    url = "/"
-    weight = 10
-
-[[menu.main]]
     name = "Blog"
     url = "https://rakhim.exotext.com/"
     weight = 12
@@ -54,11 +48,16 @@ pygmentsStyle = "emacs"
     weight = 81
 
 [[menu.main]]
+    name = "Mastodon"
+    url = "https://mastodon.online/@rakhim"
+    weight = 82
+
+[[menu.main]]
     name = "YT"
     url = "https://www.youtube.com/@Codexpanse"
-    weight = 82
+    weight = 84
     
 [[menu.main]]
-    name = "LinkedIn"
+    name = "LI"
     url = "https://www.linkedin.com/in/rdavletkaliyev/"
-    weight = 83
+    weight = 87

@@ -1,4 +1,5 @@
-<h1 class="mt-0">Rakhim's homepage</h1>
+<a class="unstyled" href="/"><h1 class="mt-0">Rakhim's homepage</h1></a>
+
 <nav>
   {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -7,12 +8,13 @@
     <a class="active" aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
     {{ else if $currentPage.HasMenuCurrent .Menu . }}
     <a class="active" aria-current="true" href="{{ .URL }}">{{ .Name }}</a>
+    {{ else if eq .Name "Mastodon" }}
+    <a rel="me" href="{{ .URL }}">{{ .Name }}</a>
     {{ else }}
       <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
-
-
-    {{end}}
+  
+    {{ end }}
 </nav>
 
 <p>

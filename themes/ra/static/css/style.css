@@ -105,6 +105,11 @@ a:hover {
   text-underline-offset: 0.35em;
 }
 
+a.unstyled {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
